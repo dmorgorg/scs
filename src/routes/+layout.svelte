@@ -7,8 +7,9 @@
 	import { preloadCode } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
-	import { siteTitle, siteURL } from '$lib/config.js';
+	// import { siteTitle, siteURL } from '$lib/config.js';
 	export let data;
+	import '$lib/assets/scss/global.scss';
 
 	const transitionIn = { delay: 150, duration: 150 };
 	const transitionOut = { duration: 100 };

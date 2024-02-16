@@ -1,7 +1,8 @@
-import adapter from '@sveltejs/adapter-static'
-import { mdsvex } from 'mdsvex'
-import rehypeAutolinkHeadings from 'rehype-autolink-headings'
-import rehypeSlug from 'rehype-slug'
+import adapter from '@sveltejs/adapter-static';
+import preprocess from 'svelte-preprocess';
+import { mdsvex } from 'mdsvex';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeSlug from 'rehype-slug';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,32 +10,32 @@ const config = {
 	extensions: ['.svelte', '.md'],
 
 	preprocess: [
+		preprocess({
+			// ...svelte-preprocess options
+		}),
 		mdsvex({
 			// The default mdsvex extension is .svx; this overrides that.
 			extensions: ['.md'],
 
 			// Adds IDs to headings, and anchor links to those IDs. Note: must stay in this order to work.
-			rehypePlugins: [
-				rehypeSlug,
-				rehypeAutolinkHeadings,
-			],
-		}),
+			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
+		})
 	],
 
 	kit: {
 		adapter: adapter(),
-    prerender: {
-      entries: [
-        '*',
-        '/api/posts/page/*',
-        '/blog/category/*/page/',
-        '/blog/category/*/page/*',
-        '/blog/category/page/',
-        '/blog/category/page/*',
-        '/blog/page/',
-        '/blog/page/*',
-      ]
-    }
+		prerender: {
+			entries: [
+				'*',
+				'/api/posts/page/*',
+				'/blog/category/*/page/',
+				'/blog/category/*/page/*',
+				'/blog/category/page/',
+				'/blog/category/page/*',
+				'/blog/page/',
+				'/blog/page/*'
+			]
+		}
 	}
 };
 
