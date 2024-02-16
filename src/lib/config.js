@@ -5,27 +5,48 @@
  * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/
 
-export const siteTitle = 'My Awesome Blog';
-export const siteDescription = 'Built with the SvelteKit Static Blog Starter';
-export const siteURL = 'example.com';
-export const siteLink = 'https://github.com/josh-collinsworth/sveltekit-blog-starter';
-export const siteAuthor = '- find and change this text in src/lib/config.js';
+export const siteTitle = 'slowcyclingsenior.ca';
+export const siteDescription =
+	'the ramblings of an opportunistic photographer, unrepentant geek, inveterate nomad, terminal cynic, opinionated curmudgeon and occasional (but invariably slow) cyclist';
+export const siteURL = 'slowcyclingsenior.ca';
+export const siteLink = 'https://github.com/dmorgorg/slowcyclingsenior';
+export const siteAuthor = 'Dave Morgan';
 
 // Controls how many posts are shown per page on the main blog index pages
-export const postsPerPage = 10;
+export const postsPerPage = 30;
 
 // Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
 export const navItems = [
+	// {
+	// 	title: 'Home',
+	// 	route: '/'
+	// },
 	{
-		title: 'Blog',
-		route: '/blog'
+		title: '2022',
+		route: '/blog/category/2022'
 	},
+	{
+		title: '2023',
+		route: '/blog/category/2023'
+	},
+	{
+		title: '2024',
+		route: '/blog/category/2024'
+	},
+	{
+		title: 'Categories',
+		route: '/'
+	},
+	// {
+	// 	title: 'Blog',
+	// 	route: '/blog'
+	// },
 	{
 		title: 'About',
 		route: '/about'
-	},
-	{
-		title: 'Contact',
-		route: '/contact'
 	}
+	// {
+	// 	title: 'Contact',
+	// 	route: '/contact'
+	// }
 ];
