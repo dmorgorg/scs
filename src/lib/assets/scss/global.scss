@@ -1,0 +1,321 @@
+@use './typography';
+@use './layout';
+@use './components';
+@use './header-and-footer';
+@use './forms';
+@use './animation';
+@use './utilities';
+@use './code';
+@use './prism';
+
+@import url('https://fonts.cdnfonts.com/css/alkes');
+
+*:focus {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
+}
+
+main:focus {
+	outline: none;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	color: var(--ink);
+	font-family: var(--primaryFont);
+	font-family: 'Alkes';
+	font-family: 'Alkes', sans-serif;
+	background: var(--lighterAccent);
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.caption {
+	font-size: 80%;
+	font-style: italic;
+	margin-top: -1em;
+	text-align: center;
+}
+
+.width50,
+.w-50 {
+	width: 50%;
+	margin: 0 auto;
+}
+.width60,
+.w-60 {
+	width: 60%;
+	margin: 0 auto;
+}
+.width70,
+.w-70 {
+	width: 70%;
+	margin: 0 auto;
+	padding: 0;
+}
+.w-80 {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+.w-90 {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+// suppress extra spacing for image inside a div, used to set width
+div > img {
+	margin: 0 auto;
+	display: block;
+}
+
+img {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border: 1px solid black;
+
+	// for an image at the bottom of a section, we want a gap. But not so much for a following paragraph.
+	& + p {
+		margin-top: -0.5em;
+	}
+
+	& + img {
+		margin-top: 0;
+	}
+
+	& + .caption {
+		margin-top: -1.5em;
+
+		& + img {
+			margin-top: 1em;
+		}
+	}
+}
+
+p + img {
+	margin-top: 0;
+}
+
+h5 {
+	line-height: 1.25;
+	// margin-bottom: 0.25em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+	color: var(--heading);
+	font-family: 'Alkes';
+	font-style: italic;
+	margin-top: 0;
+}
+
+div.date {
+	color: var(--heading);
+	font-family: 'Alkes';
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+.card > .date:nth-of-type(1) {
+	margin-top: 0;
+}
+img p {
+	border: 2px solid green;
+}
+
+span.entity {
+	font-size: 150%;
+	padding: 0;
+	position: absolute;
+}
+
+.text-center {
+	text-align: center;
+}
+
+article.post {
+	img {
+		padding: 0;
+
+		// & + img {
+		// 	margin-top: 1em;
+		// 	margin-bottom: 1em;
+		// }
+	}
+	h2 {
+		text-align: center;
+		// border: 1px solid black;
+		margin-top: 0.5em;
+	}
+}
+
+// body {
+// 	overflow: hidden;
+// }
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0em 0.5em;
+
+	// <nav class="main-nav" class:open={$isMenuOpen}>
+	nav.main-nav {
+		ul {
+			margin: 0;
+			list-style-type: none;
+			display: flex;
+			gap: 1rem;
+			// border: 1px solid black;
+
+			a {
+				text-decoration: none;
+				color: inherit;
+				cursor: default;
+
+				&:hover:not(.active) {
+					text-decoration: underline;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+// footer {
+// 	a:hover:not(.active) {
+// 		text-decoration: underline;
+// 		cursor: pointer;
+// 	}
+// }
+
+.posts-list {
+	// li {
+	// 	margin: 2em auto;
+	// }
+	li article a {
+		text-decoration: none;
+		h3 {
+			font-family: 'Alkes';
+			font-style: italic;
+			margin-top: 0.25em;
+			margin-bottom: 0;
+		}
+	}
+	p {
+		text-align: right;
+		// text-align: center;
+		margin-top: 1em;
+		font-style: italic;
+	}
+}
+
+.card {
+	background-color: white;
+	border: 1px solid var(--border);
+	padding: 1.5em;
+	margin: 2em auto;
+
+	h5 {
+		margin: 0;
+	}
+
+	&.top-matter {
+		margin: 1.5em 0;
+		padding: 1.5em;
+
+		img {
+			margin-top: 0;
+		}
+	}
+}
+section {
+	font-size: 0.95em;
+	line-height: 1.5;
+	font-family: 'Alkes';
+	font-weight: 400;
+}
+
+.cloud {
+	// border: 1px solid var(--border);
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		li {
+			display: inline;
+			background-color: var(--lightishAccent);
+			color: var(--heading);
+			border: 1px solid var(--border);
+			line-height: 1;
+			padding: 0.35em;
+			margin: 0.35rem;
+
+			&:hover {
+				color: white;
+				background-color: var(--heading);
+			}
+		}
+
+		span {
+			white-space: nowrap;
+			padding: 0;
+		}
+
+		a {
+			color: inherit;
+			font-size: medium;
+			font-weight: 500;
+			text-decoration: none;
+		}
+	}
+}
+
+.banner {
+	align-items: center;
+	background-color: var(--lightishAccent);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 2em 0;
+	padding: 1em 0;
+	width: 100%;
+
+	h3 {
+		color: var(--heading);
+		font-family: 'Alkes', serif;
+		font-style: italic;
+		font-weight: 600;
+		letter-spacing: 0.0375em;
+		margin: 0 auto 0.5em auto;
+		padding: 0;
+	}
+
+	h5 {
+		color: var(--text);
+		width: 80%;
+		text-align: center;
+		font-family: 'Alkes', serif;
+		font-size: 1.05em;
+		font-style: italic;
+		font-weight: normal;
+	}
+
+	@media (max-width: 768px) {
+		//what
+		h5 {
+			width: 90%;
+		}
+	}
+}
