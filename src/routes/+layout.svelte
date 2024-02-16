@@ -33,7 +33,7 @@
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="/css/vars.css" />
+	<!-- <link rel="stylesheet" href="/css/vars.css" />
 	<link rel="stylesheet" href="/css/root.css" />
 	<link rel="stylesheet" href="/css/fonts.css" />
 	<link rel="stylesheet" href="/css/typography.css" />
@@ -50,7 +50,7 @@
 		type="application/rss+xml"
 		title={siteTitle}
 		href="http://{siteURL}/api/rss.xml"
-	/>
+	/> -->
 </svelte:head>
 
 <!--

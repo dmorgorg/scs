@@ -1,5 +1,5 @@
 <script>
-	import MainNav from './MainNav.svelte';
+	import MainNav from './MainNav1.svelte';
 	import HamburgerMenuButton from './HamburgerMenuButton.svelte';
 	import { siteTitle } from '$lib/config';
 
