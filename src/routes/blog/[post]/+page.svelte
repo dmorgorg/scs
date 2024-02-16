@@ -24,39 +24,42 @@
 
 <article class="post">
 	<!-- You might want to add an alt frontmatter attribute. If not, leaving alt blank here works, too. -->
-	<img
-		class="cover-image"
-		src={coverImage}
-		alt=""
-		style="aspect-ratio: {coverWidth} / {coverHeight};"
+	<!-- can't comment attributes in svelte so i'm commenting here, some attributes I removed from the img tag-->
+	<!-- style="aspect-ratio: {coverWidth} / {coverHeight};"
 		width={coverWidth}
-		height={coverHeight}
-	/>
+		height={coverHeight}  -->
+	<!-- <img class="cover-image" src={coverImage} alt="" /> -->
 
-	<h1>{title}</h1>
+	<div class="card top-matter">
+		<img class="cover-image" src={coverImage} alt="" />
+		<h2>{@html title}</h2>
 
-	<div class="meta">
-		<b>Published:</b>
-		{date}
-		<br />
-		<b>Updated:</b>
-		{updated}
+		<div class="meta">
+			<b>Published:</b>
+			{date}
+			&nbsp; &nbsp; &nbsp; &nbsp;
+			{#if updated}
+				<b>Updated:</b>&nbsp;{updated}
+			{/if}
+		</div>
 	</div>
 
 	<svelte:component this={PostContent} />
 
 	{#if categories}
 		<aside class="post-footer">
-			<h2>Posted in:</h2>
-			<ul class="post-footer__categories">
-				{#each categories as category}
-					<li>
-						<a href="/blog/category/{category}/">
-							{category}
-						</a>
-					</li>
-				{/each}
-			</ul>
+			<h6>Categories:</h6>
+			<div class="center">
+				<ul>
+					{#each categories as category}
+						<li>
+							<a href="/blog/category/{category}/">
+								{@html category}
+							</a>
+						</li>
+					{/each}
+				</ul>
+			</div>
 		</aside>
 	{/if}
 </article>
