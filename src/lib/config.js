@@ -29,10 +29,10 @@ export const navItems = [
 		title: '2024',
 		route: '/blog/category/2024'
 	},
-	// {
-	// 	title: 'Categories',
-	// 	route: '/'
-	// },
+	{
+		title: 'Categories',
+		route: '/'
+	},
 
 	{
 		title: 'About',
