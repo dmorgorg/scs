@@ -38,9 +38,10 @@
 	<div class="meta">
 		<b>Published:</b>
 		{date}
-		<br />
-		<b>Updated:</b>
-		{updated}
+		&nbsp; &nbsp; &nbsp; &nbsp;
+		{#if updated}
+			<b>Updated:</b>&nbsp;{updated}
+		{/if}
 	</div>
 
 	<svelte:component this={PostContent} />
