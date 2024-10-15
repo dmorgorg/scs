@@ -80,7 +80,7 @@
 							></a
 						>
 						<br />
-						<a class="title" href={returnValue[0]}>{returnValue[1]}</a>
+						<a class="title" href={returnValue[0]}>{@html returnValue[1]}</a>
 					{/if}
 				{/await}
 			</div>
@@ -102,7 +102,7 @@
 								/></button
 							></a
 						><br />
-						<a class="title" href={returnValue[0]}>{returnValue[1]}</a>
+						<a class="title" href={returnValue[0]}>{@html returnValue[1]}</a>
 					{/if}
 				{/await}
 			</div>
