@@ -1,8 +1,22 @@
 <script>
 	// @ts-nocheck
+	import { tick } from 'svelte'
 
 	// data.slug is passed in as a prop
 	export let thisSlug
+
+	// $: {
+	// 	if (thisSlug) {
+	// 		console.log('thisSlug:', thisSlug)
+	// 		if (typeof window !== 'undefined') {
+	// 			console.log('in if')
+	// 			setTimeout(() => {
+	// 				console.log('timeout')
+	// 				window.scrollTo(0, 0)
+	// 			}, 1000)
+	// 		}
+	// 	}
+	// }
 
 	$: getSortedSlugList = async () => {
 		let list = []
@@ -15,8 +29,9 @@
 				published && list.push({ title: title, date: date, slug: slug })
 			}
 		}
+		// sorted in chronological order. Whereas users might want the most recent post first, those using the arrows to navigate between posts want ? to read the posts in the order they were published.
 		list = list.sort(
-			(first, second) => new Date(second.date).getTime() - new Date(first.date).getTime()
+			(first, second) => new Date(first.date).getTime() - new Date(second.date).getTime()
 		)
 		return list
 	}
@@ -109,6 +124,8 @@
 		</div>
 	</div>
 </div>
+
+<!-- {window.scrollY}, {window.scrollX} -->
 
 <style lang="scss">
 	.row {

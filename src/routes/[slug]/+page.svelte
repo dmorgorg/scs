@@ -2,7 +2,11 @@
 	// @ts-nocheck
 	import InterPostNav from '$lib/components/InterPostNav.svelte'
 	import { formattedDate } from '$lib/utils.js'
+	import { onMount } from 'svelte'
 	export let data
+	let thisSlug = data.slug
+
+	import { onNavigate } from '$app/navigation'
 </script>
 
 <svelte:head>
@@ -18,7 +22,7 @@
 </svelte:head>
 
 <main id="main">
-	<InterPostNav thisSlug={data.slug} />
+	<!-- <InterPostNav thisSlug={data.slug} /> -->
 
 	<hgroup class="titleDate">
 		<!-- {data.slug} -->
@@ -32,6 +36,8 @@
 	</div>
 
 	<InterPostNav thisSlug={data.slug} />
+
+	<!-- <button on:click={goTop}>go top</button> -->
 
 	<div class="tags">
 		{#each data.meta.categories as category}

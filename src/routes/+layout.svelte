@@ -10,7 +10,6 @@
 	// import '../app.scss'
 	import Banner from '$lib/components/Banner.svelte'
 	import FadeStrip from '$lib/components/FadeStrip.svelte'
-	import { onMount } from 'svelte'
 </script>
 
 <div class="wrapper">

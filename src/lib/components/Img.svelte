@@ -20,6 +20,6 @@
 		max-inline-size: 100%;
 		line-height: 1.25;
 		margin-block-start: -0.75em;
-		margin-block-end: 1em;
+		margin-block-end: 0;
 	}
 </style>
