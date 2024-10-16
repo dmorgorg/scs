@@ -10,14 +10,28 @@
 	// import '../app.scss'
 	import Banner from '$lib/components/Banner.svelte'
 	import FadeStrip from '$lib/components/FadeStrip.svelte'
+
+	// import { afterNavigate } from '$app/navigation'
+
+	// function scrollIntoView() {
+	// 	const el = document.getElementById('top')
+	// 	if (!el) return
+	// 	el.scrollIntoView({
+	// 		behavior: 'smooth'
+	// 	})
+	// }
+
+	// afterNavigate(() => {
+	// 	scrollIntoView()
+	// })
 </script>
 
 <div class="wrapper">
 	<div class="header"><Header /></div>
 	<FadeStrip />
-	<div class="container">
+	<div class="container" id="top">
 		<section class="inset">
-			<Banner />
+			<!-- <Banner /> -->
 			<main class="content"><slot /></main>
 		</section>
 		<Footer />

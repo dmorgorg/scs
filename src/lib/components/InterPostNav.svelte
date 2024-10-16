@@ -1,22 +1,8 @@
 <script>
 	// @ts-nocheck
-	import { tick } from 'svelte'
 
 	// data.slug is passed in as a prop
 	export let thisSlug
-
-	// $: {
-	// 	if (thisSlug) {
-	// 		console.log('thisSlug:', thisSlug)
-	// 		if (typeof window !== 'undefined') {
-	// 			console.log('in if')
-	// 			setTimeout(() => {
-	// 				console.log('timeout')
-	// 				window.scrollTo(0, 0)
-	// 			}, 1000)
-	// 		}
-	// 	}
-	// }
 
 	$: getSortedSlugList = async () => {
 		let list = []

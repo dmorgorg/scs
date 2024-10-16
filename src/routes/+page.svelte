@@ -1,5 +1,6 @@
 <script>
 	import PostCard from '$lib/components/PostCard.svelte'
+	import Banner from '$lib/components/Banner.svelte'
 	import * as config from '$lib/config'
 	export let data
 </script>
@@ -8,7 +9,8 @@
 	<title>{config.siteTitle}</title>
 </svelte:head>
 
-<section>
+<main>
+	<Banner />
 	<ul class="posts">
 		{#each data.posts as post}
 			<li class="post">
@@ -23,7 +25,7 @@
 			</li>
 		{/each}
 	</ul>
-</section>
+</main>
 
 <style>
 	.posts {

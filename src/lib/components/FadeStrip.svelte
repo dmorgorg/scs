@@ -3,7 +3,7 @@
 <style lang="scss">
 	div {
 		position: absolute;
-		width: 100%;
+		width: 97.5%;
 		height: var(--size-7);
 
 		top: var(--size-7);

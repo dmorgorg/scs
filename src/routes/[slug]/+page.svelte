@@ -2,11 +2,23 @@
 	// @ts-nocheck
 	import InterPostNav from '$lib/components/InterPostNav.svelte'
 	import { formattedDate } from '$lib/utils.js'
-	import { onMount } from 'svelte'
+	import Banner from '$lib/components/Banner.svelte'
 	export let data
 	let thisSlug = data.slug
 
-	import { onNavigate } from '$app/navigation'
+	import { afterNavigate } from '$app/navigation'
+
+	function scrollIntoView() {
+		const el = document.getElementById('main')
+		if (!el) return
+		el.scrollIntoView({
+			behavior: 'smooth'
+		})
+	}
+
+	afterNavigate(() => {
+		scrollIntoView()
+	})
 </script>
 
 <svelte:head>
@@ -22,11 +34,10 @@
 </svelte:head>
 
 <main id="main">
-	<!-- <InterPostNav thisSlug={data.slug} /> -->
+	<Banner />
+	<InterPostNav thisSlug={data.slug} />
 
 	<hgroup class="titleDate">
-		<!-- {data.slug} -->
-
 		<div class="title">{@html data.meta.title}</div>
 		<p class="published">Published on {formattedDate(data.meta.date)}</p>
 	</hgroup>
@@ -37,7 +48,7 @@
 
 	<InterPostNav thisSlug={data.slug} />
 
-	<!-- <button on:click={goTop}>go top</button> -->
+	<!-- <button on:click={scrollIntoView}>scroll please</button> -->
 
 	<div class="tags">
 		{#each data.meta.categories as category}
@@ -47,6 +58,9 @@
 </main>
 
 <style>
+	main {
+		padding-block-start: var(--size-fluid-3);
+	}
 	.titleDate {
 		align-items: center;
 		background-color: white;

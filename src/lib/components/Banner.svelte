@@ -19,7 +19,6 @@
 		font-family: 'Alkes', serif;
 		font-style: italic;
 		justify-content: space-between;
-		margin-block-start: var(--size-fluid-1);
 		margin-block-end: var(--margin-card);
 		padding: 0.5rem 1.5rem;
 
