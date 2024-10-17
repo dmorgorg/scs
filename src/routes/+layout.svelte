@@ -7,23 +7,8 @@
 	import Footer from '$lib/components/Footer.svelte'
 	import Header from '$lib/components/Header.svelte'
 	import '$lib/styles.scss'
-	// import '../app.scss'
 	import Banner from '$lib/components/Banner.svelte'
 	import FadeStrip from '$lib/components/FadeStrip.svelte'
-
-	// import { afterNavigate } from '$app/navigation'
-
-	// function scrollIntoView() {
-	// 	const el = document.getElementById('top')
-	// 	if (!el) return
-	// 	el.scrollIntoView({
-	// 		behavior: 'smooth'
-	// 	})
-	// }
-
-	// afterNavigate(() => {
-	// 	scrollIntoView()
-	// })
 </script>
 
 <div class="wrapper">

@@ -7,12 +7,12 @@
 	let thisSlug = data.slug
 
 	import { afterNavigate } from '$app/navigation'
-
+	//
 	function scrollIntoView() {
 		const el = document.getElementById('main')
 		if (!el) return
 		el.scrollIntoView({
-			behavior: 'smooth'
+			// behavior: 'smooth'
 		})
 	}
 
