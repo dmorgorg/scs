@@ -58,6 +58,7 @@
 	}
 	.description {
 		color: var(--text-light);
+		font-family: Alkes, sans;
 		font-style: italic;
 	}
 	.card:hover .title {
