@@ -7,8 +7,23 @@
 	import Footer from '$lib/components/Footer.svelte'
 	import Header from '$lib/components/Header.svelte'
 	import '$lib/styles.scss'
+	// import '../app.scss'
 	import Banner from '$lib/components/Banner.svelte'
 	import FadeStrip from '$lib/components/FadeStrip.svelte'
+
+	// import { afterNavigate } from '$app/navigation'
+
+	// function scrollIntoView() {
+	// 	const el = document.getElementById('top')
+	// 	if (!el) return
+	// 	el.scrollIntoView({
+	// 		behavior: 'smooth'
+	// 	})
+	// }
+
+	// afterNavigate(() => {
+	// 	scrollIntoView()
+	// })
 </script>
 
 <div class="wrapper">
@@ -32,6 +47,8 @@
 		flex-direction: column;
 		align-items: stretch;
 		justify-content: space-between;
+		// max-inline-size: 960px;
+		// z-index: 0 !important;
 	}
 	.inset {
 		padding: 0 calc(50vw - 21.5rem);
@@ -40,6 +57,7 @@
 	}
 	main {
 		font-size: 1.125rem;
+		// font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		line-height: var(--font-lineheight-4);
 	}
 	.wrapper {
