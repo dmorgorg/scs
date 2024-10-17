@@ -75,7 +75,7 @@
 								<img
 									width="30"
 									height="30"
-									src="https://img.icons8.com/ios-filled/30/long-arrow-left.png"
+									src="/images/leftArrow.svg"
 									alt="long-arrow-left"
 								/></button
 							></a
@@ -98,7 +98,7 @@
 								><img
 									width="30"
 									height="30"
-									src="https://img.icons8.com/ios-filled/30/long-arrow-right.png"
+									src="/images/rightArrow.svg"
 									alt="long-arrow-right"
 								/></button
 							></a
