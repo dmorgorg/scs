@@ -3,13 +3,27 @@
 	import Banner from '$lib/components/Banner.svelte'
 	import * as config from '$lib/config'
 	export let data
+
+	import { afterNavigate } from '$app/navigation'
+
+	function scrollIntoView() {
+		const el = document.getElementById('main')
+		if (!el) return
+		el.scrollIntoView({
+			behavior: 'smooth'
+		})
+	}
+
+	afterNavigate(() => {
+		scrollIntoView()
+	})
 </script>
 
 <svelte:head>
 	<title>{config.siteTitle}</title>
 </svelte:head>
 
-<main>
+<main id="main">
 	<Banner />
 	<ul class="posts">
 		{#each data.posts as post}
@@ -52,5 +66,8 @@
 	a {
 		text-decoration: none;
 		color: inherit;
+	}
+	main {
+		padding-block-start: var(--size-fluid-3);
 	}
 </style>
