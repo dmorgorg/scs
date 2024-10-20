@@ -37,7 +37,7 @@
 
 <hgroup>
 	{#if where}
-		<h5 class="where">{where}</h5>
+		<h5 class="where">{@html where}</h5>
 	{/if}
 	{#if when}
 		<div class="when">{formattedDate(when)}</div>
