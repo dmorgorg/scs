@@ -10,8 +10,8 @@ categories:
   - 'Portugal'
   - 'Spain'
 published: true
-coverImage: /images/2024/06/2024-06-05-114147.jpg
-description: 'The end of the VDLP, and on to Portugal'
+coverImage: /images/2024/06/2024-06-08-103821.jpg
+description: 'On to Portugal'
 ---
 
 <script>

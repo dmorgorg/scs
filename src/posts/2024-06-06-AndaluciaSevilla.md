@@ -11,7 +11,7 @@ categories:
   - 'Spain'
 published: true
 coverImage: /images/2024/06/2024-06-05-114147.jpg
-description: 'The end of the VDLP, and on to Portugal'
+description: 'The end of the Villa Ruta de la Plata.'
 ---
 
 <script>
