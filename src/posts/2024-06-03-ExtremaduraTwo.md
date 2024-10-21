@@ -1,5 +1,5 @@
 ---
-title: 'Extremadura'
+title: 'Extremadura II'
 date: '2024-06-03'
 # updated: '2023-12-16'
 categories:
@@ -9,8 +9,9 @@ categories:
   - 'Cycle Touring'
   - 'Spain'
 published: true
+
 coverImage: /images/2024/05/2024-05-28-155727.jpg
-description: 'Towards Sevilla, where I finish (at the start?) of the Via Ruta de la Plata. '
+description: 'Towards Sevilla, and the end (start?) of the Via Ruta de la Plata. '
 ---
 
 <script>
@@ -28,172 +29,16 @@ description: 'Towards Sevilla, where I finish (at the start?) of the Via Ruta de
 
 <section class="card">
 
-<h5>
-  	Galisteo. 25th May, 2024
-</h5>
+<DayCardHGroup
+    where="M&eacute;rida"
+    when="5/29/2024"
+  />
 
-<p>A recovery day. Walked steeply to the wall around town and strolled around the outside. Then up on to the wall ramparts for a while. Then through the town a bit, a bar for caf&eacute; con leche, a visit to Spar for supplies &ndash; for the morrow since the store appears to be closed on Saturday afternoons and all day Sunday. </p>
-<p>Quite fresh sitting outside the wall in the shade and the breeze but toasty in the sun. The last census, in 2006, gave the population at 2,000. Not many for the apparent number of houses. And maybe less now. I saw about thirty of them. Three bars or so in the town but no restaurant. A small grocery store. No restaurant within the walls; a single restaurant outside. A few <i>se vende</i> signs.</p>
-
-<Callout>
-  Figures I saw for 2017 estimated the population at 975, so it has halved since 2006. 
-</Callout>
-
-<Img
-  src="/images/2024/05/2024-05-25-113358.jpg"
-  alt="Gilasteo" 
-/>
-<Img
-  src="/images/2024/05/2024-05-25-113457.jpg"
-  alt="Gilasteo" 
-/>
-<Img
-  src="/images/2024/05/2024-05-25-113707.jpg"
-  alt="Gilasteo" 
-  caption="My accommodation: La Pension del Parador"
-/>
-<Img
-  src="/images/2024/05/2024-05-25-113855.jpg"
-  alt="Gilasteo"
-  caption="Up snugly against the old walls." 
-/>
-<Img
-  src="/images/2024/05/2024-05-25-113801.jpg"
-  alt="Gilasteo"
-  caption="The Roman bridge, over which I entered town." 
-/>
-<Img
-  src="/images/2024/05/2024-05-25-114055.jpg"
-  alt="Gilasteo" 
-  caption="Stork nests on just about every suitable surface."
-/>
-<Img
-  src="/images/2024/05/2024-05-25-120325.jpg"
-  alt="Gilasteo" 
-/>
-<Img
-  src="/images/2024/05/2024-05-25-121110.jpg"
-  alt="Gilasteo" 
-  caption="Up on the ramparts"
-/>
-<Img
-  src="/images/2024/05/2024-05-25-121512.jpg"
-  alt="Gilasteo" 
-/>
-
-<p>Not feeling sufficiently recovered, and not having come close to catching up on this blog, I opted for another day in Gustileo. A lazy one it was, but that had been the intention. I nearly missed out on dinner, arriving at Bar La Piscina around nine o'clock. As they were closing. I managed to get a sandwich, somewhat grudgingly, from the grumpy lady in charge. Maybe I'd be grumpy too if a tourist came in wanting service as I was closing for the night on a Sunday.</p>
-
-</section>
-
-<section class="card">
-<h5>
-  	27th May, 2024.
-  	Gilasteo - Casar de Caceras<br/>
-    (76.4 km, 918 m, 2750.5 km to date)    
-</h5>
-
-<p>The route today was following the EuroVelo 1 and was off-road to start, then a lot of tarmac. I was choosing this as an easier option than off-road all the way because the distance was long and it was warm: in the low thirties. I'm also feeling a bit of self-imposed pressure to make some distance. It looks hot for the forseeable future (apparently going up to 39C in a few days) and I'd like to get to the coast. Faro, in Portugal, is about ten degrees cooler.</p>
-
-<p>Up and down towards Bar La Piscina and the EV1 sign to Caceras, marked 76 km. My dotted line on the Wahoo differed from the EV sign after a couple of kilometres. I took the Wahoo route, having recently been led astray by the EV signs. Up a reasonable hill, past a building with goats penned and furiously barking dogs, thankfully confined, to a locked gate. I could make out a sign on the other side specifying "No entry, particularly the camino". There was no way around the gate, or over it. So I retraced my route through presumably private land, exciting the dogs once again, and back to the EV signed route.</p>
-
-<Img
-  src="/images/2024/05/2024-05-27-103752.jpg"
-  alt="EV1 outside Galisteo"
-/>
-<Img
-  src="/images/2024/05/2024-05-27-104421.jpg"
-  alt="EV1 outside Galisteo"
-/>
-
-<p>Then onto tarmac which was something of a relief. Easier going, if not so enchanting. Hardly a cloud in the sky and it was 'warm.'</p>
-<Img
-  src="/images/2024/05/2024-05-27-113807.jpg"
-  alt="EV1"
-  caption="Is this a one-legged stalk?"
-/>
-<p>I'd noticed before that other birds take advantage of the underside of large stalk nests to make their homes.</p>
-
-<p>It was a day of keeping one's head down and pedalling. The EV routing has a tendency to leave the main N-630 and take village parallel streets only to rejoin shortly afterwards. I generally avoid these if I notice, but on one backroad I hit a bump hard, where gravel turned to concrete. My camera went flying but with the strap around my handlebar, is didn't go far. I was mainly concerned about it getting in to the front wheel. No harm done, and I continued back up to the main road. Long steep downhill out of Canaveral with the opportunity to look around. And notice that my phone was no longer in its resting place, in one of the bags attached to my handlebar. Damn, damn and worse! I turned around and pedalled back up the hill, really not appreciating the unnecessary extra 120 or thereabouts metres of climbing. I went back down the village detour I'd taken earlier and there, as hoped, was my phone lying on the ground. I'd had time on the uphill pedal to consider how I'd manage without a phone (basically, I wouldn't) and where I could get a replacement. Thankfully, I didn't have to put any of these plans into action.
-<Img
-  src="/images/2024/05/2024-05-27-164510.jpg"
-  alt="EV1"
-/>
-<Img
-  src="/images/2024/05/2024-05-27-164521.jpg"
-  alt="EV1"
-/>
-<p>Caceras was a long time coming. When I found a place to stay in Casar de Caceras, about ten kilometres before Caceras itself, it did seem the right decision to call it a day. I had covered the distance I had expected, but with the backtracking I'd done I was still ten kilometres shy of Caceras. Where there didn't seem to be an overabundance of accommodation option, not on booking.com at any rate.</p>
-
-</section>
-
-<section class="card">
-<h5>
-  	28th May, 2024.
-  	Casar de Caceras - M&eacute;rida<br/>
-    (87.2 km, 648 m, 2837.7 km to date)    
-</h5>
-
-<p>Very, very strange. Two similar buildings, separated by a few hundred metres. His and hers? </p>
-
-<Img
-  src="/images/2024/05/2024-05-28-113944.jpg"
-  alt="EV1"
-/>
-<Img
-  src="/images/2024/05/2024-05-28-114350.jpg"
-  alt="EV1"
-/>
-
-<p>(Check out Castillo de Caceras on Google Earth to find them both!)</p>
-
-<Img
-  src="/images/2024/05/2024-05-28-122847.jpg"
-  alt="EV1"
-/>
-<Img
-  src="/images/2024/05/2024-05-28-155710.jpg"
-  alt="EV1"
-/>
-<Img
-  src="/images/2024/05/2024-05-28-155727.jpg"
-  alt="EV1"
-/>
-<Img
-  src="/images/2024/05/2024-05-28-161208.jpg"
-  alt="EV1"
-/>
-<Img
-  src="/images/2024/05/2024-05-28-161333.jpg"
-  alt="EV1"
-/>
-<Img
-  src="/images/2024/05/2024-05-28-161808.jpg"
-  alt="EV1"
-/>
-<Img
-  src="/images/2024/05/2024-05-28-161914.jpg"
-  alt="EV1"
-/>
-<Img
-  src="/images/2024/05/2024-05-28-171010.jpg"
-  alt="EV1"
-/>
-
-<p>As I rode into M&eacute;rida, I went past a Roman aquaduct.</p>
-<Img
-  src="/images/2024/05/2024-05-28-181919.jpg"
-  alt="EV1"
-/>
-
-</section>
-
-<section class="card">
-<h5>
-  	M&eacute;rida, 29th May, 2024.
-</h5>
 <p>Did the tourist thing. Or a bit of it. Quite interested in the Romans but this day wasn't the right day for me. It was hot and the 'sights' were less than overwhelming. Quite a lot of pavement pounding and my ankle seems to be stronger so that is good news.</p>
 
-<h5>The Merida Amphitheatre and Theatre</h5>
+<DayCardHGroup
+    where="The Merida Amphitheatre and Theatre"
+  />
 
 <p>Built in the first century AD, under Emperor Augustus, and abandoned in the 4th century. It was used for "gladiatorial contests, animal hunts, and other public 'entertainment' events."</p>
 
@@ -247,8 +92,11 @@ alt="Amphitheatre, Merida"
 />
 <br/>
 
-<h5>Alcazaba</h5>
-<p>The Alcazaba of Mérida, a Muslim fortress, is the oldest Muslim fortification in the Iberian Peninsula, built in the 9th century. </p> 
+<DayCardHGroup
+    where="Alcazaba"
+  />
+
+<p>The Alcazaba of Mérida, a Muslim fortress, is the oldest Muslim fortification in the Iberian Peninsula, built in the 9th century. </p>
 <Img
   src="/images/2024/05/2024-05-29-163331.jpg"
   alt="Alcazaba, Merida"
@@ -256,14 +104,17 @@ alt="Amphitheatre, Merida"
 />
 <Img
   src="/images/2024/05/2024-05-29-163341.jpg"
-  alt="Alcazaba, Merida"  
-/> 
+  alt="Alcazaba, Merida"
+/>
 <Img
   src="/images/2024/05/2024-05-29-164655.jpg"
-  alt="Alcazaba, Merida"  
-/> 
-<br/>
-<h5>The Roman Bridge</h5>
+  alt="Alcazaba, Merida"
+/>
+
+<DayCardHGroup
+    where="The Roman Bridge" 
+/>
+
 <Img
   src="/images/2024/05/2024-05-29-164150.jpg"
   alt="Alcazaba, Merida"
@@ -273,11 +124,12 @@ alt="Amphitheatre, Merida"
 </section>
 
 <section class="card">
-<h5>
-  	30th May, 2024.
-  	M&eacute;rida - Zafra<br/>
-    (66.6 km, 568 m, 2904.3 km to date)    
-</h5>
+
+<DayCardHGroup
+    where="M&eacute;rida - Zafra"
+    when="5/30/2024"
+    distance="66.6 km, 568 m, 2904.3 km to date" 
+  />
 
 <p>I was full of apprehension for this day. It wasn't particularly far but it was a steady uphill all the way, looking at the elevation map. And M&eacute;rida was going up to 39C, so it was going to be a very hot one. As it turned out, it wasn't particularly taxing. Maybe a hint of a tailwind? Maybe the benefit of a day's rest?</p>
 
@@ -311,6 +163,11 @@ alt="Amphitheatre, Merida"
 </section>
 
 <section class="card">
+
+<DayCardHGroup
+    where="Zafra"
+    when="5/31/2024"
+  />
 
 <Img
   src="/images/2024/05/2024-05-31-192519.jpg"
@@ -387,17 +244,20 @@ alt="Amphitheatre, Merida"
 </section>
 
 <section class="card">
-<h5>
-  	2nd June, 2024.
-  	Zafra - Monesterio<br/>
-    (47.3 km, 538 m, 2951.6 km to date)    
-</h5>
+
+<DayCardHGroup
+    where="Zafra - Monesterio"
+    when="6/2/2024"
+    distance="47.3 km, 538 m, 2951.6 km to date" 
+  />
+
 </section>
-<section class="card">
+
+<!-- <section class="card">
 <h5>
   	3rd June, 2024.
   	Monesterio, Extremadura - Almad&eacute;n de la Plata, Andalucia<br/>
-    (36.7 km, 369 m, 2988.3 km to date)    
+    (36.7 km, 369 m, 2988.3 km to date)
 </h5>
 
 <p>Out of my room around nine in the morning having found it very hard to get out of bed. A short day in store and I seem to go for laziness at the start of the day rather than the end. I've been like that for seventy years so I doubt it's ever going to change.</p>
@@ -417,4 +277,4 @@ alt="Amphitheatre, Merida"
 <p>After El Read de la Jara, more quiet road. Up and down but nothing too vicious. I even took pleasure in some of the hills!</p>
 
 <p>The hotel in Almad&eacute;n de la Plata is nice, too. &euro;35 through booking.com; would it have been 30 if I'd just showed up? That seemed to have been the deal in Monesterio. But I wanted to make sure I had a room so it was worth the possible extra charge for peace of mind. Tomorrow Sevilla?</p>
-</section>
+</section> -->

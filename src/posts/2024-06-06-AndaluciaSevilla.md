@@ -15,7 +15,6 @@ description: 'The end of the Villa Ruta de la Plata.'
 ---
 
 <script>
-	import Callout from '$lib/components/Callout.svelte'
   import Img from '$lib/components/Img.svelte' 
   import DayCardHGroup from '$lib/components/DayCardHGroup.svelte' 
 </script>
