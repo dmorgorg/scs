@@ -142,6 +142,7 @@ alt="Amphitheatre, Merida"
 <Img
   src="/images/2024/05/2024-05-30-100221.jpg"
   alt="N630"
+  caption="Kilometre 630 on the N-630. At 11:00 am but two out of three ain't bad according to some old crooning carnivore."
 />
 
 <p>That said, it was a bland day. A climb out of M&eacute;rida, then N630 all the way. Close to the autovia, A66. More traffic than I've become accustomed to. No memorable scenery but a few more kilometres put away. It was a mere 36C when I arrived in Zafra. According to my Weather Underground App, it also felt like 36C. Better than those 36C days in Sri Lanka that felt like 42C. </p>
@@ -286,7 +287,7 @@ alt="Amphitheatre, Merida"
 <p>Nice wine. A salad of poached eggs and chorizo on a bed of fresh (of course) oranges. Cod for the second course. And tiramisu and coffee to finish. The coffee to counteract the effects of the very nice wine.</p>
 
 <blockquote>
-  Getting behind on my evening note-taking for the day's events, I sometimes resorted to using the voice-to-text capabilities of my phone, dictating into a note application. These can take a bit of effort to comprehend. "Tiramisu for prostrate" had me puzzled until I realised it was "...for postre," the Spanish word for dessert.
+  Getting behind on my evening note-taking for days' events, I sometimes resorted to using the voice-to-text capabilities of my phone, dictating into a note application. These can take a bit of effort to comprehend. "Tiramisu for prostrate" had me puzzled until I realised I spoken "...for postre," the Spanish word for dessert. It might have been my pronunciation but I prefer to think my phone was looking for an English word.
 </blockquote>
 
 <p>
@@ -312,28 +313,95 @@ alt="Amphitheatre, Merida"
 
 </section>
 
-<!-- <section class="card">
-<h5>
-  	3rd June, 2024.
-  	Monesterio, Extremadura - Almad&eacute;n de la Plata, Andalucia<br/>
-    (36.7 km, 369 m, 2988.3 km to date)
-</h5>
+<section class="card">
+
+<DayCardHGroup
+    where="Monesterio, Extremadura - Almad&eacute;n de la Plata, Andalucia"
+    when="6/3/2024"
+    distance="36.7 km, 369 m, 2988.3 km to date" 
+/>
 
 <p>Out of my room around nine in the morning having found it very hard to get out of bed. A short day in store and I seem to go for laziness at the start of the day rather than the end. I've been like that for seventy years so I doubt it's ever going to change.</p>
 
-<p>The lady cleaning the rooms got her keys out to open the garage door so I could extract my bike. "Mas tarde" I said (Later) and I was understood. "Desayunos" (Breakfast) and she knew I was off in search of something to eat before setting off.</p>
+<p>The lady cleaning the rooms got her keys out to open the garage door so I could extract my bike. "Mas tarde" I said (Later?) and I was understood. "Desayunos" (Breakfast) and she knew I was off in search of something to eat before setting off.</p>
 
 <p>The first thing I noticed, out on the main street, was that the town workers emptying the garbage bins were women, wearing quite short shorts and hi-vis vests. Later, the person emptying the large bins into the back of a garbage truck was also a woman, this one more conventionally clothed.</p>
 
-<p>The place across the road that I'd noticed the previous evening was still barred so I wandered back in the direction of the bar where I'd enjoyed a couple of beers the night before. On the way, I noticed a few old men sitting outside a bar, one already into the brandy by the looks of it. I went in and ordered breakfast: caf&eacute; con leche and toast. With a sort of tomato pur&eacute;e served to put on the toast. Then a second coffee.</p>
+<p>The place across the road that I'd noticed the previous evening was still closed. I wandered back in the direction of the bar where I'd enjoyed a couple of beers the night before. On the way, I noticed a few old men sitting outside a bar, one already into the brandy by the looks of it. I went in and ordered breakfast: caf&eacute; con leche and toast. With a sort of tomato pur&eacute;e and olive oil served to put on the toast. Then a second coffee.</p>
 
 <p>It was nice sitting there, watching the old folk watching people pass. I could have settled in for a day of people watching myself but I had booked a room ahead so I had to get moving.</p>
 
-<p>And a pleasant day it was. Quiet riding, still cool, onto gravel and some downhill. Then tarmac but still a quiet road, then a turn I almost missed watching the countryside roll by instead of keeping my eyes on my map! A quick turn around, to push up half a dozen high steps (there was a yellow arrow, pointing at me, to let me know I was on the Camino) to join the N630. </p>
+<Img
+  src="/images/2024/06/2024-06-03-101132.jpg"
+  alt="out of Monesterio"
+/>
 
-<p> I left the 630 for a gravel shortcut, one side of a triangle (my road route specified the other two sides) that led more directly to El Read de la Jara. It would have been a shame to have missed this section: kilometres (around ten?) of beautiful riding through beautiful countryside and still quite a pleasant temperatue. A cycle-tourist passed going north. A couple of vehicles passed. A lovely hour or so.</p>
+<p>And a pleasant day it was. Quiet riding, still cool, onto gravel and some downhill. Then tarmac but still a quiet road, then a turn I almost missed watching the countryside roll by instead of keeping my eyes on my map! A quick turn around, to push up half a dozen high steps (there was a yellow arrow, pointing at me, to let me know I was on the Camino) to join the N-630. </p>
 
-<p>After El Read de la Jara, more quiet road. Up and down but nothing too vicious. I even took pleasure in some of the hills!</p>
+<Img
+  src="/images/2024/06/2024-06-03-101707.jpg"
+  alt="out of Monesterio"
+/>
 
-<p>The hotel in Almad&eacute;n de la Plata is nice, too. &euro;35 through booking.com; would it have been 30 if I'd just showed up? That seemed to have been the deal in Monesterio. But I wanted to make sure I had a room so it was worth the possible extra charge for peace of mind. Tomorrow Sevilla?</p>
-</section> -->
+<p> I left the N-630 for a gravel shortcut, one side of a triangle (my road route specified the other two sides) that led more directly to El Read de la Jara. It would have been a shame to have missed this section: kilometres (around ten?) of beautiful riding through beautiful countryside and still quite a pleasant temperatue. A cycle-tourist passed going north. A couple of vehicles passed. An especially lovely hour or so.</p>
+
+<Img
+  src="/images/2024/06/2024-06-03-110347.jpg"
+  alt="south of Monesterio"
+/>
+<Img
+  src="/images/2024/06/2024-06-03-110357.jpg"
+  alt="south of Monesterio"
+/>
+<Img
+  src="/images/2024/06/2024-06-03-111457.jpg"
+  alt="south of Monesterio"
+/>
+<Img
+  src="/images/2024/06/2024-06-03-111519.jpg"
+  alt="south of Monesterio"
+/>
+
+<p>At El Real de la Jara, some ruined castles. Then more quiet road. Up and down but nothing too vicious. I even took pleasure in some of the (up)hills!</p>
+
+<Img
+  src="/images/2024/06/2024-06-03-115322.jpg"
+  alt="el real de la jara" ruins
+/>
+<Img
+  src="/images/2024/06/2024-06-03-115539.jpg"
+  alt="el real de la jara castle ruins"
+  caption="Ruins near El Real de la Jara"
+/>
+
+<p>The hotel in Almad&eacute;n de la Plata is nice, too. 35&euro; through booking.com; would it have been 30 if I'd just showed up? That seemed to have been the deal in Monesterio. But I wanted to make sure I had a room so it was worth the possible extra charge for peace of mind. </p>
+
+<Img
+  src="/images/2024/06/2024-06-03-195651.jpg"
+  alt="bike behind bars"
+  caption="Alan (?), resting for the night, safely behind bars."
+/>
+
+<p>I had a basic lunch at the hotel and chatted with a German cyclist. He lives in Bali, Indonesia, but is on a cycling holiday, travelling lightly on an electric full-suspension mountain bike.</p>
+
+<p>A siesta, then a slow wander around town. Village? Not very large, at any rate.</p>
+
+<Img
+  src="/images/2024/06/2024-06-03-200843.jpg"
+  alt="camino sign in the cobbles"
+  caption="Can you read 'CAMINO DE SANTIAGO - VIA DE LA PLATA'?"
+/>
+
+<p>dedicated to the women of Almad&eacute;n in 2020. I didn't notice any potential models for the figures on my wanderings around the town.</p>
+
+<Img
+  src="/images/2024/06/2024-06-03-201403.jpg"
+  alt="memorial to the women of Almaden"
+/>
+<Img
+  src="/images/2024/06/2024-06-03-202857.jpg"
+  alt="memorial to the women of Almaden"
+/>
+
+<p>Tomorrow Sevilla?</p>
+</section>
