@@ -32,7 +32,7 @@ description: 'Towards Sevilla, and the end (start?) of the Via Ruta de la Plata.
 <DayCardHGroup
     where="M&eacute;rida"
     when="5/29/2024"
-  />
+/>
 
 <p>Did the tourist thing. Or a bit of it. Quite interested in the Romans but this day wasn't the right day for me. It was hot and the 'sights' were less than overwhelming. Quite a lot of pavement pounding and my ankle seems to be stronger so that is good news.</p>
 
@@ -189,7 +189,7 @@ alt="Amphitheatre, Merida"
 
   <p>Monesterio is only 50 km down the road, with an elevation gain of five or six hundred metres which should be within my grasp. There was a room for Friday night and I could hope for some hotel not on booking.com, or an albergue if still on the VDLP, for wherever I ended up on Saturday night. My Zafra hotel, according to booking.com, is full on Friday and Saturday</p>
 
-  <p> but I checked at the counter and, with a room change, they could accommodate me until the weekend rush was over. So, problem delayed if not totally solved. A couple of days to take it easy, then head out on Sunday. Not a very exciting plan but helps to manage my stress levels. I might even get this blog caught up!</p>
+  <p>I checked at the counter and, with a room change, they could accommodate me until the weekend rush was over. So, problem delayed if not totally solved. A couple of days to take it easy, then head out on Sunday. Not a very exciting plan but helps to manage my stress levels. I might even get this blog caught up!</p>
 
 <Img
   src="/images/2024/05/2024-05-31-183950.jpg"
@@ -249,7 +249,66 @@ alt="Amphitheatre, Merida"
     where="Zafra - Monesterio"
     when="6/2/2024"
     distance="47.3 km, 538 m, 2951.6 km to date" 
-  />
+/>
+
+<Img
+  src="/images/2024/06/2024-06-02-091030.jpg"
+  alt="South of Zafra"
+/>
+
+<p>
+  On the road by 8:30; I had been aiming for 8 a.m. so not too bad!  Out of Zafra on cobbles, then on a country lane road. Very pleasant. I stopped for breakfast in a shady park: some chocolate-filled cakey things, and some kiwi and lime juice (from Lidl) to take the edge off.
+</p>
+
+<Img
+  src="/images/2024/06/2024-06-02-112055.jpg"
+  alt="the 630"
+  caption="More of the 630"
+/>
+
+<p>
+    After a few kilometres, I rejoined the 630. Not much traffic. Riding through a grain-growing region.
+</p>
+<Img
+  src="/images/2024/06/2024-06-02-115131.jpg"
+   alt="Solar farm"
+  caption="Photovoltaics Farm"
+/>
+<Img
+  src="/images/2024/06/2024-06-02-115332.jpg"
+  alt="Grain fields"
+/>
+
+<p>And into Monesterio. I had the option of making it a long day, but possibly incurring an extra but necessary rest day, or stopping here. I checked into El Pila, a basic but clean hotel with a basic but clean room, a single bed and a shower that I could just squeeze into sideways.</p>
+
+<p>I was out in time for a late Sunday lunch in a classy looking but reasonably priced restaurant. It was full &ndash; I was lucky to find a table &nbsp; of people in their Sunday best. Me, not so much.</p>
+
+<p>Nice wine. A salad of poached eggs and chorizo on a bed of fresh (of course) oranges. Cod for the second course. And tiramisu and coffee to finish. The coffee to counteract the effects of the very nice wine.</p>
+
+<blockquote>
+  Getting behind on my evening note-taking for the day's events, I sometimes resorted to using the voice-to-text capabilities of my phone, dictating into a note application. These can take a bit of effort to comprehend. "Tiramisu for prostrate" had me puzzled until I realised it was "...for postre," the Spanish word for dessert.
+</blockquote>
+
+<p>
+  Then a nice wander around Monesterio...
+</p>
+
+<Img
+  src="/images/2024/06/2024-06-02-204333.jpg"
+  alt="Monesterio"
+/>
+<Img
+  src="/images/2024/06/2024-06-02-204655.jpg"
+  alt="Monesterio"
+/>
+<Img
+  src="/images/2024/06/2024-06-02-204723.jpg"
+  alt="Monesterio"
+/>
+<Img
+  src="/images/2024/06/2024-06-02-205501.jpg"
+  alt="Monesterio"
+/>
 
 </section>
 
