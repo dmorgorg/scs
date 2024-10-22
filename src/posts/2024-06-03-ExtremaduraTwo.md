@@ -1,5 +1,5 @@
 ---
-title: 'Extremadura II'
+title: 'Extremadura: south from M&eacute;rida'
 date: '2024-06-03'
 # updated: '2023-12-16'
 categories:
@@ -7,6 +7,7 @@ categories:
   - 'Broken Road'
   - 'Extremadura, ESP'
   - 'Cycle Touring'
+  - 'M&eacute;rida'
   - 'Spain'
 published: true
 
@@ -26,102 +27,6 @@ description: 'Towards Sevilla, and the end (start?) of the Via Ruta de la Plata.
 2024 Spain
 </title>
 </svelte:head>
-
-<section class="card">
-
-<DayCardHGroup
-    where="M&eacute;rida"
-    when="5/29/2024"
-/>
-
-<p>Did the tourist thing. Or a bit of it. Quite interested in the Romans but this day wasn't the right day for me. It was hot and the 'sights' were less than overwhelming. Quite a lot of pavement pounding and my ankle seems to be stronger so that is good news.</p>
-
-<DayCardHGroup
-    where="The Merida Amphitheatre and Theatre"
-  />
-
-<p>Built in the first century AD, under Emperor Augustus, and abandoned in the 4th century. It was used for "gladiatorial contests, animal hunts, and other public 'entertainment' events."</p>
-
-<Img
-  src="/images/2024/05/2024-05-29-134100.jpg"
-  alt="Amphitheatre, Merida"
-  caption="The Amphitheatre"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-135144.jpg"
-  alt="Amphitheatre, Merida"
-/>
-<Img
-src="/images/2024/05/2024-05-29-135307.jpg"
-alt="Amphitheatre, Merida"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-135700.jpg"
-  alt="Amphitheatre, Merida"
-  caption="Nice stonework"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-140215.jpg"
-  alt="Amphitheatre, Merida"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-135840.jpg"
-  alt="Amphitheatre, Merida"
-  caption="The theatre, being set up for an evening performance. Not a bad spot for a concert."
-/>
-<Img
-  src="/images/2024/05/2024-05-29-135847.jpg"
-  alt="Amphitheatre, Merida"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-140011.jpg"
-  alt="Amphitheatre, Merida"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-140259.jpg"
-  alt="Amphitheatre, Merida"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-160340.jpg"
-  alt="Merida"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-162502.jpg"
-  alt="Temple of Diana, Merida"
-  caption="The Temple of Diana"
-/>
-<br/>
-
-<DayCardHGroup
-    where="Alcazaba"
-  />
-
-<p>The Alcazaba of Mérida, a Muslim fortress, is the oldest Muslim fortification in the Iberian Peninsula, built in the 9th century. </p>
-<Img
-  src="/images/2024/05/2024-05-29-163331.jpg"
-  alt="Alcazaba, Merida"
-  caption="Outside of the fort"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-163341.jpg"
-  alt="Alcazaba, Merida"
-/>
-<Img
-  src="/images/2024/05/2024-05-29-164655.jpg"
-  alt="Alcazaba, Merida"
-/>
-
-<DayCardHGroup
-    where="The Roman Bridge" 
-/>
-
-<Img
-  src="/images/2024/05/2024-05-29-164150.jpg"
-  alt="Alcazaba, Merida"
-  caption="Photographed from the ramparts of the Alcazaba."
-/>
-
-</section>
 
 <section class="card">
 
@@ -389,7 +294,7 @@ alt="Amphitheatre, Merida"
 <Img
   src="/images/2024/06/2024-06-03-200843.jpg"
   alt="camino sign in the cobbles"
-  caption="Can you read 'CAMINO DE SANTIAGO - VIA DE LA PLATA'?"
+  caption="Can you see 'CAMINO DE SANTIAGO - VIA DE LA PLATA'?"
 />
 
 <p>dedicated to the women of Almad&eacute;n in 2020. I didn't notice any potential models for the figures on my wanderings around the town.</p>
