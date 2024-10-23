@@ -297,14 +297,20 @@ description: 'Towards Sevilla, and the end (start?) of the Via Ruta de la Plata.
   caption="Can you see 'CAMINO DE SANTIAGO - VIA DE LA PLATA'?"
 />
 
-<p>dedicated to the women of Almad&eacute;n in 2020. I didn't notice any potential models for the figures on my wanderings around the town.</p>
+<Img
+  src="/images/2024/06/2024-06-03-201018.jpg"
+  alt="building detail"
+/>
+
+<p>Dedicated to the women of Almad&eacute;n in 2020. I didn't notice any potential models for the figures on my wanderings around the town.</p>
+
+<Img
+  src="/images/2024/06/2024-06-03-202857.jpg"
+  alt="memorial to the women of Almaden"
+/>
 
 <Img
   src="/images/2024/06/2024-06-03-201403.jpg"
-  alt="memorial to the women of Almaden"
-/>
-<Img
-  src="/images/2024/06/2024-06-03-202857.jpg"
   alt="memorial to the women of Almaden"
 />
 
