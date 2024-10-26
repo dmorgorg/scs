@@ -1,0 +1,272 @@
+@import url('https://fonts.cdnfonts.com/css/alkes');
+
+:root {
+	// https://meyerweb.com/eric/tools/color-blend/#556B2F:FFFFFF:9:hex
+	--brand: #556b2f; // dark olive green
+	--brand-1: #eef0ea;
+	--brand-2: #dde1d5;
+	--brand-3: #ccd3c1;
+	--brand-4: #bbc4ac;
+	--brand-5: #aab597;
+	--brand-6: #99a682;
+	--brand-7: #88976d;
+	--brand-8: #778959;
+	--brand-9: #667a44;
+	--brand-10: var(--brand);
+	--brand-11: #445626;
+	--brand-12: #33401c;
+
+	--text: var(--brand-12);
+	--bg-color-light: var(--brand-1);
+	--bg-color: var(--brand-2);
+	// --border-dark: var(--brand-9);
+	--border-light: var(--brand-5);
+	--border-mid: var(--brand-7);
+	--border-dark: var(--brand-9);
+	--border-radius: var(--radius-1);
+	--box-shadow: var(--shadow-3);
+	--box-shadow-hover: var(--shadow-5);
+
+	--font-size-fluid-0pt5: clamp(0.875rem, 3vw, 1.25rem);
+
+	--header-text-dark: var(--brand-8);
+	--header-text-light: var(--brand-7);
+	--margin-card: var(--size-fluid-3);
+	// --margin-block: var(--size-fluid-3);
+	--scrollbar-thumb-color: var(--brand-7);
+	--scrollbar-thumb-color-hover: var(--brand-9);
+	--scrollbar-track: var(--brand-2);
+
+	// --shadow: var(--shadow-4);
+	scrollbar-color: unset; // this is by default set by open props and blocks the webkit custom scrollbar colors
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	// color: var(--header-text);
+	font-family: 'Alkes', sans-serif;
+	font-style: italic;
+	text-align: center;
+}
+h4,
+h5,
+h6 {
+	color: var(--header-text);
+}
+
+blockquote {
+	background-color: var(--brand-1);
+	border-left: 4px solid var(--brand-6);
+	display: block;
+	font-family: 'Alkes', sans-serif;
+	font-style: italic;
+	line-height: 1.4;
+	margin-block: var(--size-fluid-3);
+	margin-inline: auto;
+	// padding-block: 0;
+	padding-inline-start: var(--size-fluid-3);
+	width: 80%;
+	max-width: 100%;
+
+	.date {
+		font-weight: bold;
+	}
+
+	p {
+		font-style: italic;
+
+		.bold {
+			font-weight: bold;
+		}
+	}
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--scrollbar-thumb-color);
+	border-radius: 10px;
+	border: 4px solid var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb:hover {
+	background: var(--scrollbar-thumb-color-hover);
+	// border-radius: 10px;
+	// border: 4px solid var(--main-bg-color);
+}
+::-webkit-scrollbar {
+	width: 20px;
+}
+::-webkit-scrollbar-track {
+	background-color: var(--scrollbar-track);
+}
+
+html,
+body {
+	height: 100%;
+	overflow-y: visible;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	padding-inline-start: 0;
+}
+
+.surface-1 {
+	background-color: var(--surface-1);
+	color: var(--text-2);
+}
+
+.surface-2 {
+	background-color: var(--surface-2);
+	color: var(--text-2);
+}
+
+.surface-3 {
+	background-color: var(--surface-3);
+	color: var(--text-1);
+}
+
+.surface-4 {
+	background-color: var(--surface-4);
+	color: var(--text-1);
+}
+
+.fr-40 {
+	width: 40%;
+	float: right;
+}
+
+.fr-50 {
+	float: right;
+	width: 50%;
+}
+.fr-60 {
+	width: 60%;
+	float: right;
+	// margin-right: -1em;
+	// padding: 0;
+}
+
+.width40,
+.w-40 {
+	width: 40%;
+	margin: 0 auto;
+}
+.width50,
+.w-50 {
+	width: 50%;
+	margin: 0 auto;
+}
+.width60,
+.w-60 {
+	width: 60%;
+	margin: 0 auto;
+}
+.width70,
+.w-70 {
+	width: 70%;
+	margin: 0 auto;
+	padding: 0;
+}
+.w-80 {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+.w-90 {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* for cards in a post, a card usually for each day */
+// has to be global because pages dynamically loaded without visible tags?
+section.card {
+	background-color: white;
+	border: 1px solid var(--border-light);
+	border-radius: var(--border-radius);
+	box-shadow: var(--shadow);
+	// margin-block: var(--size-fluid-2);
+	padding: var(--size-fluid-3);
+	padding-block-start: var(--size-fluid-1);
+
+	// increase spacing between adjacent cards
+	& + section.card {
+		margin-block: calc(2 * var(--margin-card));
+	}
+
+	hgroup {
+		// border: 1px solid var(--border-light);
+		margin-block-end: var(--size-fluid-3);
+	}
+
+	h5 {
+		color: var(--header-text-dark);
+		// display: inline;
+		font-family: var(--font-humanist);
+		font-size: var(--font-size-4);
+		font-style: normal;
+		margin-block: var(--size-fluid-2);
+		max-inline-size: 100%;
+		// padding-block: 4rem;
+		text-align: left;
+		width: 100%;
+	}
+
+	figure {
+		margin-block: var(--size-fluid-1);
+
+		& + p {
+			margin-block: var(--size-fluid-0);
+			// margin-block-start: -1rem;
+		}
+
+		& + figure {
+			margin-block: var(--margin-card);
+		}
+	}
+
+	img {
+		border: 1px solid var(--border-light);
+		border-radius: var(--border-radius);
+		margin-block: var(--size-fluid-1);
+	}
+
+	figcaption {
+		color: var(--text-1);
+		font-family: Alkes, sans;
+		font-size: var(--font-size-fluid-0);
+		font-style: italic;
+		margin-top: calc(-1 * var(--size-fluid-2));
+		text-align: center;
+	}
+
+	p {
+		// display: inline-block;
+		font-size: var(--font-size-2);
+		line-height: var(--font-lineheight-2);
+		margin-block: var(--size-fluid-2);
+		margin-block: 0;
+		max-inline-size: none;
+		padding-inline-start: var(--size-fluid-2);
+		padding-inline-end: var(--size-fluid-1);
+
+		& + h5 {
+			padding-block-start: var(--size-fluid-3);
+		}
+
+		& + p {
+			margin-block: var(--size-fluid-2);
+		}
+
+		// border: 1px solid #445626;
+	}
+}
