@@ -266,7 +266,7 @@
 	// }
 
 	.x {
-		right: 1rem;
-		top: 1rem;
+		right: 0.5rem;
+		top: 0.5rem;
 	}
 </style>
