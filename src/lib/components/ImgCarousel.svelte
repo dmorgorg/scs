@@ -105,10 +105,10 @@
 
 		<div class="nextPrevButtons">
 			<button class="leftChevron" on:click={getPrevious}>
-				<img src="/icons/leftChevronBrand.png" alt="left-chevron" />
+				<img src="/icons/chevron-left.png" alt="left-chevron" />
 			</button>
 			<button class="rightChevron" on:click={getNext}>
-				<img src="/icons/rightChevronBrand.png" alt="right-chevron" />
+				<img src="/icons/chevron-right.png" alt="right-chevron" />
 			</button>
 		</div>
 	</div>
@@ -120,6 +120,7 @@
 	button {
 		background-color: white;
 		border: 2px solid var(--brand-9);
+		border: 2px solid black;
 		border-radius: var(--radius-4);
 		box-shadow: none;
 		height: 1.25rem;
@@ -223,11 +224,6 @@
 			width: 100%;
 
 			button {
-				background-color: var(--bg-color);
-				background-color: white;
-				border: 2px solid var(--brand-9);
-				border-radius: var(--radius-4);
-				box-shadow: none;
 				height: 1.25rem;
 				padding: 0.125rem;
 				position: relative;
