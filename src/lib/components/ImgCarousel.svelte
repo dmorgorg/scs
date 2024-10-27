@@ -1,78 +1,68 @@
 <script>
 	// @ts-nocheck
-	import { slide } from 'svelte/transition'
+	import { fly, fade, slide } from 'svelte/transition';
 
-	export let src
-	export let isCarouselOpen
+	export let src;
+	export let isCarouselOpen;
 
 	function imageArray() {
-		const images = document.images
-		const anArray = []
+		const images = document.images;
+		const anArray = [];
 		for (let i = 0; i < images.length; i++) {
-			const index = images[i].src.indexOf('/images/')
+			const index = images[i].src.indexOf('/images/');
 			if (index !== -1) {
-				anArray.push(images[i].src.slice(index))
+				anArray.push(images[i].src.slice(index));
 			}
 		}
-		return anArray
+		return anArray;
 	}
 
 	function callingIndex() {
-		const images = document.images
+		const images = document.images;
 		for (let i = 0; i < images.length; i++) {
 			if (imageArray()[i] === src) {
-				return Number(i)
+				return Number(i);
 			}
 		}
 	}
 
 	function getNext() {
-		if (currentIndex === initIndex) {
-			// the photo that calls the carousel is in the photo array twice ????!!!
-			// requiring a double click to advance to the next.
-			// this hack fixes that.
-			currentIndex++
-		}
-		if (currentIndex > -1) {
-			currentIndex = (currentIndex + 1) % imageArray().length
-			currentFilePath = imageArray()[currentIndex]
-		}
+		currentIndex = (currentIndex + 1) % length;
 	}
 	function getPrevious() {
-		if (currentIndex === initIndex + 2) {
-			// the photo that calls the carousel is in the photo array twice ????!!!
-			// requiring a double click to advance to the next.
-			// this hack fixes that.
-			currentIndex = currentIndex - 1
-		}
-		if (currentIndex <= 0) {
-			currentIndex = imageArray().length - 1
-			currentFilePath = imageArray()[currentIndex]
+		// if (currentIndex === initIndex + 2) {
+		// 	// the photo that calls the carousel is in the photo array twice ????!!!
+		// 	// requiring a double click to advance to the next.
+		// 	// this hack fixes that.
+		// 	currentIndex = currentIndex - 1;
+		// }
+		if (currentIndex == 0) {
+			currentIndex = imageArray().length - 2;
 		} else {
-			currentIndex = currentIndex - 1
-			currentFilePath = imageArray()[currentIndex]
+			currentIndex = currentIndex - 1;
 		}
 	}
 
 	function getOut() {
-		isCarouselOpen = false
+		isCarouselOpen = false;
 	}
 
 	function cursoryNavigation(event) {
 		if (event.key === 'ArrowRight') {
-			getNext()
+			getNext();
 		} else if (event.key === 'ArrowLeft') {
-			getPrevious()
+			getPrevious();
 		} else if (event.key === 'Escape') {
 			// close the carousel
 		}
 	}
 
-	const initIndex = callingIndex()
-	$: currentIndex = callingIndex()
-	$: currentFilePath = imageArray()[currentIndex]
-	let ia = imageArray()
-	let matteTheme = 'brand'
+	const initIndex = callingIndex();
+	$: currentIndex = callingIndex();
+	$: currentFilePath = imageArray()[currentIndex];
+	let ia = imageArray();
+	let length = ia.length;
+	let matteTheme = 'brand';
 </script>
 
 <svelte:window on:keydown={cursoryNavigation} />
@@ -82,6 +72,7 @@
 	class:white={matteTheme === 'white'}
 	class:brand={matteTheme === 'brand'}
 	class:black={matteTheme === 'black'}
+	transition:fade={{ duration: 500 }}
 >
 	<button class="leftChevron" on:click={getPrevious}>
 		<img src="/icons/leftChevronBrand.png" alt="left-chevron" />
@@ -95,18 +86,35 @@
 
 	<div class="buttonGroup">
 		<button class="white" on:click={() => (matteTheme = 'white')} aria-label="Set theme to white"
-			>&nbsp;</button
-		>
+		></button>
 		<button class="brand" on:click={() => (matteTheme = 'brand')} aria-label="Set theme to brand"
-			>&nbsp;</button
-		>
+		></button>
 		<button class="black" on:click={() => (matteTheme = 'black')} aria-label="Set theme to black"
-			>&nbsp;</button
-		>
+		></button>
+	</div>
+
+	<div class="counter" class:black={matteTheme === 'black'}>
+		Image {currentIndex + 1} of {length}
 	</div>
 
 	<div class="inner">
-		<img transition:slide={{ duration: 500 }} src={currentFilePath} alt="x" />
+		<!-- <img transition:slide={{ duration: 500 }} src={currentFilePath} alt="x" /> -->
+		<!-- <img
+			in:fly={{ x: 200, duration: 1000 }}
+			out:fly={{ x: -200, duration: 1000 }}
+			src={currentFilePath}
+			alt="x"
+		/> -->
+		{#each ia as image, index}
+			{#if index === currentIndex}
+				<img
+					out:slide={{ duration: 500 }}
+					in:slide={{ duration: 1500, delay: 5 }}
+					src={ia[index]}
+					alt="x"
+				/>
+			{/if}
+		{/each}
 	</div>
 </div>
 
@@ -127,6 +135,17 @@
 		width: 100vw;
 		z-index: 50;
 
+		.counter {
+			font-family: alkes;
+			font-style: italic;
+			font-weight: 00;
+			position: absolute;
+			bottom: 0.5rem;
+			right: 1rem;
+			// color: black;
+			transition: color 3.5s;
+		}
+
 		&.white {
 			background-color: white;
 		}
@@ -135,6 +154,7 @@
 		}
 		&.black {
 			background-color: black;
+			color: white;
 		}
 
 		.buttonGroup {
@@ -147,7 +167,7 @@
 
 			button {
 				position: relative;
-				margin-inline: 1rem;
+				margin-inline: 0.5rem;
 				width: 1.25rem;
 				height: 1.25rem;
 				box-shadow: none;
@@ -163,27 +183,6 @@
 				}
 			}
 		}
-
-		// .buttonGroup {
-		// 	display: flex;
-		// 	justify-content: center;
-		// 	margin-block-start: 1rem;
-		// 	margin-block-end: 1rem;
-
-		// 	button {
-		// 		background-color: var(--bg-color);
-		// 		border: 2px solid var(--brand-9);
-		// 		border-radius: var(--radius-4);
-		// 		height: 1.25rem;
-		// 		padding: 0.25rem;
-		// 		width: 1.25rem;
-
-		// 		&:hover {
-		// 			border: 3px solid black;
-		// 		}
-
-		// 	}
-		// }
 
 		.inner {
 			align-items: center;
@@ -241,5 +240,16 @@
 	}
 	.matte.black button:hover {
 		border: 3px solid white;
+	}
+
+	@media (max-width: 600px) {
+		.matte {
+			font-size: 65%;
+		}
+		.buttonGroup button {
+			height: 3.25rem;
+			margin-inline: 3.5rem;
+			width: 1rem;
+		}
 	}
 </style>
