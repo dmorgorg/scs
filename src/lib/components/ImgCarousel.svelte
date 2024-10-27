@@ -200,6 +200,9 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		width: 100%;
+		height: 100%;
+		// border: 3px solid purple;
 
 		img {
 			border: 2px solid black;
@@ -215,22 +218,24 @@
 			display: flex;
 			justify-content: space-between;
 			margin-block-start: 1rem;
+			padding-inline: 0.5rem;
+			position: absolute;
 			width: 100%;
-		}
 
-		button {
-			background-color: var(--bg-color);
-			background-color: white;
-			border: 2px solid var(--brand-9);
-			border-radius: var(--radius-4);
-			box-shadow: none;
-			height: 1.5rem;
-			padding: 0.25rem;
-			position: relative;
-			width: 1.5rem;
+			button {
+				background-color: var(--bg-color);
+				background-color: white;
+				border: 2px solid var(--brand-9);
+				border-radius: var(--radius-4);
+				box-shadow: none;
+				height: 1.25rem;
+				padding: 0.125rem;
+				position: relative;
+				width: 1.25rem;
 
-			img {
-				border: none;
+				img {
+					border: none;
+				}
 			}
 		}
 
@@ -256,28 +261,12 @@
 		// }
 	}
 
-	.matte.black button:hover {
-		border: 3px solid white;
-	}
+	// .matte.black button.black:hover {
+	// 	border: 13px solid white;
+	// }
 
 	.x {
 		right: 1rem;
 		top: 1rem;
 	}
-
-	// @media (max-width: 600px) {
-	// 	.matte {
-	// 		font-size: 65%;
-	// 		padding-inline: 1rem;
-	// 	}
-
-	// 	.buttonGroup {
-	// 		button {
-	// 			bottom: -0.5rem;
-	// 			height: 1rem !important;
-	// 			width: 1rem !important;
-	// 			margin-inline: 1rem !important;
-	// 		}
-	// 	}
-	// }
 </style>
