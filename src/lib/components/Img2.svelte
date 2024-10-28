@@ -15,19 +15,22 @@
 </script>
 
 <!-- {#if alt} -->
-<button type="button" on:click={carousel} aria-label={alt}
-	><figure>
-		<img {src} {alt} />
-		{#if caption}
-			<figcaption class="caption">{caption}</figcaption>
-		{/if}
-	</figure>
-</button>
+<!-- <button type="button" on:click={carousel} aria-label={alt}
+	> -->
+<figure>
+	<img {src} {alt} />
+	<!-- {#if caption}
+		<figcaption class="caption">{caption}</figcaption>
+	{/if} -->
+</figure>
+
+<!-- </button> -->
+
 <!-- {/if} -->
 
-{#if isCarouselOpen}
+<!-- {#if isCarouselOpen}
 	<ImgCarousel {src} bind:isCarouselOpen />
-{/if}
+{/if} -->
 
 <style lang="scss">
 	.caption {

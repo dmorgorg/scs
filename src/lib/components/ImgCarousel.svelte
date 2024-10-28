@@ -1,6 +1,11 @@
 <script>
-	// @ts-nocheck
 	import { fly, fade, slide } from 'svelte/transition';
+	// import function to register swiper-container custom elements
+	import { register } from 'swiper/element/bundle';
+	// register swiper-container custom elements
+	register();
+
+	// import 'swiper/css';
 
 	export let src;
 	export let isCarouselOpen;
@@ -86,16 +91,26 @@
 	</div>
 
 	<div class="inner">
-		{#each ia as image, index}
-			{#if index === currentIndex}
-				<img
-					out:slide={{ duration: 500 }}
-					in:slide={{ duration: 1200, delay: 100 }}
-					src={ia[index]}
-					alt="x"
-				/>
-			{/if}
-		{/each}
+		<swiper-container
+			class="swiper-container"
+			spaceBetween={50}
+			slidesPerView={3}
+			on:slideChange={() => console.log('slide change')}
+			on:swiper={(e) => console.log(e.detail[0])}
+		>
+			{#each ia as image, index}
+				{#if index === currentIndex}
+					<swiper-slide>
+						<img
+							out:slide={{ duration: 500 }}
+							in:slide={{ duration: 1200, delay: 100 }}
+							src={ia[index]}
+							alt="x"
+						/>
+					</swiper-slide>
+				{/if}
+			{/each}
+		</swiper-container>
 
 		<div class="nextPrevButtons">
 			<button class="leftChevron" on:click={getPrevious}>
@@ -110,6 +125,14 @@
 
 <style lang="scss">
 	// mobile first design
+
+	.swiper-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+	}
 
 	button {
 		background-color: white;
