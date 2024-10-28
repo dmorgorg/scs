@@ -30,12 +30,6 @@
 		currentIndex = (currentIndex + 1) % length;
 	}
 	function getPrevious() {
-		// if (currentIndex === initIndex + 2) {
-		// 	// the photo that calls the carousel is in the photo array twice ????!!!
-		// 	// requiring a double click to advance to the next.
-		// 	// this hack fixes that.
-		// 	currentIndex = currentIndex - 1;
-		// }
 		if (currentIndex == 0) {
 			currentIndex = imageArray().length - 2;
 		} else {
@@ -84,7 +78,7 @@
 	</div>
 
 	<button class="x" on:click={getOut}>
-		<img src="/icons/xBrand.png" alt="long-arrow-right" />
+		<img src="/icons/x.png" alt="long-arrow-right" />
 	</button>
 
 	<div class="counter" class:black={matteTheme === 'black'}>
@@ -119,7 +113,6 @@
 
 	button {
 		background-color: white;
-		border: 2px solid var(--brand-9);
 		border: 2px solid black;
 		border-radius: var(--radius-4);
 		box-shadow: none;
@@ -136,7 +129,6 @@
 	.counter {
 		font-family: alkes;
 		font-style: italic;
-		font-weight: 00;
 		position: absolute;
 		bottom: 0.375rem;
 		right: 1rem;
@@ -203,7 +195,6 @@
 		justify-content: center;
 		width: 100%;
 		height: 100%;
-		// border: 3px solid purple;
 
 		img {
 			border: 2px solid black;
@@ -234,35 +225,69 @@
 				}
 			}
 		}
-
-		// &:hover {
-		// 	border: 3px solid black;
-		// }
-
-		// img {
-		// 	border: none;
-		// 	padding: 0;
-		// 	margin: 0;
-		// 	// width: 25%;
-		// 	height: auto;
-		// 	max-width: 100%;
-		// }
-
-		// &.leftChevron {
-		// 	left: 1rem;
-		// }
-		// &.rightChevron {
-		// 	right: 1rem;
-		// }
-		// }
 	}
 
-	// .matte.black button.black:hover {
-	// 	border: 13px solid white;
-	// }
+	.matte.black button.black {
+		border: 2px solid white;
+		&:hover {
+			border-width: 3.5px;
+		}
+	}
 
 	.x {
 		right: 0.5rem;
 		top: 0.5rem;
+	}
+
+	@media (min-width: 768px) {
+		.matte {
+			font-size: 100%;
+			padding-block-start: 2rem;
+			padding-block-end: 4rem;
+			padding-inline: 3rem;
+		}
+		button {
+			height: 2rem;
+			width: 2rem;
+		}
+
+		.matte.black button.black {
+			border: 2px solid white;
+			&:hover {
+				border-width: 3.5px;
+			}
+		}
+
+		.matteButtonGroup {
+			bottom: 1rem;
+
+			button {
+				height: 1.25rem;
+				margin-inline: 1rem;
+				position: relative;
+				width: 1.25rem;
+			}
+		}
+
+		.nextPrevButtons {
+			// border: 1px solid black;
+			// margin-inline: 2rem;
+			// position: relative;
+
+			button {
+				height: 3rem !important;
+				margin-inline: 2rem;
+				// padding: 0 !important;
+				width: 3rem !important;
+				img {
+					border: 1px solid red;
+				}
+			}
+		}
+
+		.x {
+			right: 1rem;
+			top: 1rem;
+		}
 	}
 </style>
