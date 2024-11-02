@@ -1,15 +1,15 @@
 <script>
-	// import { browser } from '$app/environment'
-	import ImgCarousel from './ImgCarousel.svelte'
-	// import { isCarouselOpen } from '$lib/js/store'
+	import Embla from '$lib/components/Embla.svelte';
+	// import Svembla from '$lib/components/Svembla.svelte';
+	// import Test from '$lib/components/Test.svelte';
 
-	export let src
-	export let alt = src
-	export let caption = ''
-	let isCarouselOpen = false
+	export let src;
+	export let alt = src;
+	export let caption = '';
+	let isCarouselOpen = false;
 
 	function carousel() {
-		isCarouselOpen = true
+		isCarouselOpen = true;
 	}
 </script>
 
@@ -23,9 +23,11 @@
 	</figure>
 </button>
 <!-- {/if} -->
-
+<!-- {isCarouselOpen} -->
 {#if isCarouselOpen}
-	<ImgCarousel {src} bind:isCarouselOpen />
+	<Embla {src} bind:isCarouselOpen />
+	<!-- <Svembla {src} bind:isCarouselOpen /> -->
+	<!-- <Test {src} bind:isCarouselOpen /> -->
 {/if}
 
 <style lang="scss">
