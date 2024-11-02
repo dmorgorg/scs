@@ -1,13 +1,7 @@
 <script>
-<<<<<<< HEAD
 	import Embla from '$lib/components/Embla.svelte';
 	// import Svembla from '$lib/components/Svembla.svelte';
 	// import Test from '$lib/components/Test.svelte';
-=======
-	// import { browser } from '$app/environment'
-	import ImgCarousel from './ImgCarousel.svelte';
-	// import { isCarouselOpen } from '$lib/js/store'
->>>>>>> 1f46f8c0a384027d16d6984daf953479c919241a
 
 	export let src;
 	export let alt = src;
@@ -16,10 +10,6 @@
 
 	function carousel() {
 		isCarouselOpen = true;
-<<<<<<< HEAD
-=======
-		console.log('clicked');
->>>>>>> 1f46f8c0a384027d16d6984daf953479c919241a
 	}
 </script>
 

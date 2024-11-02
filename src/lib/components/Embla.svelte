@@ -14,8 +14,8 @@
 	let options = { loop: true };
 </script>
 
+Open: {isCarouselOpen}{src}
 <div class="matte">
-	<!-- Open: {isCarouselOpen}{src} -->
 	<div class="embla" use:emblaCarouselSvelte={{ options }} onemblaInit={onInit}>
 		<div class="embla__container">
 			<div class="embla__slide">
@@ -75,6 +75,7 @@
 		width: auto;
 		border: none;
 		outline: none;
+		margin-inline: 2rem;
 
 		.border {
 			// 	this border div and the img are for setting the border to the image rather than the object-fit: contain bounding box
