@@ -1,13 +1,7 @@
 <script>
-<<<<<<< HEAD
-	import Embla from '$lib/components/Embla.svelte';
-	// import Svembla from '$lib/components/Svembla.svelte';
-	// import Test from '$lib/components/Test.svelte';
-=======
 	// import { browser } from '$app/environment'
 	import ImgCarousel from './ImgCarousel.svelte';
 	// import { isCarouselOpen } from '$lib/js/store'
->>>>>>> 1f46f8c0a384027d16d6984daf953479c919241a
 
 	export let src;
 	export let alt = src;
@@ -16,29 +10,27 @@
 
 	function carousel() {
 		isCarouselOpen = true;
-<<<<<<< HEAD
-=======
 		console.log('clicked');
->>>>>>> 1f46f8c0a384027d16d6984daf953479c919241a
 	}
 </script>
 
 <!-- {#if alt} -->
-<button type="button" on:click={carousel} aria-label={alt}
-	><figure>
-		<img {src} {alt} />
-		{#if caption}
-			<figcaption class="caption">{caption}</figcaption>
-		{/if}
-	</figure>
-</button>
+<!-- <button type="button" on:click={carousel} aria-label={alt}
+	> -->
+<figure>
+	<img {src} {alt} />
+	<!-- {#if caption}
+		<figcaption class="caption">{caption}</figcaption>
+	{/if} -->
+</figure>
+
+<!-- </button> -->
+
 <!-- {/if} -->
-<!-- {isCarouselOpen} -->
-{#if isCarouselOpen}
-	<Embla {src} bind:isCarouselOpen />
-	<!-- <Svembla {src} bind:isCarouselOpen /> -->
-	<!-- <Test {src} bind:isCarouselOpen /> -->
-{/if}
+
+<!-- {#if isCarouselOpen}
+	<ImgCarousel {src} bind:isCarouselOpen />
+{/if} -->
 
 <style lang="scss">
 	.caption {
