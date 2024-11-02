@@ -21,8 +21,12 @@
 			<div class="embla__slide">
 				<div class="border"><img src="/images/2024/06/2024-06-27-140236.jpg" alt="" /></div>
 			</div>
-			<div class="embla__slide"><img src="/images/2024/06/2024-06-27-143258.jpg" alt="" /></div>
-			<div class="embla__slide"><img src="/images/2024/06/2024-06-27-153904.jpg" alt="" /></div>
+			<div class="embla__slide">
+				<div class="border"><img src="/images/2024/06/2024-06-27-143258.jpg" alt="" /></div>
+			</div>
+			<div class="embla__slide">
+				<div class="border"><img src="/images/2024/06/2024-06-27-153904.jpg" alt="" /></div>
+			</div>
 		</div>
 	</div>
 
