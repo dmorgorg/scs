@@ -4,29 +4,58 @@
 	export let isCarouselOpen;
 	export let src = '';
 
+	// carousel
 	let emblaApi;
-
+	let options = { loop: true };
 	function onInit(event) {
 		emblaApi = event.detail;
-		console.log(emblaApi.slideNodes());
 	}
 
-	let options = { loop: true };
+	// grab all post images
+	function imageArray() {
+		const images = document.images;
+		const anArray = [];
+		for (let i = 0; i < images.length; i++) {
+			// trim image path to slug
+			const index = images[i].src.indexOf('/images/');
+			if (index !== -1) {
+				anArray.push(images[i].src.slice(index));
+			}
+		}
+		return anArray;
+	}
+	// get the index of the calling image
+	function getCallingIndex(src) {
+		const images = document.images;
+		for (let i = 0; i < images.length; i++) {
+			if (imageArray()[i] === src) {
+				return Number(i);
+			}
+		}
+	}
+	// shift the calling image index to the start of a new array, if necessary
+	function arrayIndexShift(ia, callingIndex) {
+		let newArray = [];
+		for (let i = 0; i < ia.length; i++) {
+			newArray.push(ia[(callingIndex + i) % ia.length]);
+		}
+		return newArray;
+	}
+
+	let ia = imageArray();
+	let callingIndex = getCallingIndex(src);
+	let newArray = arrayIndexShift(ia, callingIndex);
 </script>
 
 Open: {isCarouselOpen}{src}
 <div class="matte">
 	<div class="embla" use:emblaCarouselSvelte={{ options }} onemblaInit={onInit}>
 		<div class="embla__container">
-			<div class="embla__slide">
-				<div class="border"><img src="/images/2024/06/2024-06-27-140236.jpg" alt="" /></div>
-			</div>
-			<div class="embla__slide">
-				<div class="border"><img src="/images/2024/06/2024-06-27-143258.jpg" alt="" /></div>
-			</div>
-			<div class="embla__slide">
-				<div class="border"><img src="/images/2024/06/2024-06-27-153904.jpg" alt="" /></div>
-			</div>
+			{#each newArray as image}
+				<div class="embla__slide">
+					<div class="border"><img src={image} alt="" /></div>
+				</div>
+			{/each}
 		</div>
 	</div>
 
