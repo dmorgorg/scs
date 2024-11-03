@@ -1,6 +1,6 @@
 <script>
 	import emblaCarouselSvelte from 'embla-carousel-svelte';
-
+	import { fade } from 'svelte/transition';
 	export let isCarouselOpen;
 	export let src = '';
 
@@ -42,13 +42,55 @@
 		return newArray;
 	}
 
+	const getNext = () => {
+		emblaApi.scrollNext();
+	};
+	const getPrevious = () => {
+		emblaApi.scrollPrev();
+	};
+	function getOut() {
+		isCarouselOpen = false;
+	}
+
+	function cursoryNavigation(event) {
+		if (event.key === 'ArrowRight') {
+			getNext();
+		} else if (event.key === 'ArrowLeft') {
+			getPrevious();
+		} else if (event.key === 'Escape') {
+			// close the carousel
+		}
+	}
+
 	let ia = imageArray();
 	let callingIndex = getCallingIndex(src);
 	let newArray = arrayIndexShift(ia, callingIndex);
+	let matteTheme = 'brand';
 </script>
 
-Open: {isCarouselOpen}{src}
-<div class="matte">
+<svelte:window on:keydown={cursoryNavigation} />
+
+Open: {isCarouselOpen}
+<div
+	class="matte"
+	class:white={matteTheme === 'white'}
+	class:brand={matteTheme === 'brand'}
+	class:black={matteTheme === 'black'}
+	transition:fade={{ duration: 400 }}
+>
+	<div class="matteButtonGroup">
+		<button class="white" onclick={() => (matteTheme = 'white')} aria-label="Set theme to white"
+		></button>
+		<button class="brand" onclick={() => (matteTheme = 'brand')} aria-label="Set theme to brand"
+		></button>
+		<button class="black" onclick={() => (matteTheme = 'black')} aria-label="Set theme to black"
+		></button>
+	</div>
+
+	<button class="x" onclick={getOut}>
+		<img src="/icons/x.png" alt="long-arrow-right" />
+	</button>
+
 	<div class="embla" use:emblaCarouselSvelte={{ options }} onemblaInit={onInit}>
 		<div class="embla__container">
 			{#each newArray as image}
@@ -58,48 +100,31 @@ Open: {isCarouselOpen}{src}
 			{/each}
 		</div>
 	</div>
+	<!-- <div class="embla__controls"> -->
+	<div class="embla__buttons">
+		<button class="embla__button embla__button--prev" type="button" onclick={() => getPrevious()}>
+			<img src="/icons/chevron-left.png" alt="" />
+		</button>
 
-	<div class="embla__controls">
-		<div class="embla__buttons">
-			<button
-				class="embla__button embla__button--prev"
-				type="button"
-				onclick={() => emblaApi.scrollPrev()}
-			>
-				&lt;
-			</button>
-
-			<button
-				class="embla__button embla__button--next"
-				type="button"
-				onclick={() => emblaApi.scrollNext()}
-			>
-				&gt;
-			</button>
-		</div>
+		<button class="embla__button embla__button--next" type="button" onclick={() => getNext()}>
+			<img src="/icons/chevron-right.png" alt="" />
+		</button>
+		<!-- </div> -->
 	</div>
 </div>
 
 <style lang="scss">
 	.embla {
 		overflow: hidden;
-
 		height: 100%;
-		// border: none;
-		// outline: none;
 	}
 	.embla__container {
 		display: flex;
 		height: 100%;
-		/* justify-content: center;
-		align-items: center; */
-		// border: none;
-		// outline: none;
 	}
 	.embla__slide {
 		flex: 0 0 100%;
 		min-width: 0;
-		// background: green;
 		height: 100%;
 		width: auto;
 		border: none;
@@ -121,20 +146,129 @@ Open: {isCarouselOpen}{src}
 				max-width: 100%;
 				object-fit: contain;
 				border: 3px solid black;
-				// margin: 0;
-				// padding: 0;
+			}
+		}
+	}
+	.embla__buttons {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding-inline: 1rem;
+		position: absolute;
+		width: 100%;
+		z-index: 50;
+
+		.embla__button--prev,
+		.embla__button--next {
+			// border-radius: 50%;
+			border: 0.15rem solid black;
+			box-shadow: none;
+			outline: none;
+			padding: 0;
+			height: 3rem;
+			width: 4rem;
+
+			img {
+				border: none;
+				margin: 0;
+				padding: 0;
+				height: 3rem;
+				width: 3rem;
 			}
 		}
 	}
 	.matte {
+		align-items: center;
 		background-color: var(--brand-2);
+		display: flex;
+		justify-content: center;
 		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100vw;
 		height: 100vh;
-		padding-inline: 3rem;
+		padding-inline: 4rem;
 		padding-block-start: 2rem;
 		padding-block-end: 4rem;
+
+		&.white {
+			background-color: white;
+		}
+		&.brand {
+			background-color: var(--brand-2);
+		}
+		&.black {
+			background-color: black;
+			color: white;
+		}
+
+		.matteButtonGroup {
+			bottom: 0.75rem;
+			display: flex;
+			justify-content: center;
+			position: absolute;
+
+			button {
+				border: 0.15rem solid black;
+				box-shadow: none;
+				height: 0.75rem;
+				margin-inline: 0.75rem;
+				padding: 0.75rem;
+				position: relative;
+				width: 0.75rem;
+
+				&.white {
+					background-color: white;
+				}
+				&.brand {
+					background-color: var(--brand-2);
+				}
+				&.black {
+					background-color: black;
+					// border-color: white;
+				}
+			}
+		}
+		&.black button.embla__button {
+			background-color: gray;
+		}
+
+		&.black button.black {
+			border-color: gray;
+			// background-color: gray;
+		}
+		&.brand .embla__buttons button {
+			background-color: var(--brand-2);
+		}
+		&.white .embla__buttons button {
+			background-color: white;
+		}
+		button.x {
+			background-color: white;
+			// background-color: gray;
+			border: 0.15rem solid black;
+			box-shadow: none;
+			right: 0.75rem;
+			top: 0.75rem;
+			position: absolute;
+			height: 3rem;
+			width: 4rem;
+			margin: 0;
+			padding: 0;
+
+			img {
+				border: none;
+				margin: 0;
+				padding: 0;
+				height: 2.5rem;
+				width: 2.5rem;
+			}
+		}
+		&.brand button.x {
+			background-color: var(--brand-2);
+		}
+		&.black button.x {
+			background-color: gray;
+		}
 	}
 </style>
