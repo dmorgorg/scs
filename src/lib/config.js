@@ -5,19 +5,19 @@
  * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/
 
-import { dev } from '$app/environment'
+import { dev } from '$app/environment';
 
-export const siteTitle = 'slowcyclingsenior.ca'
+export const siteTitle = 'slowcyclingsenior.ca';
 export const siteDescription =
-	'the ramblings of an opportunistic photographer, unrepentant geek, inveterate nomad, terminal cynic, opinionated curmudgeon and occasional (but&nbsp;invariably&nbsp;slow)&nbsp;cyclist'
-export const url = dev ? 'http://localhost:5173' : 'https://slowcyclingsenior.ca'
-export const siteURL = 'slowcyclingsenior.ca'
-export const siteLink = 'https://github.com/dmorgorg/slowcyclingsenior'
-export const siteAuthor = 'Dave Morgan'
-export const email = 'dave@dmorg.org'
+	'the ramblings of an opportunistic photographer, unrepentant geek, inveterate nomad, terminal cynic, opinionated curmudgeon and occasional (but&nbsp;invariably&nbsp;slow)&nbsp;cyclist';
+export const url = dev ? 'http://localhost:5173' : 'https://slowcyclingsenior.ca';
+export const siteURL = 'slowcyclingsenior.ca';
+export const siteLink = 'https://github.com/dmorgorg/slowcyclingsenior';
+export const siteAuthor = 'Dave Morgan';
+export const email = 'dave@dmorg.org';
 
 // Controls how many posts are shown per page on the main blog index pages
-export const postsPerPage = 40
+export const postsPerPage = 40;
 
 // Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
 export const navItems = [
@@ -33,13 +33,13 @@ export const navItems = [
 	// 	title: '2024',
 	// 	route: '/blog/category/2024'
 	// },
-	// {
-	// 	title: 'Categories',
-	// 	route: '/'
-	// },
+	{
+		title: 'Categories',
+		route: '/categories'
+	},
 
 	{
 		title: 'About',
 		route: '/about'
 	}
-]
+];
