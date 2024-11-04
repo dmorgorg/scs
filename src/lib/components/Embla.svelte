@@ -44,12 +44,17 @@
 
 	const getNext = () => {
 		emblaApi.scrollNext();
+		currentIndex = (currentIndex + 1) % length;
+		currentIndex += callingIndex;
 	};
 	const getPrevious = () => {
 		emblaApi.scrollPrev();
+		currentIndex = currentIndex - 1 < 0 ? length - 1 : currentIndex - 1;
+		currentIndex += callingIndex;
 	};
 	function getOut() {
 		isCarouselOpen = false;
+		emblaApi.destroy();
 	}
 
 	function cursoryNavigation(event) {
@@ -65,7 +70,9 @@
 	let ia = imageArray();
 	let callingIndex = getCallingIndex(src);
 	let newArray = arrayIndexShift(ia, callingIndex);
+	let length = ia.length;
 	let matteTheme = 'brand';
+	let currentIndex = callingIndex;
 </script>
 
 <svelte:window on:keydown={cursoryNavigation} />
@@ -87,13 +94,17 @@ Open: {isCarouselOpen}
 		></button>
 	</div>
 
+	<div class="counter" class:gray={matteTheme === 'black'}>
+		Image {currentIndex + 1} of {length}
+	</div>
+
 	<button class="x" onclick={getOut}>
 		<img src="/icons/x.png" alt="long-arrow-right" />
 	</button>
 
 	<div class="embla" use:emblaCarouselSvelte={{ options }} onemblaInit={onInit}>
 		<div class="embla__container">
-			{#each newArray as image}
+			{#each newArray as image, index}
 				<div class="embla__slide">
 					<div class="border"><img src={image} alt="" /></div>
 				</div>
@@ -110,6 +121,7 @@ Open: {isCarouselOpen}
 			<img src="/icons/chevron-right.png" alt="" />
 		</button>
 		<!-- </div> -->
+		<!-- {index} -->
 	</div>
 </div>
 
@@ -153,7 +165,7 @@ Open: {isCarouselOpen}
 		align-items: center;
 		display: flex;
 		justify-content: space-between;
-		padding-inline: 1rem;
+		padding-inline: 0.75rem;
 		position: absolute;
 		width: 100%;
 		z-index: 50;
@@ -166,7 +178,7 @@ Open: {isCarouselOpen}
 			outline: none;
 			padding: 0;
 			height: 2rem;
-			width: 3rem;
+			width: 2.5rem;
 
 			img {
 				border: none;
@@ -184,6 +196,7 @@ Open: {isCarouselOpen}
 		justify-content: center;
 		position: fixed;
 		top: 0;
+		transition: background-color 2s;
 		left: 0;
 		width: 100vw;
 		height: 100vh;
@@ -200,6 +213,19 @@ Open: {isCarouselOpen}
 		&.black {
 			background-color: black;
 			color: white;
+		}
+		&.gray {
+			color: gray;
+			color: red;
+		}
+
+		.counter {
+			font-family: alkes;
+			font-style: italic;
+			position: absolute;
+			bottom: 0.375rem;
+			right: 1rem;
+			transition: color 3.5s;
 		}
 
 		.matteButtonGroup {
@@ -225,23 +251,25 @@ Open: {isCarouselOpen}
 				}
 				&.black {
 					background-color: black;
-					// border-color: white;
 				}
 			}
 		}
 		&.black button.embla__button {
 			background-color: gray;
+			transition: background-color 2s;
 		}
 
 		&.black button.black {
 			border-color: gray;
-			// background-color: gray;
+			transition: background-color 2s;
 		}
 		&.brand .embla__buttons button {
 			background-color: var(--brand-2);
+			transition: background-color 2s;
 		}
 		&.white .embla__buttons button {
 			background-color: white;
+			transition: background-color 2s;
 		}
 		button.x {
 			background-color: white;
@@ -251,8 +279,9 @@ Open: {isCarouselOpen}
 			right: 0.75rem;
 			top: 0.75rem;
 			position: absolute;
+			transition: background-color 2s;
 			height: 2rem;
-			width: 3rem;
+			width: 2.5rem;
 			margin: 0;
 			padding: 0;
 
@@ -270,5 +299,8 @@ Open: {isCarouselOpen}
 		&.black button.x {
 			background-color: gray;
 		}
+	}
+	.gray {
+		color: gray;
 	}
 </style>
