@@ -58,7 +58,7 @@
 		} else if (event.key === 'ArrowLeft') {
 			getPrevious();
 		} else if (event.key === 'Escape') {
-			// close the carousel
+			getOut();
 		}
 	}
 
