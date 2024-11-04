@@ -165,15 +165,15 @@ Open: {isCarouselOpen}
 			box-shadow: none;
 			outline: none;
 			padding: 0;
-			height: 3rem;
-			width: 4rem;
+			height: 2rem;
+			width: 3rem;
 
 			img {
 				border: none;
 				margin: 0;
 				padding: 0;
-				height: 3rem;
-				width: 3rem;
+				height: 2rem;
+				width: 2rem;
 			}
 		}
 	}
@@ -213,7 +213,7 @@ Open: {isCarouselOpen}
 				box-shadow: none;
 				height: 0.75rem;
 				margin-inline: 0.75rem;
-				padding: 0.75rem;
+				padding: 0.5rem;
 				position: relative;
 				width: 0.75rem;
 
@@ -251,8 +251,8 @@ Open: {isCarouselOpen}
 			right: 0.75rem;
 			top: 0.75rem;
 			position: absolute;
-			height: 3rem;
-			width: 4rem;
+			height: 2rem;
+			width: 3rem;
 			margin: 0;
 			padding: 0;
 
@@ -260,8 +260,8 @@ Open: {isCarouselOpen}
 				border: none;
 				margin: 0;
 				padding: 0;
-				height: 2.5rem;
-				width: 2.5rem;
+				height: 2rem;
+				width: 2rem;
 			}
 		}
 		&.brand button.x {
