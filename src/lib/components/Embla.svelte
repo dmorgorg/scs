@@ -45,12 +45,12 @@
 	const getNext = () => {
 		emblaApi.scrollNext();
 		currentIndex = (currentIndex + 1) % length;
-		currentIndex += callingIndex;
+		// currentIndex += callingIndex;
 	};
 	const getPrevious = () => {
 		emblaApi.scrollPrev();
 		currentIndex = currentIndex - 1 < 0 ? length - 1 : currentIndex - 1;
-		currentIndex += callingIndex;
+		// currentIndex += callingIndex;
 	};
 	function getOut() {
 		isCarouselOpen = false;
@@ -77,7 +77,6 @@
 
 <svelte:window on:keydown={cursoryNavigation} />
 
-Open: {isCarouselOpen}
 <div
 	class="matte"
 	class:white={matteTheme === 'white'}
