@@ -10,7 +10,6 @@
 </svelte:head>
 
 <main id="main">
-	<Banner />
 	<ul class="posts">
 		{#each data.posts as post}
 			<li class="post">

@@ -7,7 +7,9 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
 		})
 	);
 
-	console.logs(posts);
+	// console.logs(posts);
 
 	return posts;
 };
+
+export default fetchPosts;

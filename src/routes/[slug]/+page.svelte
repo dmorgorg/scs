@@ -1,22 +1,21 @@
 <script>
 	import InterPostNav from '$lib/components/InterPostNav.svelte';
 	import { formattedDate } from '$lib/utils.js';
-	import Banner from '$lib/components/Banner.svelte';
 	export let data;
 	let thisSlug = data.slug;
 
 	import { afterNavigate } from '$app/navigation';
 
-	function scrollIntoView() {
-		const el = document.getElementById('main');
-		if (!el) return;
-		el.scrollIntoView({
-			behavior: 'smooth'
-		});
-	}
+	// function scrollIntoView() {
+	// 	const el = document.getElementById('main');
+	// 	if (!el) return;
+	// 	el.scrollIntoView({
+	// 		behavior: 'smooth'
+	// 	});
+	// }
 
 	afterNavigate(() => {
-		scrollIntoView();
+		scrollTo(0);
 	});
 </script>
 
@@ -33,8 +32,6 @@
 </svelte:head>
 
 <main id="main">
-	<!-- <Banner /> -->
-
 	<hgroup class="titleDate">
 		<div class="title">{@html data.meta.title}</div>
 		<p class="published">Published on {formattedDate(data.meta.date)}</p>
@@ -47,8 +44,6 @@
 	</div>
 
 	<InterPostNav thisSlug={data.slug} />
-
-	<!-- <button on:click={scrollIntoView}>scroll please</button> -->
 
 	<div class="tags">
 		{#each data.meta.categories as category}
@@ -69,7 +64,8 @@
 		box-shadow: var(--box-shadow);
 		display: flex;
 		flex-direction: column;
-		margin-block: var(--size-fluid-4);
+		margin-block-start: var(--size-fluid-1);
+		margin-block-end: var(--size-fluid-2);
 		padding-bottom: var(--size-2);
 	}
 	.title {
@@ -107,8 +103,5 @@
 		padding-inline: 0.5rem;
 		margin-inline: 0.5rem;
 		margin-block: 0.25rem;
-	}
-	hgroup {
-		margin-block-end: -10rem;
 	}
 </style>
