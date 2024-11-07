@@ -2,64 +2,64 @@
 	// @ts-nocheck
 
 	// data.slug is passed in as a prop
-	export let thisSlug
+	export let thisSlug;
 
 	$: getSortedSlugList = async () => {
-		let list = []
-		const filePaths = import.meta.glob('/src/posts/*.md', { eager: true })
+		let list = [];
+		const filePaths = import.meta.glob('/src/posts/*.md', { eager: true });
 		for (const path in filePaths) {
-			const file = filePaths[path]
-			const slug = path.split('/').at(-1)?.replace('.md', '')
+			const file = filePaths[path];
+			const slug = path.split('/').at(-1)?.replace('.md', '');
 			if (file && typeof file === 'object' && 'metadata' in file && 'slug') {
-				const { date, title, published } = file.metadata
-				published && list.push({ title: title, date: date, slug: slug })
+				const { date, title, published } = file.metadata;
+				published && list.push({ title: title, date: date, slug: slug });
 			}
 		}
 		// sorted in chronological order. Whereas users might want the most recent post first, those using the arrows to navigate between posts want ? to read the posts in the order they were published.
 		list = list.sort(
 			(first, second) => new Date(first.date).getTime() - new Date(second.date).getTime()
-		)
-		return list
-	}
+		);
+		return list;
+	};
 
 	$: getIndex = async () => {
-		const list = await getSortedSlugList()
-		const index = list.findIndex((item) => item.slug === thisSlug)
-		return index
-	}
+		const list = await getSortedSlugList();
+		const index = list.findIndex((item) => item.slug === thisSlug);
+		return index;
+	};
 
 	$: getNextIndex = async () => {
 		// need list for list.length
-		const list = await getSortedSlugList()
-		const index = await getIndex()
-		const nextIndex = index + 1 < list.length ? index + 1 : null
-		return nextIndex
-	}
+		const list = await getSortedSlugList();
+		const index = await getIndex();
+		const nextIndex = index + 1 < list.length ? index + 1 : null;
+		return nextIndex;
+	};
 
 	$: getPrevIndex = async () => {
-		const index = await getIndex()
-		const prevIndex = index > 0 ? index - 1 : null
+		const index = await getIndex();
+		const prevIndex = index > 0 ? index - 1 : null;
 		// can return 0
-		return prevIndex
-	}
+		return prevIndex;
+	};
 
 	$: getNextSlug = async () => {
-		const list = await getSortedSlugList()
-		const nextIndex = await getNextIndex()
+		const list = await getSortedSlugList();
+		const nextIndex = await getNextIndex();
 		if (nextIndex !== null) {
-			return [list[nextIndex].slug, list[nextIndex].title]
+			return [list[nextIndex].slug, list[nextIndex].title];
 		}
-		return null
-	}
+		return null;
+	};
 
 	$: getPrevSlug = async () => {
-		const list = await getSortedSlugList()
-		const prevIndex = await getPrevIndex()
+		const list = await getSortedSlugList();
+		const prevIndex = await getPrevIndex();
 		if (prevIndex !== null) {
-			return [list[prevIndex].slug, list[prevIndex].title]
+			return [list[prevIndex].slug, list[prevIndex].title];
 		}
-		return null
-	}
+		return null;
+	};
 </script>
 
 <div class="navbar">
@@ -135,10 +135,8 @@
 	}
 	button {
 		background-color: var(--bg-color);
-
 		border-radius: var(--radius-3);
 		border: 1px solid var(--border-light);
-		// border-radius: var(--border-radius);
 		box-shadow: var(--box-shadow);
 		margin-block: 0;
 		padding: 0.25rem 1rem;
@@ -158,7 +156,7 @@
 			display: block;
 			font-weight: 500;
 			padding-block-start: 0.25rem;
-			margin-block-end: -0.75rem;
+			// margin-block-end: -0.75rem;
 		}
 	}
 </style>

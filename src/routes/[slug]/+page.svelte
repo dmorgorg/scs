@@ -33,13 +33,14 @@
 </svelte:head>
 
 <main id="main">
-	<Banner />
-	<InterPostNav thisSlug={data.slug} />
+	<!-- <Banner /> -->
 
 	<hgroup class="titleDate">
 		<div class="title">{@html data.meta.title}</div>
 		<p class="published">Published on {formattedDate(data.meta.date)}</p>
 	</hgroup>
+
+	<InterPostNav thisSlug={data.slug} />
 
 	<div class="content">
 		<svelte:component this={data.content} />
@@ -57,12 +58,13 @@
 </main>
 
 <style>
-	main {
-		padding-block-start: var(--size-fluid-3);
-	}
+	/* main {
+		padding-block-start: var(--size-fluid-3);  
+	} */
 	.titleDate {
 		align-items: center;
 		background-color: white;
+		background-color: var(--brand-2);
 		border: 1px solid var(--border-light);
 		box-shadow: var(--box-shadow);
 		display: flex;
@@ -80,7 +82,10 @@
 	}
 	.published {
 		/* border: 1px solid var(--border-light); */
-		font-weight: var(--font-weight-5);
+		font-family: Alkes;
+		font-size: 120%;
+		font-style: italic;
+		font-weight: var(--font-weight-4);
 		margin-top: 0;
 		padding-block: 0;
 		padding-inline: 0;
@@ -102,5 +107,8 @@
 		padding-inline: 0.5rem;
 		margin-inline: 0.5rem;
 		margin-block: 0.25rem;
+	}
+	hgroup {
+		margin-block-end: -10rem;
 	}
 </style>
