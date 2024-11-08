@@ -1,7 +1,8 @@
 <script>
 	import Banner from '$lib/components/Banner.svelte';
+	import CategoryCloud from '$lib/components/CategoryCloud.svelte';
 	import * as config from '$lib/config';
-	import PostsList from '../../lib/components/PostsList.svelte';
+
 	export let data;
 </script>
 
@@ -12,8 +13,7 @@
 <main id="main">
 	<Banner />
 	<h3>Blog Categories:</h3>
-
-	<PostsList {data} />
+	<CategoryCloud {data} />
 </main>
 
 <style>

@@ -6,7 +6,7 @@
 
 	// carousel
 	let emblaApi;
-	let options = { loop: true };
+	let options = { loop: true, duration: 40 };
 	function onInit(event) {
 		emblaApi = event.detail;
 	}
@@ -213,10 +213,10 @@
 			background-color: black;
 			color: white;
 		}
-		&.gray {
-			color: gray;
-			color: red;
-		}
+		// &.gray {
+		// 	color: gray;
+		// 	color: red;
+		// }
 
 		.counter {
 			font-family: alkes;
