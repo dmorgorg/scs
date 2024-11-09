@@ -48,7 +48,7 @@
 		// line-height: 1;
 
 		.tag {
-			// background-color: var(--brand-2);
+			border-radius: 0.5rem;
 			color: var(--brand-8);
 			// display: inline;
 			margin-inline: 0.75rem;
@@ -62,14 +62,13 @@
 
 			&:hover {
 				color: white;
-				background-color: var(--brand);
+				background-color: var(--brand-7);
 			}
 		}
 
 		a {
 			color: inherit;
-			// display: inline;
-			display: block;
+			display: flex;
 			font-family: Alkes;
 			font-size: 1.25rem;
 			font-size: 2rem;
@@ -82,11 +81,11 @@
 			// border: 1px solid red;
 			line-height: normal;
 
-			// &:link {
-			// 	margin: 0;
-			// 	background: yellow;
-			// 	text-align: center;
-			// }
+			&:link {
+				margin: 0;
+				// background: yellow;
+				// text-align: center;
+			}
 		}
 	}
 </style>
