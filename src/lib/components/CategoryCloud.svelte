@@ -42,13 +42,13 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		width: 90vw;
-		margin-inline-start: -22vw;
+		width: calc(100% + 50vw - 21.5rem);
+		margin-inline-start: calc(10rem - 25vw);
 		margin-block-start: 1.5rem;
 		// line-height: 1;
 
 		.tag {
-			border-radius: 0.5rem;
+			// background-color: var(--brand-2);
 			color: var(--brand-8);
 			// display: inline;
 			margin-inline: 0.75rem;
@@ -62,7 +62,7 @@
 
 			&:hover {
 				color: white;
-				background-color: var(--brand-7);
+				background-color: var(--brand);
 			}
 		}
 
@@ -84,7 +84,7 @@
 			&:link {
 				margin: 0;
 				// background: yellow;
-				// text-align: center;
+				text-align: center;
 			}
 		}
 	}
