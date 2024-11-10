@@ -51,11 +51,11 @@
 	}
 
 	@media (max-width: 768px) {
-		.wrapper {
-			font-size: 50%;
-		}
-		.inset {
-			padding: 0 0.5em;
-		}
+		// .wrapper {
+		// 	font-size: 50%;
+		// }
+		// .inset {
+		// 	padding: 0 0.5em;
+		// }
 	}
 </style>
