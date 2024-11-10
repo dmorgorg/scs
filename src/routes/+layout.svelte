@@ -52,7 +52,7 @@
 
 	@media (max-width: 768px) {
 		.wrapper {
-			font-size: 4.5vw;
+			font-size: 50%;
 		}
 		.inset {
 			padding: 0 0.5em;

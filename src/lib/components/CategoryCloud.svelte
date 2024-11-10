@@ -6,13 +6,13 @@
 		return a.title.localeCompare(b.title);
 	});
 	function getSize(count) {
-		if (count <= 3) return '1.125rem';
-		if (count <= 7) return '1.25rem';
-		if (count <= 12) return '1.375rem';
-		if (count <= 20) return '1.5rem';
-		if (count <= 30) return '1.75rem';
-		if (count <= 40) return '1.9rem';
-		if (count > 40) return '2rem';
+		if (count <= 3) return '1.125em';
+		if (count <= 7) return '1.25em';
+		if (count <= 12) return '1.375em';
+		if (count <= 20) return '1.5em';
+		if (count <= 30) return '1.75em';
+		if (count <= 40) return '1.9em';
+		if (count > 40) return '2em';
 	}
 	const sizedCategories = Object.values(sortedUniqueCategories).map((category) => {
 		return {
@@ -70,8 +70,8 @@
 			color: inherit;
 			display: flex;
 			font-family: Alkes;
-			font-size: 1.25rem;
-			font-size: 2rem;
+			// font-size: 1.25rem;
+			// font-size: 2rem;
 			font-style: italic;
 			font-weight: 400;
 			margin: 0;
@@ -86,6 +86,15 @@
 				// background: yellow;
 				text-align: center;
 			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		.cloud {
+			font-size: calc(100% * 0.65);
+			width: 100%;
+			margin-inline-start: 0;
+			margin-block-start: 1.5rem;
 		}
 	}
 </style>
