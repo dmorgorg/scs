@@ -21,6 +21,7 @@
 
 <svelte:head>
 	<title>{config.siteTitle}</title>
+	<meta data-key="description" name="description" content={config.siteDescription} />
 </svelte:head>
 
 <main>

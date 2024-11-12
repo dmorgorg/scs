@@ -33,6 +33,5 @@ async function getPosts() {
 
 export async function GET() {
 	const posts = await getPosts();
-	console.log(posts); // all the posts with metadata and slug
 	return json(posts);
 }
