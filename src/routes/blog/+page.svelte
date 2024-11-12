@@ -27,7 +27,7 @@
 <main>
 	<Banner />
 
-	<h3>Recent Posts:</h3>
+	<h3>All Posts:</h3>
 
 	<PostsList {data} />
 </main>
@@ -35,7 +35,7 @@
 <style>
 	h3 {
 		color: var(--brand-7);
-		display: inline-block;
+		display: block;
 		font-family: Alkes;
 		font-style: italic;
 		/* margin-block-end: 1.5rem; */
