@@ -21,6 +21,10 @@ export const postsPerPage = 6;
 
 // Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
 export const navItems = [
+	{
+		title: 'Blog',
+		route: '/blog'
+	},
 	// {
 	// 	title: '2022',
 	// 	route: '/blog/category/2022'
