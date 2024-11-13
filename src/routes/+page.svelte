@@ -29,14 +29,32 @@
 
 	<h3>Latest Posts:</h3>
 
-	<PostsList {data} />
+	<PostsList {data} limit="4" />
+
+	<h5><a href="/blog">Tap here for all the remaining posts!</a></h5>
 </main>
 
 <style>
 	h3 {
 		color: var(--brand-7);
-		display: block;
+		/* display: flex;
+		justify-content: center; */
 		font-family: Alkes;
 		font-style: italic;
+		/* text-align: center; */
+
+		width: 100%;
+	}
+	h5 {
+		color: var(--brand-7);
+		font-size: 125%;
+		margin-inline: auto;
+		padding-block-start: 2rem;
+
+		a:link,
+		a:visited {
+			color: inherit;
+			text-decoration: underline;
+		}
 	}
 </style>

@@ -3,6 +3,7 @@
 	import Banner from '$lib/components/Banner.svelte';
 	import * as config from '$lib/config';
 	export let data;
+	export let limit = '';
 </script>
 
 <svelte:head>
@@ -11,17 +12,19 @@
 
 <main id="main">
 	<ul class="posts">
-		{#each data.posts as post}
-			<li class="post">
-				<a href={post.slug}>
-					<PostCard
-						img={post.coverImage}
-						title={post.title}
-						date={post.date}
-						description={post.description}
-					/>
-				</a>
-			</li>
+		{#each data.posts as post, index}
+			{#if !limit || index <= limit - 1}
+				<li class="post">
+					<a href={post.slug}>
+						<PostCard
+							img={post.coverImage}
+							title={post.title}
+							date={post.date}
+							description={post.description}
+						/>
+					</a>
+				</li>
+			{/if}
 		{/each}
 	</ul>
 </main>
