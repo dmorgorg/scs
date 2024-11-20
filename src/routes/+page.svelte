@@ -31,7 +31,7 @@
 
 	<PostsList {data} limit="5" />
 
-	<h5><a href="/">Here are the remaining posts</a></h5>
+	<h5><a href="/blog">Here are the remaining posts</a></h5>
 </main>
 
 <style>
