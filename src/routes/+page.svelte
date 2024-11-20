@@ -6,16 +6,15 @@
 	import Banner from '$lib/components/Banner.svelte'
 	import PostsList from '$lib/components/PostsList.svelte'
 
-	function scrollIntoView() {
+	function scrollUp() {
 		const el = document.getElementById('main')
 		if (!el) return
-		el.scrollIntoView({
-			behavior: 'smooth'
-		})
+		el.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
 	}
 
 	afterNavigate(() => {
-		scrollTo(0)
+		console.log('afterNavigate, /')
+		scrollUp()
 	})
 </script>
 

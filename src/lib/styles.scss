@@ -41,6 +41,10 @@
 	scrollbar-color: unset; // this is by default set by open props and blocks the webkit custom scrollbar colors
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,

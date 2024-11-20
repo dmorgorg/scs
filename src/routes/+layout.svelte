@@ -1,12 +1,20 @@
 <script>
-	import 'open-props/style';
-	import 'open-props/normalize';
-	import 'open-props/buttons';
+	import 'open-props/style'
+	import 'open-props/normalize'
+	import 'open-props/buttons'
 
-	import Footer from '$lib/components/Footer.svelte';
-	import Header from '$lib/components/Header.svelte';
-	import '$lib/styles.scss';
-	import FadeStrip from '$lib/components/FadeStrip.svelte';
+	import Footer from '$lib/components/Footer.svelte'
+	import Header from '$lib/components/Header.svelte'
+	import '$lib/styles.scss'
+	import FadeStrip from '$lib/components/FadeStrip.svelte'
+	// import afterNavigate from '$app/navigation'
+
+	// afterNavigate(() => {
+	// 	scrollTo({
+	// 		top: 0,
+	// 		behavior: 'smooth'
+	// 	})
+	// })
 </script>
 
 <div class="wrapper">

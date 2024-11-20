@@ -1,22 +1,21 @@
 <script>
-	import * as config from '$lib/config';
-	export let data;
+	import * as config from '$lib/config'
+	export let data
 
-	import { afterNavigate } from '$app/navigation';
-	import Banner from '$lib/components/Banner.svelte';
-	import PostsList from '$lib/components/PostsList.svelte';
+	import { afterNavigate } from '$app/navigation'
+	import Banner from '$lib/components/Banner.svelte'
+	import PostsList from '$lib/components/PostsList.svelte'
 
-	function scrollIntoView() {
-		const el = document.getElementById('main');
-		if (!el) return;
-		el.scrollIntoView({
-			behavior: 'smooth'
-		});
+	function scrollUp() {
+		const el = document.getElementById('main')
+		if (!el) return
+		el.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
 	}
 
 	afterNavigate(() => {
-		scrollTo(0);
-	});
+		console.log('afterNavigate')
+		scrollUp()
+	})
 </script>
 
 <svelte:head>

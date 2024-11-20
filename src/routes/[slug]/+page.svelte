@@ -1,22 +1,21 @@
 <script>
-	import InterPostNav from '$lib/components/InterPostNav.svelte';
-	import { formattedDate } from '$lib/utils.js';
-	export let data;
-	let thisSlug = data.slug;
+	import InterPostNav from '$lib/components/InterPostNav.svelte'
+	import { formattedDate } from '$lib/utils.js'
+	export let data
+	let thisSlug = data.slug
 
-	import { afterNavigate } from '$app/navigation';
+	import { afterNavigate } from '$app/navigation'
 
-	// function scrollIntoView() {
-	// 	const el = document.getElementById('main');
-	// 	if (!el) return;
-	// 	el.scrollIntoView({
-	// 		behavior: 'smooth'
-	// 	});
-	// }
+	function scrollUp() {
+		const el = document.getElementById('main')
+		if (!el) return
+		el.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+	}
 
 	afterNavigate(() => {
-		scrollTo(0);
-	});
+		console.log('afterNavigate, /blog')
+		scrollUp()
+	})
 </script>
 
 <svelte:head>
