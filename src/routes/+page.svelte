@@ -1,22 +1,22 @@
 <script>
-	import * as config from '$lib/config';
-	export let data;
+	import * as config from '$lib/config'
+	export let data
 
-	import { afterNavigate } from '$app/navigation';
-	import Banner from '$lib/components/Banner.svelte';
-	import PostsList from '$lib/components/PostsList.svelte';
+	import { afterNavigate } from '$app/navigation'
+	import Banner from '$lib/components/Banner.svelte'
+	import PostsList from '$lib/components/PostsList.svelte'
 
 	function scrollIntoView() {
-		const el = document.getElementById('main');
-		if (!el) return;
+		const el = document.getElementById('main')
+		if (!el) return
 		el.scrollIntoView({
 			behavior: 'smooth'
-		});
+		})
 	}
 
 	afterNavigate(() => {
-		scrollTo(0);
-	});
+		scrollTo(0)
+	})
 </script>
 
 <svelte:head>
@@ -29,9 +29,9 @@
 
 	<h3>Latest Posts:</h3>
 
-	<PostsList {data} limit="4" />
+	<PostsList {data} limit="5" />
 
-	<h5><a href="/blog">Tap here for all the remaining posts!</a></h5>
+	<h5><a href="/">Here are the remaining posts</a></h5>
 </main>
 
 <style>
