@@ -10,10 +10,7 @@
 	// import afterNavigate from '$app/navigation'
 
 	// afterNavigate(() => {
-	// 	scrollTo({
-	// 		top: 0,
-	// 		behavior: 'smooth'
-	// 	})
+	// 	document.getElementsByTagName('main').scrollTop = 0
 	// })
 </script>
 

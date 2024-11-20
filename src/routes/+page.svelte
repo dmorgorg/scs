@@ -6,15 +6,19 @@
 	import Banner from '$lib/components/Banner.svelte'
 	import PostsList from '$lib/components/PostsList.svelte'
 
-	function scrollUp() {
-		const el = document.getElementById('main')
-		if (!el) return
-		el.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-	}
+	// function scrollUp() {
+	// 	const el = document.getElementById('main')
+	// 	if (!el) return
+	// 	el.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+	// }
+
+	// afterNavigate(() => {
+	// 	console.log('afterNavigate, /')
+	// 	scrollUp()
+	// })
 
 	afterNavigate(() => {
-		console.log('afterNavigate, /')
-		scrollUp()
+		document.getElementsByTagName('main').scrollTop = 0
 	})
 </script>
 
