@@ -1,38 +1,38 @@
 <script>
-	export let where = ''
-	export let when = ''
-	export let distance = ''
+	export let where = '';
+	export let when = '';
+	export let distance = '';
 
 	/**
 	 * @param {number} number
 	 */
 	const nthNumber = (number) => {
-		if (number > 3 && number < 21) return 'th'
+		if (number > 3 && number < 21) return 'th';
 		switch (number % 10) {
 			case 1:
-				return 'st'
+				return 'st';
 			case 2:
-				return 'nd'
+				return 'nd';
 			case 3:
-				return 'rd'
+				return 'rd';
 			default:
-				return 'th'
+				return 'th';
 		}
-	}
+	};
 
 	/**
 	 * @param {string | Date} date
 	 */
 	export const formattedDate = (date) => {
-		const dateObj = new Date(date)
-		const dayOfMonth = dateObj.getDate()
+		const dateObj = new Date(date);
+		const dayOfMonth = dateObj.getDate();
 		// const dayOfWeek = dateObj.getDay()
-		const dayOfWeek = dateObj.toLocaleString('default', { weekday: 'long' })
-		const month = dateObj.toLocaleString('default', { month: 'long' })
-		const year = dateObj.getFullYear()
+		const dayOfWeek = dateObj.toLocaleString('default', { weekday: 'long' });
+		const month = dateObj.toLocaleString('default', { month: 'long' });
+		const year = dateObj.getFullYear();
 
-		return `${dayOfWeek} ${dayOfMonth}${nthNumber(dayOfMonth)} ${month}, ${year}`
-	}
+		return `${dayOfWeek} ${dayOfMonth}${nthNumber(dayOfMonth)} ${month}, ${year}`;
+	};
 </script>
 
 <hgroup>
@@ -70,7 +70,7 @@
 	}
 	.distance {
 		/* color: var(--header-text-light); */
-		font-family: Alkes;
+		font-family: lightText;
 		font-size: var(--font-size-2);
 		font-style: italic;
 		margin-block: 0;
