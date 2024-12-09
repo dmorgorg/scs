@@ -70,11 +70,11 @@
 	}
 	.distance {
 		/* color: var(--header-text-light); */
-		font-family: lightText;
+		font-family: 'italicText', serif;
 		font-size: var(--font-size-2);
-		font-style: italic;
+		/* font-style: italic; */
 		margin-block: 0;
 		padding-block: 0;
-		font-weight: bold;
+		/* font-weight: bold; */
 	}
 </style>

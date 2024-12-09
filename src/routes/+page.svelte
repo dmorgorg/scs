@@ -41,7 +41,6 @@
 	h3 {
 		color: var(--brand-7);
 		font-style: normal;
-		width: 100%;
 	}
 	h5 {
 		color: var(--brand-7);
