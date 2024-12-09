@@ -17,8 +17,14 @@
 	// 	scrollUp()
 	// })
 
-	afterNavigate(() => {
-		document.getElementsByTagName('main').scrollTop = 0
+	// afterNavigate(() => {
+	// 	document.getElementsByTagName('main').scrollTop = 0
+	// })
+
+	afterNavigate((event) => {
+		if (event.type === 'navigation') {
+			console.log('afterNavigate, in slug')
+		}
 	})
 </script>
 

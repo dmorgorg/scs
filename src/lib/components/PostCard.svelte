@@ -1,9 +1,9 @@
 <script>
-	import { formattedDate } from '$lib/utils.js'
-	export let img
-	export let title
-	export let date
-	export let description = ''
+	import { formattedDate } from '$lib/utils.js';
+	export let img;
+	export let title;
+	export let date;
+	export let description = '';
 </script>
 
 <div class="card">
@@ -58,8 +58,7 @@
 	}
 	.description {
 		color: var(--text-light);
-		font-family: Alkes, sans;
-		font-style: italic;
+		font-family: 'italicText', italic;
 	}
 	.card:hover .title {
 		text-shadow: 0.5px 0.5px 0.5px black;

@@ -1,5 +1,5 @@
 <script>
-	import { siteDescription, siteTitle } from '$lib/config'
+	import { siteDescription, siteTitle } from '$lib/config';
 </script>
 
 <section>
@@ -24,19 +24,18 @@
 
 		h3 {
 			color: var(--header-text-dark);
-			font-size: var(--font-size-fluid-1);
-			font-weight: bold;
-			letter-spacing: var(--font-letterspacing-1);
-			margin: 0 auto 0.5em auto;
+
+			font-family: 'SCSHeaders', serif;
+			font-size: 500%;
+			letter-spacing: var(--font-letterspacing-3);
+			margin: -1.5rem auto 0 auto;
 			padding: 0;
 		}
 
 		div {
 			text-align: center;
-			font-family: 'Alkes', serif;
+			font-family: 'italicText', serif;
 			font-size: 1.125rem;
-			// font-style: italic;
-			// font-weight: normal;
 		}
 
 		@media (max-width: 768px) {

@@ -1,10 +1,10 @@
 <script>
-	import * as config from '$lib/config'
-	export let data
+	import * as config from '$lib/config';
+	export let data;
 
-	import { afterNavigate } from '$app/navigation'
-	import Banner from '$lib/components/Banner.svelte'
-	import PostsList from '$lib/components/PostsList.svelte'
+	import { afterNavigate } from '$app/navigation';
+	import Banner from '$lib/components/Banner.svelte';
+	import PostsList from '$lib/components/PostsList.svelte';
 
 	// function scrollUp() {
 	// 	const el = document.getElementById('main')
@@ -18,8 +18,8 @@
 	// })
 
 	afterNavigate(() => {
-		document.getElementsByTagName('main').scrollTop = 0
-	})
+		document.getElementsByTagName('main').scrollTop = 0;
+	});
 </script>
 
 <svelte:head>
@@ -40,17 +40,14 @@
 <style>
 	h3 {
 		color: var(--brand-7);
-		/* display: flex;
-		justify-content: center; */
-		font-family: Alkes;
-		font-style: italic;
-		/* text-align: center; */
-
+		font-style: normal;
 		width: 100%;
 	}
 	h5 {
 		color: var(--brand-7);
+		font-family: 'italicText', serif;
 		font-size: 125%;
+		letter-spacing: 0.05rem;
 		margin-inline: auto;
 		padding-block-start: 2rem;
 

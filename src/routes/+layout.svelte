@@ -1,17 +1,14 @@
 <script>
-	import 'open-props/style'
-	import 'open-props/normalize'
-	import 'open-props/buttons'
+	import 'open-props/style';
+	import 'open-props/normalize';
+	import 'open-props/buttons';
 
-	import Footer from '$lib/components/Footer.svelte'
-	import Header from '$lib/components/Header.svelte'
-	import '$lib/styles.scss'
-	import FadeStrip from '$lib/components/FadeStrip.svelte'
-	// import afterNavigate from '$app/navigation'
-
-	// afterNavigate(() => {
-	// 	document.getElementsByTagName('main').scrollTop = 0
-	// })
+	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import '$lib/css/styles.scss';
+	import '$lib/css/fonts.css';
+	import FadeStrip from '$lib/components/FadeStrip.svelte';
+	import afterNavigate from '$app/navigation';
 </script>
 
 <div class="wrapper">

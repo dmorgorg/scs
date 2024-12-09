@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "italicText";
+    src: url($lib/fonts/AlkesRgIt.TTF) format("truetype");
+}
+
+/* -------------------------------------------------------------------------------------- */
+@font-face {
+    font-family: "SCSHeaders";
+    /* src: url($lib/fonts/AlkesLightIt.TTF) format("truetype"); */
+    /* src: url($lib/fonts/AlkesRgIt.TTF) format("truetype"); */
+    /* src: url($lib/fonts/AlkesXtraBdIt.TTF) format("truetype");     */
+    /* src: url($lib/fonts/ArchitectsDaughter-Regular.ttf) format("truetype"); */
+    /* src: url($lib/fonts/AutumnBrush.otf) format("truetype"); */
+    /* src: url($lib/fonts/Backstreet.ttf) format("truetype"); */
+    /* src: url($lib/fonts/BelismaKimono.otf) format("truetype"); */
+    /* src: url($lib/fonts/BrandsQuest.ttf) format("truetype"); */
+    /* src: url($lib/fonts/CalligraphyBrilliant.otf) format("truetype"); */
+    /* src: url($lib/fonts/CoveredByYourGrace.ttf) format("truetype"); */
+    /* src: url($lib/fonts/edo.ttf) format("truetype"); */
+    /* src: url($lib/fonts/freya.otf) format("truetype"); */
+    /* src: url($lib/fonts/Gathenia.otf) format("truetype"); */
+    /* src: url($lib/fonts/honduras-script.regular.ttf) format("truetype"); */
+    /* src: url($lib/fonts/Hughs.otf) format("truetype"); */
+    /* src: url($lib/fonts/InkBrush.otf) format("truetype"); */
+    /* src: url($lib/fonts/Julietta-Messie-Demo.otf) format("truetype"); */
+    /* src: url($lib/fonts/KaushanScript-Regular.ttf) format("truetype"); */
+    /* src: url($lib/fonts/Kristabelle.ttf) format("truetype"); */
+    /* src: url($lib/fonts/modernline-personal-use.bold.otf) format("truetype"); */
+    /* src: url($lib/fonts/night-party.regular.otf) format("truetype"); */
+    /* src: url($lib/fonts/PamelaBakery.otf) format("truetype"); */
+    /* src: url($lib/fonts/Penlike.otf) format("truetype"); */
+    /* src: url($lib/fonts/Publicity.otf) format("truetype"); */
+    /* src: url($lib/fonts/RusticRoadway.otf) format("truetype"); */
+    src: url($lib/fonts/Rocksoldier.otf) format("truetype");
+    /* src: url($lib/fonts/Stepila.otf) format("truetype"); */
+    /* src: url($lib/fonts/tillana-regular.ttf) format("truetype"); */
+    /* src: url($lib/fonts/tillana-bold.ttf) format("truetype"); */
+    /* src: url($lib/fonts/ValitteyDemo.otf) format("truetype"); */
+    /* src: url($lib/fonts/WhisperingSignature.ttf) format("truetype"); */
+    /* src: url($lib/fonts/Windhavi.otf) format("truetype"); */
+    /* src: url($lib/fonts/YellowGinger.ttf) format("truetype"); */
+}
+/* --------------------------------------------------------------------------------------- */
