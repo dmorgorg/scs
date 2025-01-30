@@ -38,6 +38,7 @@
 			color: inherit;
 			font-size: var(--font-size-fluid-0pt5);
 			font-family: 'italicText', sans-serif;
+			padding-block-end: 1.5em;
 			text-decoration: none;
 		}
 	}

@@ -73,7 +73,7 @@ blockquote {
 	margin-inline: auto;
 	// padding-block: 0;
 	padding-inline-start: var(--size-fluid-3);
-	width: 80%;
+	width: 90%;
 	max-width: 100%;
 
 	.date {
@@ -110,7 +110,8 @@ blockquote {
 html,
 body {
 	height: 100%;
-	overflow-y: visible;
+	overflow-y: auto;
+	font-size: clamp(0.875rem, 1.25vw, 1.5rem);
 }
 
 ul,

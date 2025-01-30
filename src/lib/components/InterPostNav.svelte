@@ -1,6 +1,5 @@
 <script>
 	// @ts-nocheck
-
 	// data.slug is passed in as a prop
 	export let thisSlug;
 
