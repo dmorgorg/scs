@@ -23,7 +23,7 @@ export const postsPerPage = 6;
 export const navItems = [
 	{
 		title: 'Blog',
-		route: '/blog'
+		route: '/'
 	},
 	// {
 	// 	title: '2022',

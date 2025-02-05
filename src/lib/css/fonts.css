@@ -40,4 +40,33 @@
     /* src: url($lib/fonts/Windhavi.otf) format("truetype"); */
     /* src: url($lib/fonts/YellowGinger.ttf) format("truetype"); */
 }
+/* -------------------------------------------------------------------------------------- */
+@font-face {
+    font-family: "PostCardTitle";
+
+
+    /* src: url($lib/fonts2/natalia-script.regular.otf) format("truetype"); */
+    /* src: url($lib/fonts2/austin.regular.otf) format("truetype"); */
+    /* src: url($lib/fonts2/billyjo.regular.ttf) format("truetype"); */
+    /* src: url($lib/fonts2/black-signature.regular.otf) format("truetype"); */
+    /* src: url($lib/fonts2/golden-hopes.regular.otf) format("truetype"); */
+     /* src: url($lib/fonts2/matter-guts-demo.regular.ttf) format("truetype"); */
+     /* src: url($lib/fonts2/cherlotte.regular.otf) format("truetype"); */
+     /* src: url($lib/fonts2/christophers-handwriting.regular.ttf) format("truetype"); */
+    /* src: url($lib/fonts2/summer-miracle.regular.ttf) format("truetype"); */
+    /* src: url($lib/fonts2/slimfite.regular.otf) format("truetype"); */
+    /* src: url($lib/fonts2/natural-handwritten-personal.regular.ttf) format("truetype"); */
+    /* src: url($lib/fonts2/atakana-script.regular.otf) format("truetype"); */
+   
+    /* src: url($lib/fonts2/artisan-signature.regular.ttf) format("truetype"); */
+    
+   
+   
+    src: url($lib/fonts2/sheffield-demo.regular.ttf) format("truetype");
+   
+    
+    
+    
+    
+}
 /* --------------------------------------------------------------------------------------- */

@@ -26,7 +26,8 @@
 			color: var(--header-text-dark);
 
 			font-family: 'SCSHeaders', serif;
-			font-size: 500%;
+			// font-family: 'PostCardTitle', serif;
+			font-size: 400%;
 			letter-spacing: var(--font-letterspacing-3);
 			margin: -1.5rem auto 0 auto;
 			padding: 0;

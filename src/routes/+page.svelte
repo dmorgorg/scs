@@ -34,18 +34,30 @@
 
 	<PostsList {data} limit="5" />
 
-	<h5><a href="/blog">Here are the remaining posts</a></h5>
+	<h5><a href="/blog">Here are the remaining posts...</a></h5>
 </main>
 
 <style>
+	main {
+		padding-block-start: 1rem;
+	}
 	h3 {
 		color: var(--brand-7);
-		font-style: normal;
+		font-family: SCSHeaders, serif;
+		font-family: PostCardTitle, serif;
+		font-size: 250%;
+		font-style: italic;
+		font-weight: bold;
+		letter-spacing: 0.25rem;
+		margin-inline: auto;
 	}
 	h5 {
-		color: var(--brand-7);
+		/* color: var(--brand-7); */
+		color: black;
 		font-family: 'italicText', serif;
-		font-size: 125%;
+		/* font-size: 125%; */
+		font-size: 90%;
+		font-weight: normal;
 		letter-spacing: 0.05rem;
 		margin-inline: auto;
 		padding-block-start: 2rem;
@@ -53,6 +65,7 @@
 		a:link,
 		a:visited {
 			color: inherit;
+			color: var(--brand-7);
 			text-decoration: underline;
 		}
 	}

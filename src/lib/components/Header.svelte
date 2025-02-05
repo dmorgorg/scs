@@ -29,17 +29,28 @@
 		color: var(--text);
 		display: flex;
 		flex-wrap: wrap;
-		height: var(--size-7);
+		height: 2.5rem;
 		justify-content: space-between;
 		padding: 0 0.5em;
+		padding-block-end: 1rem;
 		margin-bottom: 0;
 
 		.title a.site-title {
 			color: inherit;
-			font-size: var(--font-size-fluid-0pt5);
+			font-size: var(--font-size-fluid-2);
 			font-family: 'italicText', sans-serif;
-			padding-block-end: 1.5em;
+			font-family: 'SCSHeaders', sans-serif;
+			// padding-block-end: 1.5em;
 			text-decoration: none;
+			vertical-align: top;
+			// border: 1px solid black;
+		}
+
+		.title {
+			margin-block-start: -0.875rem;
+		}
+		.nav {
+			margin-block-start: -0.5rem;
 		}
 	}
 </style>

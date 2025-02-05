@@ -41,13 +41,17 @@
 		height: 100%;
 		justify-content: space-between;
 		line-height: normal;
-		padding-block: 0.75rem;
+		padding-block-end: 0.75rem;
 		padding-inline: 1rem;
 	}
 	.title {
 		color: var(--header-text-dark);
+		font-family: 'PostCardTitle', sans-serif;
 		font-size: var(--font-size-fluid-1);
+		font-size: 200%;
+		font-style: italic;
 		font-weight: bold;
+		letter-spacing: 0.125rem;
 		text-decoration: none;
 	}
 	.date {
