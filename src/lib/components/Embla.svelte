@@ -71,7 +71,7 @@
 	let callingIndex = getCallingIndex(src);
 	let newArray = arrayIndexShift(ia, callingIndex);
 	let length = ia.length;
-	let matteTheme = 'brand';
+	let matteTheme = 'black';
 	let currentIndex = callingIndex;
 </script>
 

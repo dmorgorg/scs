@@ -1,7 +1,5 @@
 <script>
 	import Embla from '$lib/components/Embla.svelte';
-	// import Svembla from '$lib/components/Svembla.svelte';
-	// import Test from '$lib/components/Test.svelte';
 
 	export let src;
 	export let alt = src;
@@ -13,7 +11,6 @@
 	}
 </script>
 
-<!-- {#if alt} -->
 <button type="button" on:click={carousel} aria-label={alt}
 	><figure>
 		<img {src} {alt} />
@@ -22,12 +19,9 @@
 		{/if}
 	</figure>
 </button>
-<!-- {/if} -->
-<!-- {isCarouselOpen} -->
+
 {#if isCarouselOpen}
-	<Embla {src} bind:isCarouselOpen />
-	<!-- <Svembla {src} bind:isCarouselOpen /> -->
-	<!-- <Test {src} bind:isCarouselOpen /> -->
+	<Embla {src} bind:isCarouselOpen />->
 {/if}
 
 <style lang="scss">
