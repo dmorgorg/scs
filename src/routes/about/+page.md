@@ -76,7 +76,7 @@ Now, the time-consuming task of transferring ten or more years of posts from two
 
 <br/>
 
-<div class="alkes">(At time of writing&mdash;29th December, 2023&mdash;I am heading off for a couple of months riding in Sri Lanka and then for a couple more in Spain and Portugal.)</div>
+<div class="alkes">(At time of writing this bio&mdash;29th December, 2023&mdash;I am heading off for a couple of months riding in Sri Lanka and then for a couple more in Spain and Portugal.)</div>
 
 <br/><br/>
 
