@@ -4,7 +4,7 @@
 	div {
 		position: absolute;
 		width: 97.5%;
-		width: 100%;
+		width: calc(100% - 20px);
 		height: var(--size-7);
 		height: 4rem;
 
