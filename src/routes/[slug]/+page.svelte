@@ -1,10 +1,10 @@
 <script>
-	import InterPostNav from '$lib/components/InterPostNav.svelte'
-	import { formattedDate } from '$lib/utils.js'
-	export let data
-	let thisSlug = data.slug
+	import InterPostNav from '$lib/components/InterPostNav.svelte';
+	import { formattedDate } from '$lib/utils.js';
+	export let data;
+	let thisSlug = data.slug;
 
-	import { afterNavigate } from '$app/navigation'
+	import { afterNavigate } from '$app/navigation';
 
 	// function scrollUp() {
 	// 	const el = document.getElementById('main')
@@ -23,9 +23,9 @@
 
 	afterNavigate((event) => {
 		if (event.type === 'navigation') {
-			console.log('afterNavigate, in slug')
+			console.log('afterNavigate, in slug');
 		}
-	})
+	});
 </script>
 
 <svelte:head>
@@ -73,6 +73,7 @@
 		box-shadow: var(--box-shadow);
 		display: flex;
 		flex-direction: column;
+
 		margin-block-start: var(--size-fluid-1);
 		margin-block-end: var(--size-fluid-2);
 		padding-bottom: var(--size-2);
@@ -80,8 +81,10 @@
 	.title {
 		color: var(--header-text-dark);
 		font-family: var(--font-humanist);
-		font-size: var(--font-size-fluid-2);
+		font-family: 'PostCardTitle', serif;
+		font-size: var(--font-size-fluid-3);
 		font-weight: bold;
+		letter-spacing: var(--font-letterspacing-3);
 		/* line-height: normal; */
 		text-align: center;
 	}

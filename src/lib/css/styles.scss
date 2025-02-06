@@ -52,7 +52,7 @@ h4,
 h5,
 h6 {
 	// color: var(--header-text);
-	font-family: 'Alkes', sans-serif;
+	font-family: 'italicText', sans-serif;
 	font-style: italic;
 	text-align: center;
 }
@@ -62,11 +62,15 @@ h6 {
 	color: var(--header-text);
 }
 
+section.card h5 {
+	font-family: SCSHeader, sans-serif;
+}
+
 blockquote {
 	background-color: var(--brand-1);
 	border-left: 4px solid var(--brand-6);
 	display: block;
-	font-family: 'Alkes', sans-serif;
+	font-family: 'italicText', sans-serif;
 	font-style: italic;
 	line-height: 1.4;
 	margin-block: var(--size-fluid-3);
@@ -216,9 +220,10 @@ section.card {
 	h5 {
 		color: var(--header-text-dark);
 		// display: inline;
-		font-family: var(--font-humanist);
-		font-size: var(--font-size-4);
+		font-family: SCSHeaders, sans-serif;
+		font-size: var(--font-size-6);
 		font-style: normal;
+		letter-spacing: 0.15rem;
 		margin-block: var(--size-fluid-2);
 		max-inline-size: 100%;
 		// padding-block: 4rem;

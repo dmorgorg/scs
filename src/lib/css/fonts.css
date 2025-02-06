@@ -56,7 +56,7 @@
     /* src: url($lib/fonts2/summer-miracle.regular.ttf) format("truetype"); */
     /* src: url($lib/fonts2/slimfite.regular.otf) format("truetype"); */
     /* src: url($lib/fonts2/natural-handwritten-personal.regular.ttf) format("truetype"); */
-    /* src: url($lib/fonts2/atakana-script.regular.otf) format("truetype"); */
+    src: url($lib/fonts2/atakana-script.regular.otf) format("truetype");
    
     /* src: url($lib/fonts2/artisan-signature.regular.ttf) format("truetype"); */
     

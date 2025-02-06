@@ -55,9 +55,10 @@
 	h5.where {
 		color: var(--header-text-dark);
 		display: inline;
-		font-family: inherit;
-		font-size: var(--font-size-5);
+		font-family: 'PostCardTitle', serif;
+		font-size: var(--font-size-7);
 		font-style: normal;
+		letter-spacing: 0.15rem;
 		margin-block: 0;
 		padding-block: 0;
 		width: 100%;
