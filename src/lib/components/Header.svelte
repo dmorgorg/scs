@@ -25,11 +25,11 @@
 	header {
 		align-items: center;
 		background-color: var(--bg-color);
-		border-bottom: 1px solid var(--border-mid);
+		border-bottom: 3px solid var(--border-mid);
 		color: var(--text);
 		display: flex;
 		flex-wrap: wrap;
-		height: 2.5rem;
+		height: 2.45rem;
 		justify-content: space-between;
 		padding: 0 0.5em;
 		padding-block-end: 1rem;

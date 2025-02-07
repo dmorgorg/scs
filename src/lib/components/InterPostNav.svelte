@@ -18,12 +18,14 @@
 		list = list.sort(
 			(first, second) => new Date(first.date).getTime() - new Date(second.date).getTime()
 		);
+		console.log('sorted slug list returning');
 		return list;
 	};
 
 	$: getIndex = async () => {
 		const list = await getSortedSlugList();
 		const index = list.findIndex((item) => item.slug === thisSlug);
+		console.log('getIndex returning');
 		return index;
 	};
 
@@ -32,6 +34,7 @@
 		const list = await getSortedSlugList();
 		const index = await getIndex();
 		const nextIndex = index + 1 < list.length ? index + 1 : null;
+		console.log('getNextIndex returning', nextIndex);
 		return nextIndex;
 	};
 
@@ -39,6 +42,7 @@
 		const index = await getIndex();
 		const prevIndex = index > 0 ? index - 1 : null;
 		// can return 0
+		console.log('getPrevIndex returning', prevIndex);
 		return prevIndex;
 	};
 
@@ -46,6 +50,7 @@
 		const list = await getSortedSlugList();
 		const nextIndex = await getNextIndex();
 		if (nextIndex !== null) {
+			console.log('getNextSlug returning', list[nextIndex].slug, list[nextIndex].title);
 			return [list[nextIndex].slug, list[nextIndex].title];
 		}
 		return null;

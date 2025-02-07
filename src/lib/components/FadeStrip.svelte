@@ -9,7 +9,7 @@
 		height: 4rem;
 
 		top: var(--size-7);
-		top: 2.5rem;
+		top: 2.43rem;
 		background: rgb(255, 255, 255, 1);
 		background: linear-gradient(180deg, rgba(248, 249, 250, 1) 0%, rgba(248, 249, 250, 0) 50%);
 		// z-index: 0;

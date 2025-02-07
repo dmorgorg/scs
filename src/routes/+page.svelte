@@ -32,9 +32,9 @@
 
 	<h3>Latest Posts:</h3>
 
-	<PostsList {data} limit="5" />
+	<PostsList {data} limit="6" />
 
-	<h5><a href="/blog">Here are the remaining posts...</a></h5>
+	<h5><a href="/blog">All posts...</a></h5>
 </main>
 
 <style>

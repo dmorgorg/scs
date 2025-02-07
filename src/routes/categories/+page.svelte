@@ -19,10 +19,9 @@
 <style>
 	h3 {
 		color: var(--brand-7);
-		/* display: inline-block; */
-		font-family: Alkes;
-		font-style: italic;
-		text-align: center;
-		/* margin-block-end: 1.5rem; */
+		font-family: SCSHeaders, serif;
+		font-size: 300%;
+		letter-spacing: 0.25rem;
+		margin-inline: auto;
 	}
 </style>

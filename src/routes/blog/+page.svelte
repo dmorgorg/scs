@@ -2,7 +2,7 @@
 	import * as config from '$lib/config';
 	export let data;
 
-	import { afterNavigate } from '$app/navigation';
+	// import { afterNavigate } from '$app/navigation';
 	import Banner from '$lib/components/Banner.svelte';
 	import PostsList from '$lib/components/PostsList.svelte';
 
@@ -17,9 +17,9 @@
 	// 	scrollUp()
 	// })
 
-	afterNavigate(() => {
-		document.getElementsByTagName('main').scrollTop = 0;
-	});
+	// afterNavigate(() => {
+	// 	document.getElementsByTagName('main').scrollTop = 0;
+	// });
 </script>
 
 <svelte:head>
@@ -38,6 +38,10 @@
 <style>
 	h3 {
 		color: var(--brand-7);
-		font-style: normal;
+		font-family: SCSHeaders, serif;
+		font-size: 300%;
+		letter-spacing: 0.25rem;
+		/* border: 1px solid var(--border-light); */
+		margin-inline: auto;
 	}
 </style>
