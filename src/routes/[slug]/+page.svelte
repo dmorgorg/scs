@@ -41,6 +41,7 @@
 </svelte:head>
 
 <main id="main">
+	<a id="#top" aria-label="to the top">&nbsp;</a>
 	<hgroup class="titleDate">
 		<div class="title">{@html data.meta.title}</div>
 		<p class="published">Published on {formattedDate(data.meta.date)}</p>

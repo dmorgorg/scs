@@ -50,7 +50,7 @@
 				padding: 0;
 				margin: 0;
 				&:hover {
-					border: 2px solid var(--header-text-dark);
+					border: 2px solid black;
 					box-shadow: var(--box-shadow-hover);
 					border-radius: 5px;
 				}

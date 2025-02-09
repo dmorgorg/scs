@@ -1,9 +1,19 @@
 <script>
+	import { onMount } from 'svelte';
 	import PostCard from '$lib/components/PostCard.svelte';
 	import Banner from '$lib/components/Banner.svelte';
 	import * as config from '$lib/config';
 	export let data;
 	export let limit = '';
+
+	const scrollToTop = () => {
+		console.log('scrollToTop');
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	};
+
+	onMount(() => {
+		scrollToTop();
+	});
 </script>
 
 <svelte:head>
@@ -15,7 +25,12 @@
 		{#each data.posts as post, index}
 			{#if !limit || index <= limit - 1}
 				<li class="post">
-					<a href={post.slug}>
+					<a
+						href={post.slug}
+						on:click={(event) => {
+							scrollToTop();
+						}}
+					>
 						<PostCard
 							img={post.coverImage}
 							title={post.title}

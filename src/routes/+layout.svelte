@@ -8,7 +8,6 @@
 	import '$lib/css/styles.scss';
 	import '$lib/css/fonts.css';
 	import FadeStrip from '$lib/components/FadeStrip.svelte';
-	import afterNavigate from '$app/navigation';
 </script>
 
 <div class="wrapper">
@@ -31,17 +30,13 @@
 		flex-direction: column;
 		align-items: stretch;
 		justify-content: space-between;
-		// max-inline-size: 960px;
-		// z-index: 0 !important;
 	}
 	.inset {
 		padding: 0 calc(50vw - 21.5rem);
 		margin-block: var(--margin-card);
-		// z-index: 0 !important;
 	}
 	main {
 		font-size: 1.125rem;
-		// font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		line-height: var(--font-lineheight-4);
 	}
 	.wrapper {
