@@ -1,5 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
 	import PostCard from '$lib/components/PostCard.svelte';
 	import Banner from '$lib/components/Banner.svelte';
 	import * as config from '$lib/config';
@@ -10,10 +9,6 @@
 		console.log('scrollToTop');
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	};
-
-	onMount(() => {
-		scrollToTop();
-	});
 </script>
 
 <svelte:head>
@@ -28,7 +23,9 @@
 					<a
 						href={post.slug}
 						on:click={(event) => {
+							event.preventDefault();
 							scrollToTop();
+							window.location.href = post.slug;
 						}}
 					>
 						<PostCard

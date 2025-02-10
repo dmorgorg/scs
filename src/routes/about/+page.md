@@ -3,6 +3,20 @@
 <title>About</title>
 </svelte:head>
 
+<script>
+	import { onMount } from 'svelte';
+
+	const scrollToTop = () => {
+		console.log('scrollToTop called');
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	};
+
+	onMount(() => {
+		console.log('onMount called');
+		scrollToTop();
+	});
+</script>
+
 ### About me:
 
 <br/>
@@ -19,8 +33,7 @@ Born (1952) and schooled in the UK. Notable for the amount of time spent at the 
 
 <br/>
 
-Since my mid-teens, my life has been
-defined pretty much by rock-climbing. Never successful at school sports (rugby, football, cricket), I showed unexpected aptitude for climbing &ndash; and found it thrilling. My choice of Sheffield for university was more influenced by ready access to the Peak District National Park, and its wonderful gritstone and limestone crags, than any academic considerations.
+Since my mid-teens, my life has been defined pretty much by rock-climbing. Never successful at school sports (rugby, football, cricket), I showed unexpected aptitude for climbing &ndash; and found it thrilling. My choice of Sheffield for university was more influenced by ready access to the Peak District National Park, and its wonderful gritstone and limestone crags, than any academic considerations.
 
 <br/>
 

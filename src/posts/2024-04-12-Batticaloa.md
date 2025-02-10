@@ -27,20 +27,21 @@ description: 'Partway back...'
 </svelte:head>
 
 <section class="card">
-<h5>
-  	5th April, 2024.
-  	Batticaloa - Mahaoya<br/>
-    (69.8 km, 344 m, 1920.7 km to date)
-</h5>
 
-<p>After bread, eggs and tea I was on my way, back down the peninsula, over the bridge into Batti and turning west. Where things went awry. My route indicated straight on &ndash; but the sign said "Airpost" and the closed gates with a couple of armed soldiers on guard seemed to suggest otherwise. I turned left, with the majority of the traffic, and Wahoo rerouted me, showing a lengthier way on a reasonable-looking road. But I lost the traffic and my suggested road degenerated into gravel, then a track, and finally a path. A murder of crows squawked that I had no business there and I was inclined to agree.</p>
+<DayCardHGroup
+    where="Batticaloa - Mahaoya"
+    when="4/5/2024"
+    distance="69.8 km, 344 m, 1920.7 km to date" 
+/>
+
+<p>After bread, eggs and tea I was on my way, back down the peninsula, over the bridge into Batti and turning west. Where things went awry. My route indicated straight on &ndash; but the sign said "Airport" and the closed gates with a couple of armed soldiers on guard seemed to suggest otherwise. I turned left, with the majority of the traffic, and Wahoo rerouted me, showing a lengthier way on a reasonable-looking road. But I lost the traffic and my suggested road degenerated into gravel, then a track, and finally a path. A murder of crows squawked that I had no business there and I was inclined to agree.</p>
 
 <Img
   src="/images/2024/04/2024-04-05-102908.jpg"
   alt="crows, murdering it"
 />
 
-<p> The path narrowed, along a slim dyke with a lake on one side and dry paddy fields on the other. The lake was pretty, the path less so. It disappeared for a while where a drainage entered from the fields, and I dropped down and pushed across a slimy creek. The water felt hot. Pushing up the other side, something felt wrong with one of my Chacos sandals, the right one, and I looked down to see that the outside strap at the back had come away from the sole and flapped uselessly.</p>
+<p> The path narrowed, along a slim dyke with a lake on one side and dry paddy fields on the other. The lake was pretty, the path less so. It disappeared for a while where a drainage entered from the fields, and I dropped down and pushed across a slimy creek. The water felt hot. Pushing up the other side, something felt wrong with one of my Chacos sandals, the right one, and I looked down to see that the outside strap at the back had detached from the sole and was flapping uselessly.</p>
 
 <Img
   src="/images/2024/04/2024-04-05-103012.jpg"
