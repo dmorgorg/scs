@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import 'open-props/style';
 	import 'open-props/normalize';
 	import 'open-props/buttons';
@@ -8,6 +9,16 @@
 	import '$lib/css/styles.scss';
 	import '$lib/css/fonts.css';
 	import FadeStrip from '$lib/components/FadeStrip.svelte';
+
+	const scrollToTop = () => {
+		console.log('scrollToTop');
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	};
+
+	onMount(() => {
+		console.log('onMount');
+		scrollToTop();
+	});
 </script>
 
 <div class="wrapper">
