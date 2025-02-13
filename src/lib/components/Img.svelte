@@ -44,7 +44,7 @@
 
 		figure {
 			margin: 0;
-			margin-block: var(--size-fluid-1);
+			margin-block: var(--size-fluid-0);
 
 			img {
 				padding: 0;

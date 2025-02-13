@@ -23,13 +23,27 @@
 	/**
 	 * @param {string | Date} date
 	 */
-	export const formattedDate = (date) => {
+	const formattedDate = (date) => {
+		const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+		const months = [
+			'January',
+			'February',
+			'March',
+			'April',
+			'May',
+			'June',
+			'July',
+			'August',
+			'September',
+			'October',
+			'November',
+			'December'
+		];
 		const dateObj = new Date(date);
-		const dayOfMonth = dateObj.getDate();
-		// const dayOfWeek = dateObj.getDay()
-		const dayOfWeek = dateObj.toLocaleString('default', { weekday: 'long' });
-		const month = dateObj.toLocaleString('default', { month: 'long' });
-		const year = dateObj.getFullYear();
+		const dayOfMonth = dateObj.getUTCDate();
+		const dayOfWeek = weekdays[dateObj.getUTCDay()];
+		const month = months[dateObj.getUTCMonth()];
+		const year = dateObj.getUTCFullYear();
 
 		return `${dayOfWeek} ${dayOfMonth}${nthNumber(dayOfMonth)} ${month}, ${year}`;
 	};
@@ -56,7 +70,7 @@
 		color: var(--header-text-dark);
 		display: inline;
 		font-family: 'PostCardTitle', serif;
-		font-size: var(--font-size-7);
+		font-size: var(--font-size-6);
 		font-style: normal;
 		letter-spacing: 0.15rem;
 		margin-block: 0;

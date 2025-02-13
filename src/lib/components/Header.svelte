@@ -25,7 +25,8 @@
 	header {
 		align-items: center;
 		background-color: var(--bg-color);
-		border-bottom: 1px solid var(--border-mid);
+		background-color: inherit;
+		// border-bottom: 1px solid var(--border-mid);
 		color: var(--text);
 		display: flex;
 		flex-wrap: wrap;

@@ -2,29 +2,43 @@
  * @param {number} number
  */
 const nthNumber = (number) => {
-	if (number > 3 && number < 21) return 'th'
+	if (number > 3 && number < 21) return 'th';
 	switch (number % 10) {
 		case 1:
-			return 'st'
+			return 'st';
 		case 2:
-			return 'nd'
+			return 'nd';
 		case 3:
-			return 'rd'
+			return 'rd';
 		default:
-			return 'th'
+			return 'th';
 	}
-}
+};
 
 /**
  * @param {string | Date} date
  */
-export const formattedDate = (date) => {
-	const dateObj = new Date(date)
-	const dayOfMonth = dateObj.getDate()
-	// const dayOfWeek = dateObj.getDay()
-	const dayOfWeek = dateObj.toLocaleString('default', { weekday: 'long' })
-	const month = dateObj.toLocaleString('default', { month: 'long' })
-	const year = dateObj.getFullYear()
+const formattedDate = (date) => {
+	const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+	const months = [
+		'January',
+		'February',
+		'March',
+		'April',
+		'May',
+		'June',
+		'July',
+		'August',
+		'September',
+		'October',
+		'November',
+		'December'
+	];
+	const dateObj = new Date(date);
+	const dayOfMonth = dateObj.getUTCDate();
+	const dayOfWeek = weekdays[dateObj.getUTCDay()];
+	const month = months[dateObj.getUTCMonth()];
+	const year = dateObj.getUTCFullYear();
 
-	return `${dayOfWeek} ${dayOfMonth}${nthNumber(dayOfMonth)} ${month}, ${year}`
-}
+	return `${dayOfWeek} ${dayOfMonth}${nthNumber(dayOfMonth)} ${month}, ${year}`;
+};
