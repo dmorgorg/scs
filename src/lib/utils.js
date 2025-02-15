@@ -18,7 +18,7 @@ const nthNumber = (number) => {
 /**
  * @param {string | Date} date
  */
-const formattedDate = (date) => {
+export const formattedDate = (date) => {
 	const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 	const months = [
 		'January',

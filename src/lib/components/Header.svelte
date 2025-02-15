@@ -26,6 +26,7 @@
 		align-items: center;
 		background-color: var(--bg-color);
 		background-color: inherit;
+		background-color: var(--brand-0);
 		// border-bottom: 1px solid var(--border-mid);
 		color: var(--text);
 		display: flex;

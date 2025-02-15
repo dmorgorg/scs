@@ -4,28 +4,13 @@
 	export let data;
 	let thisSlug = data.slug;
 
-	import { afterNavigate } from '$app/navigation';
+	// import { afterNavigate } from '$app/navigation';
 
-	// function scrollUp() {
-	// 	const el = document.getElementById('main')
-	// 	if (!el) return
-	// 	el.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-	// }
-
-	// afterNavigate(() => {
-	// 	console.log('afterNavigate, /blog')
-	// 	scrollUp()
-	// })
-
-	// afterNavigate(() => {
-	// 	document.getElementsByTagName('main').scrollTop = 0
-	// })
-
-	afterNavigate((event) => {
-		if (event.type === 'navigation') {
-			console.log('afterNavigate, in slug');
-		}
-	});
+	// afterNavigate((event) => {
+	// 	if (event.type === 'navigation') {
+	// 		console.log('afterNavigate, in slug');
+	// 	}
+	// });
 </script>
 
 <svelte:head>
