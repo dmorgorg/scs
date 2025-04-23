@@ -19,21 +19,17 @@
 
 <style>
 	.card {
-		background-color: white;
-		border: 1px solid var(--border-light);
-		border-radius: var(--border-radius);
+		background-color: var(--bg-card);
+		box-shadow: var(--box-shadow);
 		display: flex;
 		flex-direction: column;
 		height: 100%;
+
+		&:hover {
+			box-shadow: var(--box-shadow-hover);
+		}
 	}
 
-	img {
-		/* background-color: black; */
-		padding: 0;
-		border-radius: 0;
-		border-top-left-radius: var(--border-radius);
-		border-top-right-radius: var(--border-radius);
-	}
 	.pad {
 		display: flex;
 		flex-direction: column;
@@ -52,6 +48,9 @@
 		font-style: italic;
 		font-weight: bold;
 		letter-spacing: 0.125rem;
+		line-height: 1;
+		margin-block-start: 0.5rem;
+		margin-block-end: 0.5rem;
 		text-decoration: none;
 	}
 	.date {
@@ -64,8 +63,11 @@
 		color: var(--text-light);
 		font-family: 'italicText', italic;
 	}
-	.card:hover .title {
-		text-shadow: 0.5px 0.5px 0.5px black;
-		color: var(--header-text-light);
+	.card:hover {
+		/* border: none; */
+		.title {
+			text-shadow: 0.5px 0.5px 0.25px black;
+			/* color: var(--header-text-light); */
+		}
 	}
 </style>

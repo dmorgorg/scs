@@ -10,15 +10,15 @@
 	import '$lib/css/fonts.css';
 	import FadeStrip from '$lib/components/FadeStrip.svelte';
 
-	const scrollToTop = () => {
-		console.log('scrollToTop');
-		window.scrollTo({ top: 0, behavior: 'smooth' });
-	};
+	// const scrollToTop = () => {
+	// 	console.log('scrollToTop');
+	// 	window.scrollTo({ top: 0, behavior: 'smooth' });
+	// };
 
-	onMount(() => {
-		console.log('onMount');
-		scrollToTop();
-	});
+	// onMount(() => {
+	// 	console.log('onMount');
+	// 	scrollToTop();
+	// });
 </script>
 
 <div class="wrapper">
@@ -33,6 +33,14 @@
 </div>
 
 <style lang="scss">
+	.wrapper {
+		background: var(--bg);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 99.9vh;
+		overflow-y: auto;
+	}
 	.container {
 		flex: 1;
 		overflow-y: auto;
@@ -49,13 +57,6 @@
 	main {
 		font-size: 1.125rem;
 		line-height: var(--font-lineheight-4);
-	}
-	.wrapper {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		height: 99.9vh;
-		overflow-y: auto;
 	}
 
 	@media (max-width: 768px) {

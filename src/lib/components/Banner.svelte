@@ -10,10 +10,10 @@
 <style lang="scss">
 	section {
 		align-items: center;
-		background-color: var(--bg-color);
+		background-color: var(--bg-card);
 		border: 1px solid var(--border-light);
 		border-radius: var(--border-radius);
-		box-shadow: var(--box-shadow);
+		box-shadow: var(--box-shadow-hover);
 		display: flex;
 		flex-direction: column;
 		font-family: 'Alkes', serif;
@@ -24,9 +24,7 @@
 
 		h3 {
 			color: var(--header-text-dark);
-
 			font-family: 'SCSHeaders', serif;
-			// font-family: 'PostCardTitle', serif;
 			font-size: 400%;
 			letter-spacing: var(--font-letterspacing-3);
 			margin: -1.5rem auto 0 auto;
@@ -39,10 +37,10 @@
 			font-size: 1.125rem;
 		}
 
-		@media (max-width: 768px) {
-			div {
-				width: 90%;
-			}
-		}
+		// @media (max-width: 480px) {
+		// 	section {
+		// 		width: 90%;
+		// 	}
+		// }
 	}
 </style>

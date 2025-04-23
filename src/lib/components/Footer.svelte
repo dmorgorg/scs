@@ -1,12 +1,12 @@
 <script>
-	import MainNav from './MainNav.svelte'
-	import { siteAuthor, email } from '$lib/config'
+	import MainNav from './MainNav.svelte';
+	import { siteAuthor, email } from '$lib/config';
 </script>
 
 <footer>
-	<div><MainNav /></div>
+	<!-- <div><MainNav /></div> -->
 	<div>
-		&copy; {new Date().getFullYear()} &nbsp; {siteAuthor}
+		&copy; {new Date().getFullYear()} &nbsp; {siteAuthor} &nbsp; {email}
 	</div>
 </footer>
 
@@ -14,8 +14,8 @@
 	footer {
 		align-items: center;
 		background-color: var(--bg-color);
-		border-top: var(--border-light) 1px solid;
-		box-shadow: var(--box-shadow);
+		// border-top: var(--border-light) 1px solid;
+		// box-shadow: var(--box-shadow);
 		display: flex;
 		flex-wrap: wrap;
 		font-family: sans-serif;
@@ -24,7 +24,7 @@
 
 		div {
 			margin: 0 1rem;
-			padding: 0 0.75rem;
+			padding: 0.5rem;
 		}
 	}
 </style>

@@ -2,43 +2,74 @@
 
 :root {
 	// https://meyerweb.com/eric/tools/color-blend/#556B2F:FFFFFF:9:hex
-	--brand: #556b2f; // dark olive green
-	--brand-1: #eef0ea;
-	--brand-2: #dde1d5;
-	--brand-3: #ccd3c1;
-	--brand-4: #bbc4ac;
-	--brand-5: #aab597;
-	--brand-6: #99a682;
-	--brand-7: #88976d;
-	--brand-8: #778959;
-	--brand-9: #667a44;
-	--brand-10: var(--brand);
-	--brand-11: #445626;
-	--brand-12: #33401c;
+	// --brand: #556b2f; // dark olive green
+	// --brand-1: #eef0ea;
+	// --brand-2: #dde1d5;
+	// --brand-3: #ccd3c1;
+	// --brand-4: #bbc4ac;
+	// --brand-5: #aab597;
+	// --brand-6: #99a682;
+	// --brand-7: #88976d;
+	// --brand-8: #778959;
+	// --brand-9: #667a44;
+	// --brand-10: var(--brand);
+	// --brand-11: #445626;
+	// --brand-12: #33401c;
 
-	--text: var(--brand-12);
-	--bg-color-light: var(--brand-1);
-	--bg-color: var(--brand-2);
+	--brand--5: #fdfdfc;
+	--brand--4: #eef0ea;
+	--brand--3: #e1e5dc;
+	--brand--2: #d2d8ca;
+	--brand--1: #c6cdbc;
+	--brand: #b7c0aa;
+	--brand-1: #a8b398;
+	--brand-2: #9ca88a;
+	--brand-3: #8d9b78;
+	--brand-4: #80906a;
+	--brand-5: #707e5d;
+	--brand-6: #636f52;
+	--brand-7: #545e45;
+	--brand-8: #474f3b;
+	--brand-9: #373e2e;
+	--brand-10: #272c21;
+	--brand-11: #1a1d16;
+	--brand-12: #0a0c09;
+
+	--silver--3: #fafafa;
+	--silver--2: #e6e6e6;
+	--silver--1: #d4d4d4;
+	--silver: #bfbfbf;
+	--silver-1: #ababab;
+	--silver-2: #999999;
+	--silver-3: #858585;
+	--silver-4: #707070;
+	--silver-5: #5e5e5e;
+	--silver-6: #4a4a4a;
+	--silver-7: #363636;
+
 	// --border-dark: var(--brand-9);
-	--border-light: var(--brand-5);
-	--border-mid: var(--brand-7);
-	--border-dark: var(--brand-9);
+	// --border-light: var(--brand-5);
+	// --border-mid: var(--brand-7);
+	// --border-dark: var(--brand-9);
 	--border-radius: var(--radius-1);
 	--border-radius-med: var(--radius-2);
 	--box-shadow: var(--shadow-3);
-	--box-shadow-hover: var(--shadow-5);
+	--box-shadow-hover: var(--shadow-6);
 
 	--font-size-fluid-0pt5: clamp(0.875rem, 3vw, 1.25rem);
 
-	--header-text-dark: var(--brand-8);
-	--header-text-light: var(--brand-7);
 	--margin-card: var(--size-fluid-3);
-	// --margin-block: var(--size-fluid-3);
-	--scrollbar-thumb-color: var(--brand-7);
-	--scrollbar-thumb-color-hover: var(--brand-9);
-	--scrollbar-track: var(--brand-2);
 
-	// --shadow: var(--shadow-4);
+	--scrollbar-thumb-color: var(--brand-3);
+	--scrollbar-thumb-color-hover: var(--brand-5);
+
+	--bg: var(--silver--2);
+	--bg-card: var(--silver--3);
+
+	--text: var(--brand-5);
+
+	--header-text-dark: var(--brand-4);
+
 	scrollbar-color: unset; // this is by default set by open props and blocks the webkit custom scrollbar colors
 }
 
@@ -60,7 +91,7 @@ h6 {
 h4,
 h5,
 h6 {
-	color: var(--header-text);
+	color: var(--text);
 }
 
 section.card h5 {
@@ -97,19 +128,16 @@ blockquote {
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: var(--scrollbar-thumb-color);
-	border-radius: 10px;
-	border: 4px solid #f8f9fa;
+	border-radius: 0.5rem;
+	border: 4px solid var(--bg);
 }
 ::-webkit-scrollbar-thumb:hover {
 	background: var(--scrollbar-thumb-color-hover);
-	// border-radius: 10px;
-	// border: 4px solid var(--main-bg-color);
 }
 ::-webkit-scrollbar {
-	width: 20px;
+	width: 1rem;
 }
 ::-webkit-scrollbar-track {
-	// background-color: var(--scrollbar-track);
 	background-color: inherit;
 }
 
@@ -118,6 +146,10 @@ body {
 	height: 100%;
 	overflow-y: auto;
 	font-size: clamp(0.875rem, 1.25vw, 1.5rem);
+}
+
+main section h3 {
+	color: red;
 }
 
 ul,
@@ -130,25 +162,25 @@ li {
 	padding-inline-start: 0;
 }
 
-.surface-1 {
-	background-color: var(--surface-1);
-	color: var(--text-2);
-}
+// .surface-1 {
+// 	background-color: var(--surface-1);
+// 	color: var(--text-2);
+// }
 
-.surface-2 {
-	background-color: var(--surface-2);
-	color: var(--text-2);
-}
+// .surface-2 {
+// 	background-color: var(--surface-2);
+// 	color: var(--text-2);
+// }
 
-.surface-3 {
-	background-color: var(--surface-3);
-	color: var(--text-1);
-}
+// .surface-3 {
+// 	background-color: var(--surface-3);
+// 	color: var(--text-1);
+// }
 
-.surface-4 {
-	background-color: var(--surface-4);
-	color: var(--text-1);
-}
+// .surface-4 {
+// 	background-color: var(--surface-4);
+// 	color: var(--text-1);
+// }
 
 .fr-40 {
 	width: 40%;
@@ -202,8 +234,8 @@ li {
 // has to be global because pages dynamically loaded without visible tags?
 section.card {
 	background-color: white;
-	border: 1px solid var(--border-light);
-	border-radius: var(--border-radius);
+	// border: 1px solid var(--border-light);
+	// border-radius: var(--border-radius);
 	box-shadow: var(--shadow);
 	// margin-block: var(--size-fluid-2);
 	padding: var(--size-fluid-3);
@@ -220,7 +252,7 @@ section.card {
 	}
 
 	h5 {
-		color: var(--header-text-dark);
+		color: var(--bg);
 		// display: inline;
 		font-family: SCSHeaders, sans-serif;
 		font-size: var(--font-size-6);
@@ -228,7 +260,6 @@ section.card {
 		letter-spacing: 0.15rem;
 		margin-block: var(--size-fluid-2);
 		max-inline-size: 100%;
-		// padding-block: 4rem;
 		text-align: left;
 		width: 100%;
 	}

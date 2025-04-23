@@ -50,19 +50,6 @@
 		padding: 0;
 	}
 
-	li.post {
-		max-inline-size: var(--size-content-3);
-		border: 1px solid var(--bg-color);
-		box-shadow: var(--shadow-card);
-		box-shadow: var(--box-shadow);
-	}
-	.post:hover {
-		border: 1px inset var(--header-text-dark);
-		/* border: 1px solid black; */
-		border-radius: var(--border-radius);
-		box-shadow: var(--box-shadow-hover);
-	}
-
 	a {
 		text-decoration: none;
 		color: inherit;
