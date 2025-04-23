@@ -6,13 +6,13 @@
 		return a.title.localeCompare(b.title);
 	});
 	function getSize(count) {
-		if (count <= 3) return '1.125em';
-		if (count <= 7) return '1.25em';
-		if (count <= 12) return '1.375em';
-		if (count <= 20) return '1.5em';
-		if (count <= 30) return '1.75em';
-		if (count <= 40) return '1.9em';
-		if (count > 40) return '2em';
+		if (count <= 3) return '1em';
+		if (count <= 7) return '1.125em';
+		if (count <= 12) return '1.25em';
+		if (count <= 20) return '1.375em';
+		if (count <= 30) return '1.5em';
+		if (count <= 40) return '1.675em';
+		if (count > 40) return '1.75em';
 	}
 	const sizedCategories = Object.values(sortedUniqueCategories).map((category) => {
 		return {
@@ -47,16 +47,18 @@
 		margin-block-start: 1.5rem;
 
 		.tag {
-			color: var(--brand-9);
+			color: var(--text);
 			padding-inline: 0.5rem;
 			text-align: center;
 			line-height: 1;
 		}
 
 		a {
-			background: var(--brand-2);
+			// background: var(--bg-;
 			border-radius: var(--border-radius-med);
 			border: 2px solid var(--border-light);
+			color: var(--text);
+			color: var(--header-text-dark);
 			display: flex;
 			margin-block: 0.125rem;
 			padding-inline: 0.5rem;
@@ -66,8 +68,9 @@
 			line-height: 1.2;
 
 			&:hover {
-				background: var(--brand);
-				color: var(--brand-1);
+				background: var(--bg-card);
+				box-shadow: var(--box-shadow-hover);
+				color: var(--brand-5);
 			}
 		}
 	}

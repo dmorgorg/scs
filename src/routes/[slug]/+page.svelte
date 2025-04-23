@@ -47,21 +47,22 @@
 	</div>
 </main>
 
-<style>
-	/* main {
-		padding-block-start: var(--size-fluid-3);  
-	} */
+<style lang="scss">
+	main {
+		// border: 1px solid black;
+		margin-top: -2rem;
+		padding-top: 0;
+	}
 	.titleDate {
 		align-items: center;
-		background-color: white;
-		background-color: var(--brand-2);
+		background-color: var(--bg-card);
 		border: 1px solid var(--border-light);
-		box-shadow: var(--box-shadow);
+		box-shadow: var(--box-shadow-hover);
 		display: flex;
 		flex-direction: column;
 
-		margin-block-start: var(--size-fluid-1);
-		margin-block-end: var(--size-fluid-2);
+		margin-block-start: 0;
+		margin-block-end: 1rem;
 		padding-bottom: var(--size-2);
 	}
 	.title {
@@ -94,12 +95,17 @@
 		margin-block-end: 1rem;
 	}
 	.tag {
-		background-color: var(--bg-color);
-		border: 1px solid var(--border-light);
+		background-color: var(--bg-card);
 		border-radius: var(--border-radius);
+		box-shadow: var(--box-shadow);
+		color: var(--text);
 		font-size: 90%;
 		padding-inline: 0.5rem;
 		margin-inline: 0.5rem;
 		margin-block: 0.25rem;
+
+		&:hover {
+			box-shadow: var(--box-shadow-hover);
+		}
 	}
 </style>

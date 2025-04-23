@@ -207,7 +207,7 @@
 			background-color: white;
 		}
 		&.brand {
-			background-color: var(--brand-2);
+			background-color: var(--silver);
 		}
 		&.black {
 			background-color: black;
@@ -246,7 +246,7 @@
 					background-color: white;
 				}
 				&.brand {
-					background-color: var(--brand-2);
+					background-color: var(--silver-2);
 				}
 				&.black {
 					background-color: black;
@@ -263,7 +263,7 @@
 			transition: background-color 2s;
 		}
 		&.brand .embla__buttons button {
-			background-color: var(--brand-2);
+			background-color: var(--silver-2);
 			transition: background-color 2s;
 		}
 		&.white .embla__buttons button {
@@ -271,7 +271,7 @@
 			transition: background-color 2s;
 		}
 		button.x {
-			background-color: white;
+			// background-color: silver;
 			// background-color: gray;
 			border: 0.15rem solid black;
 			box-shadow: none;
@@ -293,7 +293,7 @@
 			}
 		}
 		&.brand button.x {
-			background-color: var(--brand-2);
+			background-color: var(--silver-2);
 		}
 		&.black button.x {
 			background-color: gray;

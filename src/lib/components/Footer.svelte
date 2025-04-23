@@ -6,7 +6,8 @@
 <footer>
 	<!-- <div><MainNav /></div> -->
 	<div>
-		&copy; {new Date().getFullYear()} &nbsp; {siteAuthor} &nbsp; {email}
+		&copy; {new Date().getFullYear()} &nbsp; {siteAuthor} &nbsp;
+		<a href="mailto:{email}">{email}</a>
 	</div>
 </footer>
 
@@ -25,6 +26,17 @@
 		div {
 			margin: 0 1rem;
 			padding: 0.5rem;
+
+			a {
+				color: var(--text);
+				text-decoration: none;
+				transition: color 0.5s;
+
+				&:hover {
+					color: var(--text-light);
+					text-decoration: underline;
+				}
+			}
 		}
 	}
 </style>

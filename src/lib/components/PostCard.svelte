@@ -1,9 +1,15 @@
 <script>
 	import { formattedDate } from '$lib/utils.js';
-	export let img;
-	export let title;
-	export let date;
-	export let description = '';
+	/**
+	 * @typedef {Object} Props
+	 * @property {any} img
+	 * @property {any} title
+	 * @property {any} date
+	 * @property {string} [description]
+	 */
+
+	/** @type {Props} */
+	let { img, title, date, description = '' } = $props();
 </script>
 
 <div class="card">
@@ -17,7 +23,7 @@
 	</div>
 </div>
 
-<style>
+<style lang="scss">
 	.card {
 		background-color: var(--bg-card);
 		box-shadow: var(--box-shadow);

@@ -47,13 +47,16 @@
 			margin-block: var(--size-fluid-0);
 
 			img {
+				// box-shadow: var(--box-shadow);
+				border: 2px solid var(--bg);
 				padding: 0;
 				margin: 0;
 				&:hover {
+					// border: 2px solid black;
 					border: 2px solid black;
 					box-shadow: var(--box-shadow-hover);
-					border-radius: 5px;
 				}
+				transition: border 0.5s;
 			}
 		}
 	}

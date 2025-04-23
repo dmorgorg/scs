@@ -53,7 +53,7 @@
 	// --border-dark: var(--brand-9);
 	--border-radius: var(--radius-1);
 	--border-radius-med: var(--radius-2);
-	--box-shadow: var(--shadow-3);
+	--box-shadow: var(--shadow-4);
 	--box-shadow-hover: var(--shadow-6);
 
 	--font-size-fluid-0pt5: clamp(0.875rem, 3vw, 1.25rem);
@@ -64,11 +64,13 @@
 	--scrollbar-thumb-color-hover: var(--brand-5);
 
 	--bg: var(--silver--2);
-	--bg-card: var(--silver--3);
+	// --bg-card: var(--silver--3);
+	--bg-card: white;
 
 	--text: var(--brand-5);
 
-	--header-text-dark: var(--brand-4);
+	--header-text-dark: var(--brand-6);
+	--header-text: var(--brand);
 
 	scrollbar-color: unset; // this is by default set by open props and blocks the webkit custom scrollbar colors
 }
@@ -94,8 +96,8 @@ h6 {
 	color: var(--text);
 }
 
-section.card h5 {
-	font-family: SCSHeader, sans-serif;
+p.center {
+	text-align: center;
 }
 
 blockquote {
@@ -233,15 +235,17 @@ li {
 /* for cards in a post, a card usually for each day */
 // has to be global because pages dynamically loaded without visible tags?
 section.card {
-	background-color: white;
-	// border: 1px solid var(--border-light);
-	// border-radius: var(--border-radius);
-	box-shadow: var(--shadow);
+	background-color: var(--bg-card);
+	box-shadow: var(--box-shadow-hover);
 	// margin-block: var(--size-fluid-2);
 	padding: var(--size-fluid-3);
 	padding-block-start: var(--size-fluid-1);
 
-	// increase spacing between adjacent cards
+	h5 {
+		font-family: SCSHeader, sans-serif;
+	}
+
+	// spacing between adjacent cards
 	& + section.card {
 		margin-block: calc(2 * var(--margin-card));
 	}
@@ -279,8 +283,8 @@ section.card {
 
 	img {
 		border: 1px solid var(--border-light);
-		border-radius: var(--border-radius);
-		margin-block: var(--size-fluid-1);
+		// border-radius: var(--border-radius);
+		// margin-block: var(--size-fluid-1);
 	}
 
 	figcaption {
