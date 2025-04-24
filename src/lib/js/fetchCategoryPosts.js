@@ -1,5 +1,5 @@
 const fetchCategoryPosts = async ({ category } = {}) => {
-	const posts = await Promise.all(
+	let posts = await Promise.all(
 		Object.entries(import.meta.glob('/src/lib/posts/*.md')).map(async ([path, resolver]) => {
 			const { metadata } = await resolver();
 			const slug = path.split('/').pop().slice(0, -3);

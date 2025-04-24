@@ -27,7 +27,7 @@
 		padding-block-start: 1rem;
 	}
 	h3 {
-		color: var(--brand-7);
+		/* color: var(--brand-7); */
 		font-family: SCSHeaders, serif;
 		font-family: PostCardTitle, serif;
 		font-size: 250%;
@@ -35,6 +35,7 @@
 		font-weight: bold;
 		letter-spacing: 0.25rem;
 		margin-inline: auto;
+		text-shadow: 0.05rem 0.05rem 0.05rem black;
 	}
 	h5 {
 		/* color: var(--brand-7); */
