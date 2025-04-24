@@ -29,23 +29,23 @@ description: 'The end of the Villa Ruta de la Plata.'
 
 <p>The hotel in Almaden called Casa Concha was very pleasant. I could have spent another night there but time is pressing... </p>
 
-<p>I wheeled my bike down to the Bar Morales for breakfast at around 9:00 a.m. Maybe 9:30. The bar must have been open early as there were already tables in need of cleaning out in the square. I doubt they have been left like that overnight. Breakfast was caf&eacute; con leche and tostada with tomato and olive oil. And of course a second caf&eacute; con leche before I set off. </p>
+<p>I wheeled my bike down to the Bar Morales for breakfast at around 9:00&nbsp;a.m. Maybe 9:30. The bar must have been open early as there were already tables in need of cleaning, out in the square. I doubt they have been left like that overnight. Breakfast was caf&eacute; con leche and tostada with tomato and olive oil. And of course a second caf&eacute; con leche before I set off. </p>
 
-<p>A bit of a climb out of town was not very friendly to my tired legs, but I was soon on quiet country roads through very nice countryside. Still, there was more climbing than I thought necessary for what had been forecast as a primarily downhill day. By the time I had covered 12 km I climbed over 200 m. But then a long downhill and some fast speeds reached. So fast that my helmet slid off my head and was held in place by the straps wrapped around my throat. 67 kph might be a record for this trip so far.</p>
+<p>A bit of a climb out of town was not very friendly to my tired legs, but I was soon on quiet country roads through very nice countryside. Still, there was more climbing than I thought necessary for what had been forecast as a primarily downhill day. By the time I had covered 12 km I climbed over 200&nbsp;m. But then a long downhill with some fast speeds reached. So fast that my helmet slid off my head and was held in place by the straps wrapped around my throat. 67 kph might be a record for this trip so far.</p>
 
 <Img
   src="/images/2024/06/2024-06-04-110701.jpg"
   alt="out of almaden"
 />
 
-<p>Then, closer to Sevilla, I began to get caught up in faster moving vehicles on roads without much shoulder, quite an unpleasant change from what I had grown accustomed to. The route I had chosen was from cycle.travel and would take me directly to my hotel in Seville. When I checked the Ruta de la Plata map, I found that I was far to the east of it. </p>
+<p>Then, closer to Sevilla, I began to get caught up in faster moving vehicles on roads without much shoulder, quite an unpleasant change from what I had grown accustomed to. The route I had chosen was from <a href="https://www.cycle.travel">cycle.travel</a> and would take me directly to my hotel in Seville. When I checked the Ruta de la Plata map, I found that I was far to the east of it. </p>
 
 <Img
   src="/images/2024/06/2024-06-04-125549.jpg"
   alt="out of almaden"
 />
 
-<p>With hindsight, it would have been better take the Ruta de la Plata route to the outskirts of Seville,  and then keyed my hotel into cycle.travel. Too late now. </p>
+<p>With hindsight, it would have been better take the Ruta de la Plata route to the outskirts of Seville,  and then keyed my hotel into <a href="https://www.cycle.travel">cycle.travel</a>. Too late now. </p>
 
 <p>And then I was in Sevilla, weaving in and out of narrow cobbled lanes, and at my perfectly located quaint old hotel by 3:00 pm. Perfectly located, indeed, but without a lift. I was on the second floor, but each floor seemed to have two long flights of stairs. My knees, which seem happy enough on the bike, do not want to bear my full weight when going upstairs.</p>
 
@@ -89,7 +89,7 @@ description: 'The end of the Villa Ruta de la Plata.'
   alt="Streets of Sevilla" 
 />
 
-<h5>Church of the Saviour (Iglesia Colegial del Divino Salvador)</h5>
+<h5>Church of the Saviour<br/> (Iglesia Colegial del Divino Salvador)</h5>
 
 <p>Converted from a mosque in the 13th century, and rebuilt in the 17th. A 'masterpiece' of baroque architecture, with 'intricate carvings, gilded details and ornate sculptures.'</p>
 

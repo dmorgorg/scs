@@ -77,8 +77,8 @@
 
 	@media (max-width: 768px) {
 		.cloud {
-			font-size: calc(100% * 0.65);
-			font-size: calc(60%);
+			// font-size: calc(100% * 0.65);
+			// font-size: calc(60%);
 			width: 100%;
 			margin-inline-start: 0;
 			margin-block-start: 1.5rem;

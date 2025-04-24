@@ -3,14 +3,6 @@
 	import { formattedDate } from '$lib/utils.js';
 	export let data;
 	let thisSlug = data.slug;
-
-	// import { afterNavigate } from '$app/navigation';
-
-	// afterNavigate((event) => {
-	// 	if (event.type === 'navigation') {
-	// 		console.log('afterNavigate, in slug');
-	// 	}
-	// });
 </script>
 
 <svelte:head>
@@ -29,7 +21,7 @@
 	<a id="#top" aria-label="to the top">&nbsp;</a>
 	<hgroup class="titleDate">
 		<div class="title">{@html data.meta.title}</div>
-		<p class="published">Published on {formattedDate(data.meta.date)}</p>
+		<p class="published">Published on and on {formattedDate(data.meta.date)}</p>
 	</hgroup>
 
 	<InterPostNav thisSlug={data.slug} />
@@ -66,7 +58,7 @@
 		padding-bottom: var(--size-2);
 	}
 	.title {
-		color: var(--header-text-dark);
+		color: var(--header-text);
 		font-family: var(--font-humanist);
 		font-family: 'PostCardTitle', serif;
 		font-size: var(--font-size-fluid-3);
@@ -74,6 +66,7 @@
 		letter-spacing: var(--font-letterspacing-3);
 		/* line-height: normal; */
 		text-align: center;
+		text-shadow: 0.05rem 0.05rem 0.05rem black;
 	}
 	.published {
 		/* border: 1px solid var(--border-light); */

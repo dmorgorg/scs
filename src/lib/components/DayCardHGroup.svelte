@@ -67,7 +67,7 @@
 		/* margin-block-end: var(--size-6); */
 	}
 	h5.where {
-		color: var(--header-text-dark);
+		color: var(--header-text);
 		display: inline;
 		font-family: 'PostCardTitle', serif;
 		font-size: var(--font-size-6);
@@ -75,6 +75,7 @@
 		letter-spacing: 0.15rem;
 		margin-block: 0;
 		padding-block: 0;
+		text-shadow: 0.05rem 0.05rem 0.05rem black;
 		width: 100%;
 	}
 	.when {

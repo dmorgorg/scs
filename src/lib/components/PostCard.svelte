@@ -47,7 +47,7 @@
 		padding-inline: 1rem;
 	}
 	.title {
-		color: var(--header-text-dark);
+		color: var(--header-text);
 		font-family: 'PostCardTitle', sans-serif;
 		font-size: var(--font-size-fluid-1);
 		font-size: 200%;

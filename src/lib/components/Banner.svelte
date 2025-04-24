@@ -23,7 +23,8 @@
 		padding: 0.5rem 1.5rem;
 
 		h3 {
-			color: var(--header-text-dark);
+			// color: var(--header-text);
+			text-shadow: 0.05rem 0.05rem 0.05rem black;
 			font-family: 'SCSHeaders', serif;
 			font-size: 400%;
 			letter-spacing: var(--font-letterspacing-3);
