@@ -26,7 +26,7 @@
 <div class="cloud">
 	{#each sizedCategories as category}
 		<div class="tag">
-			<a href="/category/{category.title}">
+			<a href="/blog/category/{category.title}">
 				<span style={`font-size: ${category.size}`}>
 					{@html category.title}
 					({category.count})

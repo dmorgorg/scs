@@ -39,8 +39,8 @@
 		.title a.site-title {
 			color: inherit;
 			font-size: var(--font-size-fluid-2);
-			font-family: 'italicText', sans-serif;
 			font-family: 'SCSHeaders', sans-serif;
+			font-style: italic;
 			// padding-block-end: 1.5em;
 			text-decoration: none;
 			vertical-align: top;

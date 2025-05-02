@@ -14,9 +14,7 @@
 
 <main>
 	<Banner />
-
 	<h3>All Posts:</h3>
-
 	<PostsList {data} />
 </main>
 

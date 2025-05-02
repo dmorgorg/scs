@@ -14,18 +14,12 @@
 
 <main>
 	<Banner />
-
 	<h3>Latest Posts:</h3>
-
 	<PostsList {data} limit="6" />
-
 	<h5><a href="/blog">All posts...</a></h5>
 </main>
 
 <style>
-	main {
-		padding-block-start: 1rem;
-	}
 	h3 {
 		/* color: var(--brand-7); */
 		font-family: SCSHeaders, serif;

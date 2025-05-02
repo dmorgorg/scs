@@ -21,7 +21,7 @@
 	<a id="#top" aria-label="to the top">&nbsp;</a>
 	<hgroup class="titleDate">
 		<div class="title">{@html data.meta.title}</div>
-		<p class="published">Published on and on {formattedDate(data.meta.date)}</p>
+		<p class="published">Published on {formattedDate(data.meta.date)}</p>
 	</hgroup>
 
 	<InterPostNav thisSlug={data.slug} />
