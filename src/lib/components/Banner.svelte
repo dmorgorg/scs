@@ -13,7 +13,7 @@
 		background-color: var(--bg-card);
 		border: 1px solid var(--border-light);
 		border-radius: var(--border-radius);
-		box-shadow: var(--box-shadow-hover);
+		box-shadow: var(--box-shadow);
 		display: flex;
 		flex-direction: column;
 		font-family: 'Alkes', serif;
