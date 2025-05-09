@@ -1,12 +1,13 @@
 ---
-title: 'Barcelona'
-date: '2025-05-05'
+title: 'Between Trips'
+date: '2025-05-01'
 categories:
+  - '2024'
   - '2025'
   - 'Canada'
   - 'UK'
 published: true
-coverImage: /images/2025/05/2025-05-04-070329.jpg
+coverImage: /images/2025/02/2025-02-09-115712.jpg
 description: 'UK - Canada - Uk - Canada.'
 ---
 
@@ -41,92 +42,19 @@ description: 'UK - Canada - Uk - Canada.'
   <p>The funeral was small but nice. I struggled through a eulogy, choking up, especially when I saw people in front of me doing the same. But the sadness was for ourselves really, those who would never see her, or benefit from her upbeat wisdom, again. She was, is, in a better place now. </p>
 
   <p>Bev, Andrea, Nicolas and I flew home to Canada. Nicolas on a different airline, from a different airport, be we managed it all in one cab. In time to get ready for Christmas.</p>
-  <p>Finally back home for a stretch, I got some medical stuff sorted. Sort of. X-rays for knees and ankle followed by MRIs on the same. Privately. This meant I had to pay but the alternative was a wait of about eighteen months. I had lost only a little weight after my four and a half thousand kilometres on the bike and then the time in the UK, caring for Mum, packed more than that back on. I was as heavy as I'd ever been. Clearly, riding wasn't going to solve the issue so I talked to my GP about Ozempic &ndash; he was very enthusiastic &ndash; and we had to jump through a few hoops to get it covered by Alberta Health Services.</p>
 
 <Img
-  src="/images/2025/05/2025-05-04-034650.jpg"
-  alt="barcelona graffiti"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-070329.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-070415.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-070549.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-070557.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-073257.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-074043.jpg"
-  alt="barcelona gaudi architecture"
+  src="/images/2025/02/2025-02-03-000037.jpg"
+  alt="woodpecker"
+  caption="A woodpecker, perched outside the kitchen window, in -25&deg;C"
 />
 
+  <p>Finally back home for a stretch, of winter. I got some medical stuff sorted. Sort of. X-rays for knees and ankle followed by MRIs on the same. Privately. This meant I had to pay but the alternative was a wait of about eighteen months. I had lost only a little weight after my four and a half thousand kilometres on the bike and then the time in the UK, caring for Mum, packed more than that back on. I was as heavy as I'd ever been. Clearly, riding wasn't going to solve the issue so I talked to my GP about Ozempic &ndash; he was very enthusiastic &ndash; and we jumped through a few hoops to get it covered by Alberta Health Services. So far, so good. Down about ten pounds, appreciation for food and wine much diminished. </p>
+
 <Img
-  src="/images/2025/05/2025-05-04-075307.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-081009.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-081122.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-082023.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-082050.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-082354.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-082609.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-083248.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-085129.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-093552.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-093641.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-093653.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-093856.jpg"
-  alt="barcelona gaudi architecture"
-/>
-<Img
-  src="/images/2025/05/2025-05-04-093901.jpg"
-  alt="barcelona gaudi architecture"
+src="/images/2025/02/2025-02-09-115712.jpg"
+alt="common redpoll"
+caption="A Common Redpoll (I think!) perched outside the bedroom window"
 />
 
-  </section>
+</section>
