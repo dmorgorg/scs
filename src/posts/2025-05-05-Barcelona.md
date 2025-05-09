@@ -6,7 +6,7 @@ categories:
   - 'Spain'
   - 'Barcelona'
 published: true
-coverImage: /images/2024/06/2024-06-28-115300.jpg
+coverImage: /images/2025/05/2025-05-04-070329.jpg
 description: 'Back to Spain, 2025'
 ---
 
