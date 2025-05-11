@@ -8,7 +8,7 @@ categories:
   - 'UK'
 published: true
 coverImage: /images/2025/02/2025-02-09-115712.jpg
-description: 'UK - Canada - Uk - Canada.'
+description: 'UK - Canada - UK - Canada.'
 ---
 
 <script>
@@ -22,7 +22,7 @@ description: 'UK - Canada - Uk - Canada.'
     where="In the interim..."
   />
 
-  <p>After I finished the ride, I caught a bus to Santander and had a day before my ferry back to Portsmouth left. It rained. I wandered about, visited the cathedral, killed time.</p>
+  <p>The day after I finished the ride, I caught a bus to Santander and had a day before my ferry back to Portsmouth left. It rained. I wandered about, visited the cathedral, killed time.</p>
   <p>Back in the UK, I had a few days with my mum. And a few beers with my brother Chris. Then a flight back home, although for how long was still uncertain: my mum was not doing so well.</p>
   <p>A few pleasant weeks back home, with my lovely wife, enjoying the Canadian summer weather. Unfortunately, I had missed the raspberry crop from the garden but, all things considered, I didn't have any complaints. Not that anyone would bother listening to, anyway.</p>
   <p>But then Mum went into hospital and I was back on the plane. At least no bike to carry this time. </p>
