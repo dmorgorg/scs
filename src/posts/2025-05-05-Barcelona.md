@@ -19,7 +19,7 @@ description: 'Back to Spain, 2025'
   
   <DayCardHGroup
     where="Barcelona"
-    when="5/5/2025"
+    when="2025-05-04"
   />
 
   <p>Arrival in Barcelona was straightforward, the bike arrived without issue, but leaving the airport was unnecessarily complicated. Errors on my part, mainly. Totally?</p>
@@ -104,7 +104,7 @@ description: 'Back to Spain, 2025'
   src="/images/2025/05/2025-05-04-083248.jpg"
   alt="barcelona gaudi architecture"
 />
-<p>And visible from the roof, not too far distant, is Gaudi's last/latest creation:  La Sagrada Familia. The cathedral is supposed to complete comstruction in 2026, one hundred years after Antoni Gaudi's death.</p>
+<p>And visible from the roof, not too far distant, is Gaudi's last/latest creation:  La Sagrada Familia. The cathedral is supposed to complete construction in 2026, one hundred years after Antoni Gaudi's death.</p>
 <Img
   src="/images/2025/05/2025-05-04-085129.jpg"
   alt="barcelona gaudi architecture"
