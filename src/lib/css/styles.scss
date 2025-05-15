@@ -313,32 +313,19 @@ section.card {
 	html,
 	body {
 		font-size: clamp(0.875rem, 2vw, 1.5rem);
-		width: 95%;
-		margin: 0 auto;
-		background: red;
 		overflow-x: hidden;
 	}
-	.fr-50 {
+	main {
 		width: 100%;
-		float: none;
+		padding-inline: 5px;
+		background-color: white;
 	}
-	.fr-60 {
-		width: 100%;
-		float: none;
-	}
-	.width40,
-	.w-40 {
-		width: 100%;
-		margin: 0 auto;
-	}
-	.width50,
-	.w-50 {
-		width: 100%;
-		margin: 0 auto;
-	}
-	.width60,
-	.w-60 {
-		width: 100%;
-		margin: 0 auto;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 0.8rem;
 	}
 }

@@ -44,4 +44,10 @@
 		// 	}
 		// }
 	}
+	@media (max-width: 675px) {
+		h3 {
+			font-size: 250%;
+			// background: yellow;
+		}
+	}
 </style>

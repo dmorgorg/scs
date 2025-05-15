@@ -78,7 +78,7 @@ Climbing walls! Easy to access and free. What a lovely idea! There was a boulder
     alt="climbing wall closeup"
   />
 
-<p>The path is a Via Verde (or Greenway), a reclaimed rail track. This particular one that I'm riding is the Via Verde del Pas, 35.5 km in length.</p>
+<p>The path is a Via Verde (or Greenway), generally a reclaimed rail track. This particular one that I'm riding is the Via Verde del Pas, 35.5 km in length.</p>
 
 <blockquote>In Spain, there are more than 3,500 kilometers of old lines of disused railroad that have been recovered as itineraries cyclists and hikers within the framework of the Greenways Program that since 1993 has energized and promoted the Foundation of the Spanish Railways F.S.P. <a href="https://viasverdes.com/" alt="via verdes line">(Via Verdes)</blockquote>
 
