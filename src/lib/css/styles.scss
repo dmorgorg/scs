@@ -87,11 +87,11 @@ p.center {
 }
 
 blockquote {
-	background-color: var(--brand-1);
+	background-color: var(--brand--2);
 	border-left: 4px solid var(--brand-6);
 	display: block;
 	font-family: 'italicText', sans-serif;
-	font-style: italic;
+	// font-style: italic;
 	line-height: 1.4;
 	margin-block: var(--size-fluid-3);
 	margin-inline: auto;
@@ -306,5 +306,39 @@ section.card {
 		}
 
 		// border: 1px solid #445626;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	html,
+	body {
+		font-size: clamp(0.875rem, 2vw, 1.5rem);
+		width: 95%;
+		margin: 0 auto;
+		background: red;
+		overflow-x: hidden;
+	}
+	.fr-50 {
+		width: 100%;
+		float: none;
+	}
+	.fr-60 {
+		width: 100%;
+		float: none;
+	}
+	.width40,
+	.w-40 {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.width50,
+	.w-50 {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.width60,
+	.w-60 {
+		width: 100%;
+		margin: 0 auto;
 	}
 }

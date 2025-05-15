@@ -8,8 +8,8 @@ categories:
   - 'Cantabria'
 
 published: true
-coverImage: /images/2025/05/2025-05-04-093653.jpg
-description: 'Back to Spain, 2025'
+coverImage: /images/2025/05/2025-05-13-160231.jpg
+description: 'On the bike again, 2025'
 ---
 
 <script>
@@ -24,7 +24,10 @@ description: 'Back to Spain, 2025'
     when="2025-05-05"
   />
 
-  <p>The bus pulled into the familiar Santander bus station on time, at 2215. My hotel was very close, barely one hundred metres away, but it was still a struggle to get my bike there. It was heavy on my shoulder, awkward and required frequent halts. The shoulder strap remained attached, just, although there were some worrying noises as more stitches gave way. It will need attention before the flight home.</p>
+  <p>The bus pulled into the familiar Santander bus station on time, at 2215. My hotel was very close, barely one hundred metres away, but it was still a struggle to get my bike there. It was heavy on my shoulder, awkward and required frequent halts. The shoulder strap remained attached, just, although there were some worrying noises as more stitches gave way. It will need (professional?) attention before the flight home.</p>
+  <p>I had planned a couple of days in Santander. One to get my bike reassembled and one to help with the time change adjustment. I didn't recall packing my pump in the usual last minute rush to get my bike into its travel bag and, when I investigated, it was nowhere to be found. Bev confirmed that it was still on the floor in the garage in Calgary. So job one, not too difficult in Spain, was to find a bike shop.</p>
+  <p>My disc brake rotors (I remove them from the wheels to travel) were not in the bag pocket where I usually place them. I was sure I remembered packing these! I was considering another trip to the bike shop when they showed up in my frame bag. I definitely hadn't placed them there; security must have opened my bike bag at the airport, sorted through stuff, and replaced the rotors in the 'wrong' place. Kudos to them for managing to get the bike packed into the bag again &ndash; never an easy task.</p>
+  <p>For the last couple of trips, I've carried 1.5 litre water bottles on my front forks. This time, I had switched to some Old Man Mountain fort packs, small dry bags with room for more stuff. They now contained my water bottles and my emergency camping gear, freeing up space in my panniers. Just as well as I will be carrying the bike back and a fairly bulky carry-on pack that I used on the plane. This is the first trip without going through England, and having somewhere to store items 'not needed on the voyage.'</p>
 
   </section>
 
@@ -52,15 +55,16 @@ description: 'Back to Spain, 2025'
 
 <p>I returned the keys to the owner in the mercado below and set off to The Factory for breakfast. All that seemed to be on offer was toast and tomato, and a coffee. Enough to do me for a while. Then back on the cycle path, hoping to reach Vega de Pas, about 38 km away. Quite a distance in my current state of fitness.</p>
 
-<p>I noticed a pump track (I think that's what they're called) after a small town. Adjoining the cycle path. Easily distracted, I stopped.</p>
+<p>I noticed a bicycle pump track on the outskirts of a small town. Adjoining the cycle path. Easily distracted, I stopped.</p>
 
 <Img 
     src="/images/2025/05/2025-05-12-113712.jpg"
     alt="pump track"
   />
 
-<p>But it wasn't the pump track that piqued my interest: it was the two structures beside it.
-Climbing walls! Easy to access and free. What a lovely idea! There was a bouldering wall, with a cushioned base, and a lead tower. Outdoors, but with some roof shelter from the rain.</p>
+<p>
+But it wasn't the pump track that piqued my interest: it was the two structures beside it.
+Climbing walls! Easy to access and free. What a lovely idea! There was a bouldering wall, with a cushioned base, and a lead tower. Outdoors, but with some shelter from the rain.</p>
 
 <Img 
     src="/images/2025/05/2025-05-12-111707.jpg"
@@ -74,11 +78,11 @@ Climbing walls! Easy to access and free. What a lovely idea! There was a boulder
     alt="climbing wall closeup"
   />
 
-<p>The path is a via verde (or greenway), a reclaimed rail track. This particular one that I'm riding is the Via Verde del Pas, 35.5 km in length.</p>
+<p>The path is a Via Verde (or Greenway), a reclaimed rail track. This particular one that I'm riding is the Via Verde del Pas, 35.5 km in length.</p>
 
 <blockquote>In Spain, there are more than 3,500 kilometers of old lines of disused railroad that have been recovered as itineraries cyclists and hikers within the framework of the Greenways Program that since 1993 has energized and promoted the Foundation of the Spanish Railways F.S.P. <a href="https://viasverdes.com/" alt="via verdes line">(Via Verdes)</blockquote>
 
-<p>There is a discontinuous via verde from Santander to Valencia (Via Verdes FC. Santander - Mediterr&aacute;neo), which I hope to use as much as possible, linking the various sections with navigation help from <a href="https://www.cycle.travel">cycle.travel</a></p>
+<p>There is a discontinuous Via Verde from Santander to Valencia (Via Verdes FC. Santander - Mediterr&aacute;neo), which I hope to use as much as possible, linking the various sections with navigation help from <a href="https://www.cycle.travel">cycle.travel</a></p>
 
 <Img 
     src="/images/2025/05/2025-05-12-115117.jpg"
