@@ -45,12 +45,11 @@
 
 	--margin-card: var(--size-fluid-3);
 
-	--scrollbar-thumb-color: var(--brand-3);
-	--scrollbar-thumb-color-hover: var(--brand-5);
+	--scrollbar-thumb-color: var(--brand-4);
+	--scrollbar-thumb-color-hover: var(--brand-7);
 
-	--bg: var(--silver--4);
-	--bg: var(--brand--5);
-	// --bg-card: var(--silver--3);
+	// --bg: var(--silver--4);
+	--bg: var(--brand);
 	--bg-card: white;
 
 	--text: var(--brand-5);
@@ -61,9 +60,15 @@
 	scrollbar-color: unset; // this is by default set by open props and blocks the webkit custom scrollbar colors
 }
 
-html {
+html,
+body {
 	scroll-behavior: smooth;
 }
+
+// .wrapper {
+// 	background-color: var(--brand-4);
+// 	background-color: blue;
+// }
 
 h1,
 h2,
@@ -126,7 +131,7 @@ blockquote {
 	width: 1rem;
 }
 ::-webkit-scrollbar-track {
-	background-color: inherit;
+	background-color: var(--bg);
 }
 
 html,
@@ -136,9 +141,10 @@ body {
 	font-size: clamp(0.875rem, 1.25vw, 1.5rem);
 }
 
-// main section h3 {
-// 	color: red;
-// }
+main.latest,
+main.all {
+	background-color: var(--brand);
+}
 
 ul,
 ol {
@@ -149,26 +155,6 @@ ol {
 li {
 	padding-inline-start: 0;
 }
-
-// .surface-1 {
-// 	background-color: var(--surface-1);
-// 	color: var(--text-2);
-// }
-
-// .surface-2 {
-// 	background-color: var(--surface-2);
-// 	color: var(--text-2);
-// }
-
-// .surface-3 {
-// 	background-color: var(--surface-3);
-// 	color: var(--text-1);
-// }
-
-// .surface-4 {
-// 	background-color: var(--surface-4);
-// 	color: var(--text-1);
-// }
 
 .fr-40 {
 	width: 40%;
@@ -312,20 +298,18 @@ section.card {
 @media screen and (max-width: 768px) {
 	html,
 	body {
-		font-size: clamp(0.875rem, 2vw, 1.5rem);
+		// font-size: clamp(0.875rem, 2vw, 1.5rem);
 		overflow-x: hidden;
 	}
 	main {
 		width: 100%;
 		padding-inline: 5px;
-		background-color: white;
+		// background-color: white;
+		// background-color: var(--brand);
 	}
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		font-size: 0.8rem;
+	.content {
+		width: 100%;
+		margin-inline: auto;
+		// background-color: white;
 	}
 }

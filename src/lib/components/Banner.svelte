@@ -37,16 +37,10 @@
 			font-family: 'italicText', serif;
 			font-size: 1.125rem;
 		}
-
-		// @media (max-width: 480px) {
-		// 	section {
-		// 		width: 90%;
-		// 	}
-		// }
 	}
 	@media (max-width: 675px) {
 		h3 {
-			font-size: 250%;
+			font-size: 10vw !important	;
 			// background: yellow;
 		}
 	}

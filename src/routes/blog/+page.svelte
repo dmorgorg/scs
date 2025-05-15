@@ -12,7 +12,7 @@
 	<meta data-key="description" name="description" content={config.siteDescription} />
 </svelte:head>
 
-<main>
+<main class="all">
 	<Banner />
 	<h3>All Posts:</h3>
 	<PostsList {data} />

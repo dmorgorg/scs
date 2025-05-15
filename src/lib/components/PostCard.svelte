@@ -26,6 +26,7 @@
 <style lang="scss">
 	.card {
 		background-color: var(--bg-card);
+		border: 1px solid black;
 		box-shadow: var(--box-shadow);
 		display: flex;
 		flex-direction: column;
