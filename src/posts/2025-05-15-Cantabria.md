@@ -3,9 +3,11 @@ title: 'Cantabria'
 date: '2025-05-15'
 categories:
   - '2025'
+  - 'Broken Road'
+  - 'Cantabria'
+  - 'Cycle touring'
   - 'Santander'
   - 'Spain'
-  - 'Cantabria'
 
 published: true
 coverImage: /images/2025/05/2025-05-13-160231.jpg
@@ -27,7 +29,7 @@ description: 'On the bike again, 2025'
   <p>The bus pulled into the familiar Santander bus station on time, at 2215. My hotel was very close, barely one hundred metres away, but it was still a struggle to get my bike there. It was heavy on my shoulder, awkward and required frequent halts. The shoulder strap remained attached, just, although there were some worrying noises as more stitches gave way. It will need (professional?) attention before the flight home.</p>
   <p>I had planned a couple of days in Santander. One to get my bike reassembled and one to help with the time change adjustment. I didn't recall packing my pump in the usual last minute rush to get my bike into its travel bag and, when I investigated, it was nowhere to be found. Bev confirmed that it was still on the floor in the garage in Calgary. So job one, not too difficult in Spain, was to find a bike shop.</p>
   <p>My disc brake rotors (I remove them from the wheels to travel) were not in the bag pocket where I usually place them. I was sure I remembered packing these! I was considering another trip to the bike shop when they showed up in my frame bag. I definitely hadn't placed them there; security must have opened my bike bag at the airport, sorted through stuff, and replaced the rotors in the 'wrong' place. Kudos to them for managing to get the bike packed into the bag again &ndash; never an easy task.</p>
-  <p>For the last couple of trips, I've carried 1.5 litre water bottles on my front forks. This time, I had switched to some Old Man Mountain fort packs, small dry bags with room for more stuff. They now contained my water bottles and my emergency camping gear, freeing up space in my panniers. Just as well as I will be carrying the bike back and a fairly bulky carry-on pack that I used on the plane. This is the first trip without going through England, and having somewhere to store items 'not needed on the voyage.'</p>
+  <p>For the last couple of trips, I've carried 1.5 litre water bottles on my front forks. This time, I had switched to some Old Man Mountain fork packs, small dry bags with room for more stuff. They now contained my water bottles and my emergency camping gear, freeing up space in my panniers. Just as well as I will be carrying the bike back and a fairly bulky carry-on pack that I used on the plane. This is the first trip without going through England, and having somewhere to store items 'not needed on the voyage.'</p>
 
   </section>
 
@@ -142,30 +144,86 @@ Climbing walls! Easy to access and free. What a lovely idea! There was a boulder
     distance="31.8 km, 830 m, 98.2 km to date"
   />
 
-<p>A reasonable start (around 10 am), a stop at a panaderia for bread, and the day began in earnest. It promised to be a difficult one, and kept its promise.</p>
+<p>A reasonable start (around 10 am), a stop at a panaderia for bread, and the day began in earnest. It promised to be a difficult one. It kept its promise.</p>
+
+<Img 
+    src="/images/2025/05/2025-05-16-120752.jpg"
+    alt="climb out of vega de pas"
+  />
 
 <p>I rode two kilometres of steady uphill, not too steep but steep enough, before having a rest. Then I rode another one kilometre. Then 300 m but that stop was, ostensibly, to take a photograph. After that is was pretty much hike-a-bike for the next few hours, climbing steadily, head down, counting steps. After 500 steps, I'd stop and admire the view. Which was spectacular.</p>
+
+<Img 
+    src="/images/2025/05/2025-05-16-124725.jpg"
+    alt="climb out of vega de pas"
+  />
+
 <p>The road was quiet, four or five cars per hour to start. Some pedestrians were out, walking their dogs: local women mainly. One, dogless, stopped for a brief chat. She was Peruvian, and we were both American. Her south, me north. Then, I continued to sit on the road barrier and she carried on.</p>
-<p>Hours passed as I worked my way upward, walking at three-four kph but with frequent (every 500 paces, sometimes 1000!) stops, my average speed was less than that. Considerably.</p>
+
+<Img 
+    src="/images/2025/05/2025-05-16-133928.jpg"
+    alt="climb out of vega de pas"
+  />
+
+<p>Hours passed as I worked my way upward, walking at three-four kph but with frequent (every 500 paces, rarely 1000!) stops, my average speed was less than that. Considerably.</p>
+
+<Img 
+    src="/images/2025/05/2025-05-16-142029.jpg"
+    alt="climb out of vega de pas"
+  />
+<Img 
+    src="/images/2025/05/2025-05-16-153446.jpg"
+    alt="climb out of vega de pas"
+  />
+
 <p>I could see the outline of the road, contouring along the valley side, high above. And the white of the road, zigzagging below me, letting me know that I was indeed making upward progress.</p>
-<p>There were more motor cycles, big touring machines, than cars although both increased in number as the day got later. Bicycles, too. Light road bikes with no panniers. Luxury!</p>
+
+<Img 
+    src="/images/2025/05/2025-05-16-161241.jpg"
+    alt="climb out of vega de pas"
+  />
+<Img 
+    src="/images/2025/05/2025-05-16-161335.jpg"
+    alt="climb out of vega de pas"
+  />
+<Img 
+    src="/images/2025/05/2025-05-16-162329.jpg"
+    alt="climb out of vega de pas"
+  />
+
+<p>There were more motor cycles, big touring machines, than cars although both increased in number as the day wore on. Bicycles, too. Light road bikes with no panniers. Luxury!</p>
+
+<Img 
+    src="/images/2025/05/2025-05-16-162352.jpg"
+    alt="climb out of vega de pas"
+  />
+<Img 
+    src="/images/2025/05/2025-05-16-162413.jpg"
+    alt="climb out of vega de pas"
+  />
+
+<!-- <Img
+    src="/images/2025/05/2025-05-16-180519.jpg"
+    alt="climb out of vega de pas"
+  /> -->
+
+<Img 
+    src="/images/2025/05/2025-05-16-180532.jpg"
+    alt="climb out of vega de pas"
+  />
+<Img 
+    src="/images/2025/05/2025-05-16-180545.jpg"
+    alt="climb out of vega de pas"
+  />
+
 <p>One cyclist, on his way down &ndash; no doubt he had passed me earlier on his way up &ndash; stopped and asked if I had a problem. No, I said and just indicated my thighs. He looked at my gearbox and asked whether I had a battery. Nope. He seemed marginally mollified that I wasn't on an e-bike. Then he told me off for my choice of footwear, which I staunchly defended. All this without much common language.</p>
+<Img 
+    src="/images/2025/05/2025-05-16-180757.jpg"
+    alt="climb out of vega de pas"
+  />
+<p>My route told me to head of up this gravel track but I demurred; an unnecessary extra challenge!</p>
 <p>It was almost seven o'clock when I reached the top of the pass, marking eight exhausting hours to cover around fifteen kilometres.</p>
 <p>Yes, a long day in the sun after a light breakfast. I was somewhat encouraged that I had managed to plod on (what choice did I have, really?) despite having had no exercise in the last ten months, despite being 72-years-old, despite being obese, despite bad knees and a bad ankle...</p>
 <p>Then downhill to Espinosa de los Monteros and my hotel room. On the fourth floor. Without a lift. </p>
-
-</section>
-<section class="card">
-  
-  <DayCardHGroup
-    where="Espinosa de los Monteros &ndash; villacoya"
-    when="2025-05-17"
-    distance="21.8 km, 103 m, 120.0 km to date"
-  />
-
-<p>I had hoped for a rest day after the previous day's efforts but, being Saturday night, my hotel was fully booked. I had booked a hotel a short distance on. So, a semi-rest day.</p>
-<p>I woke early but was in no rush so slept some more. Then a leisurely breakfast &ndash; tortilla, ham on a slice of bread, and two large caf&eacute;s con leche. I finally got on with my ride at about 1:30 pm. </p>
-<p>A more relaxed landscape south of the pass but very pleasant nonetheless. Long sleeves today since my arms were a bit red from the long day yesterday. Probably drier here but still, at this time of year, quite green. Quiet roads and quiet lanes. Some uphill, not really necesitating shade breaks but taken anyway. Although my knees and ankle had come through the previous days efforts fairly unscathed, I definitely was suffering from a full-body weariness. The sun felt hot but that might have been due to mmy general state of low energy.</p>
-<p>It was splendid to get horizontal, in the cool of my room. Still no elevator but only on the first floor! I watched Crystal Palace beat Manchester City in the FA Cup Final, and then it was time to head into town to eat.</p>
 
 </section>
