@@ -24,7 +24,7 @@ description: 'On to Portugal'
 
 <DayCardHGroup
     where="Sevilla &mdash; Bollullos Par del Condada"
-    when="6/6/2024"
+    when="2024-06-06"
     distance="65.1 km, 626 m, 3122.3 km to date" 
   />
 
@@ -93,7 +93,7 @@ description: 'On to Portugal'
 
 <DayCardHGroup
     where="Bollullos Par del Condada &mdash; Trigueros"
-    when="6/7/2024"
+    when="2024-06-07"
     distance="38.3 km, 324 m, 3160.6 km to date" 
   />
 
@@ -125,7 +125,7 @@ description: 'On to Portugal'
 
 <DayCardHGroup
     where="Trigueros - Lep&eacute; "
-    when="6/8/2024"
+    when="2024-06-08"
     distance="56.5 km, 322 m, 3217.1 km to date" 
   />
 
@@ -213,7 +213,7 @@ description: 'On to Portugal'
 
 <DayCardHGroup
     where="Lep&eacute;, Andalucia, Spain - Tavira, Faro, Portugal"
-    when="6/9/2024"
+    when="2024-06-09"
     distance="57.3km, 339 m, 3274.4 km to date" 
   />
 

@@ -7,6 +7,7 @@ categories:
   - 'Broken Road'
   - 'Extremadura, ESP'
   - 'Cycle Touring'
+  - 'M&eacute;rida, ESP'
   - 'Spain'
 published: true
 coverImage: /images/2024/05/2024-05-28-181919.jpg
@@ -30,7 +31,7 @@ description: 'M&eacute;rida and south. '
 
 <DayCardHGroup
     where="Galisteo"
-    when="5/25/2024"
+    when="2024/05/25"
 />
 
  <p>A recovery day. Walked steeply to the wall around town and strolled around the outside. Then up on to the wall ramparts for a while. Then through the town a bit, a bar for caf&eacute; con leche, a visit to Spar for supplies &ndash; for the morrow since the store appears to be closed on Saturday afternoons and all day Sunday. </p>
@@ -87,7 +88,7 @@ description: 'M&eacute;rida and south. '
 
 <DayCardHGroup
     where="Gilasteo - Casar de Caceras"
-    when="5/27/2024"
+    when="2024-05-24"
     distance="76.4 km, 918 m, 2750.5 km to date" 
 />
 
@@ -129,7 +130,7 @@ description: 'M&eacute;rida and south. '
 
 <DayCardHGroup
     where="Casar de Caceras - M&eacute;rida"
-    when="5/28/2024"
+    when="2024-05-28"
     distance="87.2 km, 648 m, 2837.7 km to date" 
   />
 
@@ -193,7 +194,7 @@ description: 'M&eacute;rida and south. '
 
 <DayCardHGroup
     where="M&eacute;rida"
-    when="5/29/2024"
+    when="2024-05-29"
 />
 
 <p>Did the tourist thing. Or a bit of it. Quite interested in the Romans but this day wasn't the right day for me. It was hot and the 'sights' were less than overwhelming. Quite a lot of pavement pounding and my ankle seems to be stronger so that is good news.</p>

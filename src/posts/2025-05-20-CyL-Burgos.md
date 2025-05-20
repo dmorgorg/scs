@@ -4,9 +4,9 @@ date: '2025-05-20'
 categories:
   - '2025'
   - 'Broken Road'
-  - 'Burgos'
-  - 'Castilla y Le&oacute;n'
-  - 'Cycle touring'
+  - 'Burgos, ESP'
+  - 'Castilla y Le&oacute;n, ESP'
+  - 'Cycle Touring'
   - 'Spain'
 
 published: true

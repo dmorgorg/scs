@@ -4,9 +4,9 @@ date: '2025-05-15'
 categories:
   - '2025'
   - 'Broken Road'
-  - 'Cantabria'
-  - 'Cycle touring'
-  - 'Santander'
+  - 'Cantabria, ESP'
+  - 'Cycle Touring'
+  - 'Santander, ESP'
   - 'Spain'
 
 published: true

@@ -4,7 +4,7 @@ date: '2025-05-05'
 categories:
   - '2025'
   - 'Spain'
-  - 'Barcelona'
+  - 'Barcelona, ESP'
 published: true
 coverImage: /images/2025/05/2025-05-04-093653.jpg
 description: 'Back to Spain, 2025'

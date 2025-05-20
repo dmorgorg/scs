@@ -30,7 +30,7 @@ description: 'Partway back...'
 
 <DayCardHGroup
     where="Batticaloa - Mahaoya"
-    when="4/5/2024"
+    when="2024/04/05"
     distance="69.8 km, 344 m, 1920.7 km to date" 
 />
 
@@ -72,11 +72,12 @@ description: 'Partway back...'
 </section>
 
 <section class="card">
-<h5>
-    6th April, 2024.
-  	Mahaoya - Mahiyanganaya<br/>
-    (53.5 km, 455 m, 1974.2 km to date)
-</h5>
+
+<DayCardHGroup
+    where="Mahaoya - Mahiyanganaya"
+    when="2024/04/06"
+    distance="53.5 km, 455 m, 1974.2 km to date" 
+/>
 
 <p>Back on the still relatively quiet road and starting to gain a little elevation. More beautiful large trees.</p>
 
@@ -113,6 +114,11 @@ description: 'Partway back...'
   	Mahiyanganaya - ?<br/>
     (18.0 km, 682 m, 1992.2 km to date)
 </h5>
+<DayCardHGroup
+    where="Mahiyanganaya - ?"
+    when="2024/04/07"
+    distance="18.0 km, 682 m, 1992.2 km to date" 
+/>
 
 <p>This was to be the tough one. Up, seriously up, into the hills. (But only 'seriously' due to the combination of loaded bike, tropical temperatures, elevation gain and septagenaria) A shortish day (34 km) was planned because of the almost 1100 m of elevation gain. I had reserved a room, for two nights, accordingly. Thinking a rest day might be in order before continuing to Kandy, another trying day, longer but a little less elevation to contend with.</p>
 
