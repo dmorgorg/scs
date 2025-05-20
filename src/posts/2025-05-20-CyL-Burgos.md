@@ -49,3 +49,78 @@ description: 'On to the Via Verde'
 <p>It was splendid to get horizontal, in the cool of my room. Still no elevator but only on the first floor! I watched Crystal Palace beat Manchester City in the FA Cup Final, and then it was time to head into town to eat. I found a quiet, cheap little bar for a sandwich and a beer. And managed quite fine, with my back (deliberately) to the Eurovision song contest on the TV.</p>
 
 </section>
+
+<section class="card">
+  
+  <DayCardHGroup
+    where="Villacoya &ndash; O&ntilde;a"
+    when="2025-05-18"
+    distance="37.4 km, 51 m, 157.4 km to date"
+  />
+
+  <p><a href="https://www.cycle.travel">cycle.travel</a> offers several route-finding options: any, paved, gravel. The only obvious difference between <em>any</em> and <em>gravel</em> for today's route appeared to be the approach to the Via Verde. I began to doubt my choice of gravel when faced with a kilometre of high grass, occasional muddy puddles. But the puddles weren't to deep or muddy and I stayed upright. It clearly hadn't been driven or ridden in a while but I managed without embarrassing myself. Not that it would have mattered; there wasn't an audience.</p>
+
+<div class="w-50">
+  <Img
+    src="/images/2025/05/grass.jpg"
+    alt="via verde" 
+    caption="This way to the Via Verde?"  
+   />
+</div>
+<p>Once on the trail, it was plain sailing. Hard-packed surface. No navigation to contend with: just follow the trail.</p>
+<Img
+  src="/images/2025/05/2025-05-18-104541.jpg"
+  alt="via verde" 
+  caption="The Via Verde"  
+ />
+
+<Img
+  src="/images/2025/05/2025-05-18-105044.jpg"
+  alt="via verde" 
+  caption="The train doesn't stop here any more"  
+ />
+
+<!-- <Img
+  src="/images/2025/05/2025-05-18-110637.jpg"
+  alt="via verde"
+  caption="The Via Verde"
+ /> -->
+
+<!-- <Img
+  src="/images/2025/05/2025-05-18-110707.jpg"
+  alt="via verde"
+  caption="The Via Verde"
+ /> -->
+
+<Img
+  src="/images/2025/05/2025-05-18-110736.jpg"
+  alt="via verde"
+ />
+<Img
+  src="/images/2025/05/2025-05-18-111237.jpg"
+  alt="via verde"
+ />
+
+  <p>The day was relatively easy physically although my body was feeling the effects of the previous days. It'll take a while to get fitness and strength back into my legs. I'm way behind my levels for this time last year, but I don't have the benefit of a recent tour of Sri Lanka. It'll come. Or it won't. Meanwhile, on I plod! </p>
+<Img
+  src="/images/2025/05/2025-05-18-143321.jpg"
+  alt="via verde"
+ />
+<Img
+  src="/images/2025/05/2025-05-18-153301.jpg"
+  alt="via verde"
+ />
+
+<div class="w-60">
+  <Img
+    src="/images/2025/05/2025-05-18-154222.jpg"
+    alt="via verde"
+   />
+</div>
+<Img
+  src="/images/2025/05/2025-05-18-160000.jpg"
+  alt="via verde"
+ />
+ <p>And life could be much worse!</p>
+
+</section>
