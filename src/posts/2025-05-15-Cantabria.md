@@ -197,10 +197,11 @@ Climbing walls! Easy to access and free. What a lovely idea! There was a boulder
     src="/images/2025/05/2025-05-16-162352.jpg"
     alt="climb out of vega de pas"
   />
-<Img 
+
+<!-- <Img
     src="/images/2025/05/2025-05-16-162413.jpg"
     alt="climb out of vega de pas"
-  />
+  /> -->
 
 <!-- <Img
     src="/images/2025/05/2025-05-16-180519.jpg"
@@ -220,9 +221,19 @@ Climbing walls! Easy to access and free. What a lovely idea! There was a boulder
 <Img 
     src="/images/2025/05/2025-05-16-180757.jpg"
     alt="climb out of vega de pas"
+    caption="My route told me to head of up this gravel track but I demurred; an unnecessary extra challenge!"
   />
-<p>My route told me to head of up this gravel track but I demurred; an unnecessary extra challenge!</p>
-<p>It was almost seven o'clock when I reached the top of the pass, marking eight exhausting hours to cover around fifteen kilometres.</p>
+<!-- <p>My route told me to head of up this gravel track but I demurred; an unnecessary extra challenge!</p> -->
+
+<div class="fr-40">
+  <Img 
+      src="/images/2025/05/border.jpg"
+      alt="climb out of vega de pas"      
+    />
+</div>
+
+<p>It was almost seven o'clock when I reached the top of the pass, marking eight painstaking hours to cover around only fifteen kilometres.</p>
+<p>Here, I left Cantabria. And was into Castilla y Le&oacute;n. The summit signs were also for Burgos. Cantabria and Castilla y Le&oacute;n are two of seventeen autonomous communities of Spain, sparsely populated Castilla y Le&oacute;n being the largest of the seventeen. Burgos is a province of Castilla y Le&oacute;n.</p>
 <p>Yes, a long day in the sun after a light breakfast. I was somewhat encouraged that I had managed to plod on (what choice did I have, really?) despite having had no exercise in the last ten months, despite being 72-years-old, despite being obese, despite bad knees and a bad ankle...</p>
 <p>Then downhill to Espinosa de los Monteros and my hotel room. On the fourth floor. Without a lift. </p>
 
