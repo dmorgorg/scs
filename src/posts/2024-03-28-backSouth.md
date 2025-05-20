@@ -28,11 +28,12 @@ description: '&mldr; in search of a beach.'
 </svelte:head>
 
 <section class="card">
-<h5>
-  	23rd March, 2024.
-  	Point Pedro - Killinochi<br/>
-    (61.9 km, 132 m, 1504.3 km to date)
-</h5>
+
+<DayCardHGroup
+    where="Point Pedro &ndash; Killinochi"
+    when="2024/03/23"
+    distance="61.9 km, 132 m, 1504.3 km to date" 
+/>
 
 <p>Breakfast in a bakery and then on to the already hot road. The heat definitely feels more oppressive these days. But it might be that I'm getting tired of it. Maybe even a little tired of being on the bike, too. Too many uninteresting roads in the north; I'm missing those deserted roads through the southern countryside. And, perhaps, the novelty of Sri Lanka is starting to wear off.</p>
 
@@ -82,11 +83,11 @@ description: '&mldr; in search of a beach.'
 </section>
 
 <section class="card">
-<h5>
-  	24th March, 2024.
-  	Killinochi - ?<br/>
-    (36.4 km, 148 m, 1540.7 km to date)
-</h5>
+<DayCardHGroup
+    where="Killinochi &ndash; ?"
+    when="2024/03/24"
+    distance="36.4 km, 148 m, 1540.7 km to date" 
+/>
 
 <Img
   src="/images/2024/03/2024-03-24-105641.jpg"
@@ -127,11 +128,12 @@ description: '&mldr; in search of a beach.'
 </section>
 
 <section class="card">
-<h5>
-  	25th March, 2024.
-  	? - Vavauniya<br/>
-    (40.7 km, 149 m, 1581.4 km to date)
-</h5>
+
+<DayCardHGroup
+    where="? &ndash; Vavauniya"
+    when="2024/03/25"
+    distance="40.7 km, 149 m, 1581.4 km to date" 
+/>
 
 <p>More of the same</p>
 
@@ -173,11 +175,12 @@ description: '&mldr; in search of a beach.'
 </section>
 
 <section class="card">
-<h5>
-  	27th March, 2024.
-  	Vavauniya - Horowupothana<br/>
-    (48.0 km, 317 m, 1629.4 km to date)
-</h5>
+
+<DayCardHGroup
+    where="Vavauniya &ndash; Horowupothana"
+    when="2024/03/27"
+    distance="48.0 km, 317 m, 1629.4 km to date" 
+/>
 
 <Img
   src="/images/2024/03/2024-03-27-095648.jpg"
@@ -214,16 +217,17 @@ description: '&mldr; in search of a beach.'
 />
 
 <p>Horowpothana seemed a lively enough small town built up around a road junction. Not a surfeit of accommodation options, though. Fortunately, one of the two places that I had found on the map previously did exist and had rooms (maybe the other one existed too, but I couldn't find it).</p>
-<p.>The Diyakata Pehana Resort was another example of a former grandiose establishment fallen upon hard times. The entrance hall, designed for magnificently opulent wedding receptions, was cavernous and empty. There was only an older lady in attendance, who wanted to keep my passport overnight, and who seemed quite proud to be 70. A dark, gloomy room with dark blue walls and few working light bulbs. Clean enough. A walk into town for a minimal dinner. Paratha and a small bowl of chicken curry. A turn about town: clothing shops displaying mens' shirts and ladies' dresses. A couple of bakeries. Quite vibrant in the early evening.</p.>
+<p>The Diyakata Pehana Resort was another example of a former grandiose establishment fallen upon hard times. The entrance hall, designed for magnificently opulent wedding receptions, was cavernous and empty. There was only an older lady in attendance, who wanted to keep my passport overnight, and who seemed quite proud to be 70. A dark, gloomy room with dark blue walls and few working light bulbs. Clean enough. A walk into town for a minimal dinner. Paratha and a small bowl of chicken curry. A turn about town: clothing shops displaying mens' shirts and ladies' dresses. A couple of bakeries. Quite vibrant in the early evening.</p>
 
 </section>
 
 <section class="card">
-<h5>
-  	28th March, 2024.
-  	Horowupothana - Trincomalee<br/>
-    (55.9 km, 218 m, 1685.3 km to date)
-</h5>
+
+<DayCardHGroup
+    where="Horowupothana &ndash; Trincomalee"
+    when="2024/03/28"
+    distance="55.9 km, 218 m, 1685.3 km to date" 
+/>
 
 <p>A pre-school on the outskirts of Horowupothana</p>
 
