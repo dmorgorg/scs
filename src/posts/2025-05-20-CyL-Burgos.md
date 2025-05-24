@@ -260,11 +260,25 @@ description: 'On to the Via Verde'
 <Img
       src="/images/2025/05/2025-05-24-142649.jpg"
        alt="Modubar de San Cibrian"/>
+
+<div class="w-80">
+  <Img
+        src="/images/2025/05/2025-05-24-143113.jpg"
+         alt="Modubar de San Cibrian"/>
+</div>
 <Img
-      src="/images/2025/05/2025-05-24-143113.jpg"
+      src="/images/2025/05/2025-05-24-142824.jpg"
        alt="Modubar de San Cibrian"/>
 <Img
-      src="/images/2025/05/2025-05-24-143113.jpg"
-       alt="Modubar de San Cibrian"/>
+      src="/images/2025/05/2025-05-24-143023.jpg"
+       alt="Modubar de San Cibrian"
+       caption="Built in 1892"/>
+
+<div class="w-50">
+  <Img
+        src="/images/2025/05/2025-05-24-142951.jpg"
+         alt="Modubar de San Cibrian"
+         />
+</div>
 
 </section>
