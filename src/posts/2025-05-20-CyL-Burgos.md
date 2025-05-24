@@ -185,9 +185,6 @@ description: 'On to the Via Verde'
 <Img
     src="/images/2025/05/2025-05-21-144053.jpg"
     alt="via verde" />
-<Img
-    src="/images/2025/05/2025-05-21-165343.jpg"
-    alt="via verde" />
 
   <p>I went into another 'ghost' village. Was everyone at work? Or having a siesta? (It was almost 5 pm.) I noticed a house with the door open, and a tap outside. I called 'hello' but there was no response. I filled my water-bottles and free-wheeled back down to the trail. Stopping at a bench to rest my bottom that was developing a fierce dislike for my saddle. At the bench, I added some sterilising tablets to my freshly cool water bottles. It was probably not necessary, but...</p>
 <Img
