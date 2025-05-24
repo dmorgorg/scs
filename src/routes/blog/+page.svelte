@@ -14,7 +14,10 @@
 
 <main class="all">
 	<Banner />
-	<h3>All Posts ({data.total}):</h3>
+	<h3>
+		All Posts
+		<!-- ({data.total}): -->
+	</h3>
 	<PostsList {data} />
 </main>
 
