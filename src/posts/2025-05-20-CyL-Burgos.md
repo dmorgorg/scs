@@ -33,7 +33,7 @@ description: 'On to the Via Verde'
   caption="The plaza in Espinoza de los Monteros. My hotel was the white building, slightly right of centre, my bedroom on the top floor."  
  />
 
-<p>I had hoped for a rest day after the previous day's efforts but, being Saturday night, my hotel was fully booked. I had booked a hotel a short distance on. So, a semi-rest day.</p>
+<p>I had hoped for a rest day after the previous day's efforts but, being Saturday night, my hotel was fully booked. I booked a hotel a short distance on. So, a semi-rest day.</p>
 <p>I woke early but was in no rush so slept some more. Then a leisurely breakfast &ndash; tortilla, ham on a slice of bread, and two large caf&eacute;s con leche. I finally got on with my ride at about 1:30 pm. </p>
 <Img
   src="/images/2025/05/2025-05-17-134859.jpg"
@@ -58,7 +58,7 @@ description: 'On to the Via Verde'
     distance="37.4 km, 51 m, 157.4 km to date"
   />
 
-  <p><a href="https://www.cycle.travel">cycle.travel</a> offers several route-finding options: any, paved, gravel. The only obvious difference between <em>any</em> and <em>gravel</em> for today's route appeared to be the approach to the Via Verde. I began to doubt my choice of gravel when faced with a kilometre of high grass, occasional muddy puddles. But the puddles weren't to deep or muddy and I stayed upright. It clearly hadn't been driven or ridden in a while but I managed without embarrassing myself. Not that it would have mattered; there wasn't an audience.</p>
+  <p><a href="https://www.cycle.travel">cycle.travel</a> offers several route-finding options: any, paved, gravel. The only obvious difference between <em>any</em> and <em>gravel</em> for today's route appeared to be the approach to the Via Verde. I began to doubt my choice of gravel when faced with a kilometre of high grass, occasional muddy puddles. But the puddles weren't too deep or too muddy and I stayed upright. It clearly hadn't been driven or ridden in a while but I managed without embarrassing myself. Not that it would have mattered; there wasn't an audience.</p>
 
 <div class="w-50">
   <Img
@@ -111,6 +111,10 @@ description: 'On to the Via Verde'
   alt="via verde"
  />
 
+ <p>I met a cyclist heading the other way and we chatted briefly. He was headed to Villacoya. Fifteen minutes later I discovered, in my pocket, the keys for the hotel in Villacoya. Bad timing, a quarter of an hour earlier and I could have given it to the northbound tourist to deliver. </p>
+
+ <p>I texted the hotel apologetically, asking what they'd like me to do with the keys. They had spares came the reply, not to worry.</p>
+
 <div class="w-60">
   <Img
     src="/images/2025/05/2025-05-18-154222.jpg"
@@ -122,5 +126,148 @@ description: 'On to the Via Verde'
   alt="via verde"
  />
  <p>And life could be much worse!</p>
+
+</section>
+
+<section class="card">
+
+<DayCardHGroup
+    where="O&ntilde;a &ndash; Quintanilla Vivar"
+    when="2025-05-21"
+    distance="49.0 km, 368 m, 206.4 km to date"
+  />
+
+  <p>I met Chris, from Santa Fe, New Mexico, outside the hotel in O&ntilde;a. Pleasant company for the evening. He also has a flat in Madrid where he spends five months a year. And may be relocating permanently, given the craziness in his homeland.</p>
+
+<div class="w-80">
+  <Img
+      src="/images/2025/05/2025-05-21-110316.jpg"
+      alt="via verde"
+    />
+</div>
+
+<div class="w-60">
+  <Img
+      src="/images/2025/05/2025-05-21-110342.jpg"
+      alt="via verde"
+    />
+</div>
+
+  <p>I needed a good rest day. And I wanted to stay in a hotel where Bev and I had had a couple of pleasant nights in Burgos in 2023 but it was booked on the night I wanted so I settled for a second rest day. A wise move, as it turned out: this felt a long day.</p>
+
+  <p>Most cyclists would make it to Burgos (easily?) from O&ntilde;a in a day but that would be 60 km with significant climbing: I didn't feel ready for that. The only place I could find to stay was within 12 km of Burgos but, hopefully, that would get me into Burgos in time to find a coin-laundry. Time for some fresh, clean clothes!</p>
+
+  <p>Today promised to be almost continually uphill, never steep but never easy cruising. I retraced my steps (or pedal strokes) to the Via Verde and got on with it. </p>
+
+<Img
+    src="/images/2025/05/2025-05-21-132324.jpg"
+    alt="via verde"
+    caption="One of the many abandoned old railway stations along the Via Verde."
+  />
+
+<p>It was a bit of a struggle. The surface was fine but definitely more energy-sapping  than smooth tarmac. The kilometres passed slowly. It was very remote and I was using up my water quite quickly - reminding me that I should look for a replacement bottle while in Burgos. </p>
+
+<p>I had no bread so lunch was a tin of mussels in oil. Quite good. And some Laughing Cow fake cheese triangles. Not much energy regained. </p>
+
+<div class="w-80">
+  <Img
+    src="/images/2025/05/2025-05-21-133911.jpg"
+    alt="via verde"
+  />
+</div>
+
+  <p>I entered one of the rare villages along the route but it was small and had no store. I could have used some calories, and some water, but no luck here. Although one building did sport an intriguing bicycle 'installation.'</p>
+<div class="w-90">
+  <Img
+    src="/images/2025/05/2025-05-21-143218.jpg"
+    alt="via verde" />
+</div>
+<Img
+    src="/images/2025/05/2025-05-21-144053.jpg"
+    alt="via verde" />
+<Img
+    src="/images/2025/05/2025-05-21-165343.jpg"
+    alt="via verde" />
+
+  <p>I went into another 'ghost' village. Was everyone at work? Or having a siesta? (It was almost 5 pm.) I noticed a house with the door open, and a tap outside. I called 'hello' but there was no response. I filled my water-bottles and free-wheeled back down to the trail. Stopping at a bench to rest my bottom that was developing a fierce dislike for my saddle. At the bench, I added some sterilising tablets to my freshly cool water bottles. It was probably not necessary, but...</p>
+<Img
+    src="/images/2025/05/2025-05-21-165343.jpg"
+    alt="via verde" />
+
+  <p>A few spots of rain, and a little welcome downhill. Then time to leave the Via Verde and head off to my room for the night. It was eight o'clock when I arrived. The restaurant was some distance away (for a tired old guy to walk in the rain) but the hostess drove there, and then picked me up. I read in the comments on booking.com that they had done that for some other guests; maybe they feel that is necessary to appeal to passing cyclists? </p>
+
+</section>
+
+<section class="card">
+<DayCardHGroup
+    where="Quintanilla Vivar &ndash; Burgos"
+    when="2025-05-22"
+    distance="12.6 km, 111 m, 219.0 km to date"
+  />
+
+  <p>Road riding with some traffic. The hills feel easier off the gravel.</p>
+
+ <div class="w-60">
+    <Img
+      src="/images/2025/05/2025-05-22-121133.jpg"
+      alt="burgos" 
+      caption="Burgos Cathedral"/>
+      
+ </div>
+
+  <p>Barely an hour's riding time and I was in Burgos, by the cathedral. Then, quickly, at the remembered Hotel Norte y Londres, a little early for my 1:00 pm check-in. The room was ready so I didn't have to wait. Nice, friendly accommodating people at the check-in &ndash; who didn't bat an eyelid as I wheeled my bike through the classy foyer.</p>
+
+   <div class="w-60">
+    <Img
+      src="/images/2025/05/2025-05-22-121356.jpg"
+      alt="burgos"/>      
+ </div>
+
+  <p>My room wasn't as nice as the one Bev and I had shared two years ago but it had a comfortable bed, a spacious bathroom. A quick shower, followed by a lie-down, and I was ready for the walk to the launderette. I didn't find the one that we had used before but the one I did find was empty and did the job without any waiting. Then off to the Summit mountain store where I looked at climbing shoes and bought a replacement 1.5L water bottle. And some energy bars.</p>
+  <p>Back to the room for a while, then out to wander about and to eat. Burgos felt different but it was a cold day and people scurried around wearing pinched expressions. I should not have worn shorts!</p>
+  <p>The room cost 76&euro; on this Thursday nice and 140&euro; for Friday (but down to 56&euro; for Sunday night!). Weekends are more expensive and often booked up. I found a place, available for Friday and Saturday night, a short distance from Burgos. And another place, available on Sunday night, about 35 km further on. The next few days appear to be sorted!</p>
+</section>
+<section class="card">
+<DayCardHGroup
+    where="Burgos &ndash; Mod&ugrave;bar de San Cibri&agrave;n"
+    when="2025-05-23"
+    distance="17.6 km, 210 m, 236.6 km to date"
+  />
+  <p>I delayed my departure from the Hotel Norte y Londres until noon, when I had to check out. It would be another short day and my hotel for the evening had a late check-in. I rode for a couple of kilometres and sat in the sun in a plaza. I had time to kill. But it was chilly.</p>
+
+<Img
+      src="/images/2025/05/2025-05-23-135234.jpg"
+      alt="cycle path south of burgos"/>
+
+<p>Before long, I was back on a Via Verde for a short while. A nice surface. Then a turn east to get another trail to my lodgings in Mod&ugrave;bar de San Cibri&agrave;n. Population 68.</p>
+ <Img
+      src="/images/2025/05/2025-05-23-141604.jpg"
+      alt="cycle path south of burgos"/>
+  <p>Steep, with a strong headwind, made me thankful for the freshly paved surface.</p>
+
+  <p>Despite all the dawdling, I was outside my lodgings by four o'clock. I filled in the online check-in form and sent a message to the lodging, informing then that I was outside the hotel but happy to wait until five. A man walked down the road and let me in a few minutes later.</p>
+
+<DayCardHGroup
+    where="Mod&ugrave;bar de San Cibri&agrave;n"
+    when="2025-05-24"
+  />
+<Img
+      src="/images/2025/05/2025-05-24-144209.jpg"
+      alt="Modubar de San Cibrian"/>
+<Img
+      src="/images/2025/05/2025-05-24-143405.jpg"
+       alt="Modubar de San Cibrian"/>
+<Img
+      src="/images/2025/05/2025-05-24-143216.jpg"
+       alt="Modubar de San Cibrian"/>
+<Img
+      src="/images/2025/05/2025-05-24-142649.jpg"
+       alt="Modubar de San Cibrian"/>
+<Img
+      src="/images/2025/05/2025-05-24-143113.jpg"
+       alt="Modubar de San Cibrian"/>
+<Img
+      src="/images/2025/05/2025-05-24-143113.jpg"
+       alt="Modubar de San Cibrian"/>
 
 </section>

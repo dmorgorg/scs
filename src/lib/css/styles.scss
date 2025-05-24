@@ -77,7 +77,7 @@ h4,
 h5,
 h6 {
 	color: var(--header-text);
-	font-family: 'italicText', sans-serif;
+	font-family: 'SCSHeaders', sans-serif;
 	font-style: italic;
 	text-align: center;
 }
@@ -161,6 +161,11 @@ li {
 	float: right;
 	margin-left: 1rem;
 }
+.fl-40 {
+	width: 40%;
+	float: left;
+	// margin-left: 1rem;
+}
 
 .fr-50 {
 	float: right;
@@ -215,7 +220,8 @@ section.card {
 	padding-block-start: var(--size-fluid-1);
 
 	h5 {
-		font-family: SCSHeader, sans-serif;
+		font-family: 'SCSHeaders', sans-serif;
+		background: pink;
 	}
 
 	// spacing between adjacent cards
