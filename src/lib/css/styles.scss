@@ -319,4 +319,8 @@ section.card {
 		margin-inline: auto;
 		// background-color: white;
 	}
+
+	::-webkit-scrollbar {
+		display: none;
+	}
 }
