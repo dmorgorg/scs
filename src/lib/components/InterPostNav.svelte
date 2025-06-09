@@ -151,10 +151,11 @@
 	.row {
 		display: flex;
 		justify-content: space-between;
-		margin-block-start: -1rem;
+		// margin-block-start: -1rem;
 		margin-block-end: 1.5rem;
 		padding-block-start: 1.25rem;
 	}
+
 	.col {
 		display: flex;
 		flex-direction: column;
