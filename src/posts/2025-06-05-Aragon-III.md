@@ -10,7 +10,7 @@ categories:
   - 'Spain'
 
 published: true
-coverImage: /images/2025/06/2025-06-02-144700.jpg
+coverImage: /images/2025/06/2025-06-03-165203.jpg
 description: ''
 ---
 
@@ -18,187 +18,6 @@ description: ''
   import Img from '$lib/components/Img.svelte'
   import DayCardHGroup from '$lib/components/DayCardHGroup.svelte'
 </script>
-
-<!-- <section class="card">
-
-<DayCardHGroup
-  where="A day in Daroca"
-  when="2025-06-04"
-/>
-
-<p>No clouds today. I went in search of a bike shop but it seemed to have been a bike tour agency that was now permanently closed. Still, it was a nice day for a wander. I headed up towards the walls that went around the city.</p>
-
-<Img
-  src="/images/2025/06/2025-06-04-141857.jpg"
-  alt="Daroca"
-  caption="The walls are high above the old town streets."
-/>
-
-<div class="w-80">
-  <Img
-    src="/images/2025/06/2025-06-04-141921.jpg"
-    alt="Daroca"
-    caption="The entrance to my hotel is the door on the right."
-  />
-</div>
-<div class="w-60">
-  <Img
-    src="/images/2025/06/2025-06-04-143203.jpg"
-    alt="Daroca"
-    caption="A bright post office van."
-  />
-</div>
-
-<Img
-  src="/images/2025/06/2025-06-04-144005.jpg"
-  alt="Daroca"
-  caption="The entrance to the old town."
-/>
-
-<div class="w-80">
-  <Img
-    src="/images/2025/06/2025-06-04-143609.jpg"
-    alt="Daroca"
-  />
-</div>
-<div class="w-80">
-   <Img
-      src="/images/2025/06/2025-06-04-150415.jpg"
-      alt="Daroca"
-    />
-</div>
-<div class="w-70">
-   <Img
-      src="/images/2025/06/2025-06-04-150607.jpg"
-      alt="Daroca"
-    />
-</div>
-<Img
-  src="/images/2025/06/2025-06-04-153620.jpg"
-  alt="Daroca"
-  caption="The Cathedral"
-/>
-
-
-<div class="w-80">
-  <Img
-    src="/images/2025/06/2025-06-04-161411.jpg"
-    alt="Daroca"
-    caption="The other gate into/out of the town."
-  />
-</div>
-<Img
-  src="/images/2025/06/2025-06-04-161823.jpg"
-  alt="Daroca"
-/>
-<Img
-  src="/images/2025/06/2025-06-04-162023.jpg"
-  alt="Daroca"
-  caption="Heading up to the city walls."
-/>
-<Img
-  src="/images/2025/06/2025-06-04-162354.jpg"
-  alt="Daroca"
-  caption="Another mural on the steep climb"
-/>
-
-<Img
-  src="/images/2025/06/2025-06-04-162500.jpg"
-  alt="Daroca"
-  caption="A pleasant view across the rooftops of the city"
-/>
-<Img
-  src="/images/2025/06/2025-06-04-163332.jpg"
-  alt="Daroca"
-/>
-
-<div class="w-90">
-  <Img
-    src="/images/2025/06/2025-06-04-163351.jpg"
-    alt="Daroca"
-  />
-</div>
-<Img
-  src="/images/2025/06/2025-06-04-172001.jpg"
-  alt="Daroca"
-  caption="Up amongst the walls and battlements."
-/>
-<Img
-  src="/images/2025/06/2025-06-04-174114.jpg"
-  alt="Daroca"
-/>
-
-<p>This had been a fairly strenuous day of walking for my old joints and I was pleased with how they were holding up. But, when I saw as sign offering 0.2 km down to Daroca, or 8.5 km around the perimeter, I decided not to push my luck. I took the more immediate option, which brought me down on Calle Grajera, right to my hotel. </p>
-<div class="w-80">
-
-  <Img
-    src="/images/2025/06/2025-06-04-180028.jpg"
-    alt="Daroca"
-  />
-</div>
-
-</section> -->
-
-<!-- <section class="card">
-
-<DayCardHGroup
-  where="Daroca &ndash; Monreal del Campo"
-  when="2025-06-05"
-  distance="46.2 km, 297 m, 574.8 km to date"
-/>
-
-<p>A longish day, necessitated by a sparcity of accmommodation.</p>
-
-<Img
-  src="/images/2025/06/2025-06-05-112555.jpg"
-  alt="Via Verde to Monreal del Campo"
-/>
-
-<div class="w-80">
-  <Img
-    src="/images/2025/06/2025-06-05-121704.jpg"
-    alt="Via Verde to Monreal del Campo"
-  />
-</div>
-<Img
-  src="/images/2025/06/2025-06-05-134926.jpg"
-  alt="Via Verde to Monreal del Campo"
-  caption="A pair of bees, fully immersed in pollen."
-/>
-<div class="w-80">
-  <Img
-    src="/images/2025/06/2025-06-05-142221.jpg"
-    alt="Via Verde to Monreal del Campo"
-  />
-</div>
-
-<Img
-  src="/images/2025/06/2025-06-05-145745.jpg"
-  alt="Via Verde to Monreal del Campo"
-  caption="A solitary bridge (Roman?) connected to nothing"
-/>
-<Img
-  src="/images/2025/06/2025-06-05-181206.jpg"
-  alt="Via Verde to Monreal del Campo"
-/>
-
-<p>The Via Verde disappeared for a while. It seemed that the new railway followed the path of the old and, as a result, I was consigned to rough gravel roads. With more up and down than I had grown accustomed to. I was not particularly entralled.</p>
-
-<p>Then my trail became a storm water drain, to protect the new railway line from flooding.</p>
-
-<Img
-  src="/images/2025/06/2025-06-05-181753.jpg"
-  alt="Via Verde to Monreal del Campo"
-/>
-
-<Img
-  src="/images/2025/06/2025-06-05-185708.jpg"
-  alt="Via Verde to Monreal del Campo"
-/>
-
-<p>It was quite hot with open countryside and a day without much shade. But I reached Monreal del Campo and cycled a couple of kilometres further south to an industrial estate where my (very cheap) hostal was. The restaurant was closed (I had anticipated this and had enquired ahead about dinner) but had a plate of soft green beans and boiled potatoes, followed by a barbecued steak. While watching Spain play football. And checking out the local ros&eacute;</p>
-
-</section> -->
 
 <section class="card">
 
@@ -345,7 +164,131 @@ description: ''
 <DayCardHGroup
   where="Teruel &ndash; La Puebla de Valverde" 
   when="2025-06-08"
-  distance="27.3 km, 392 m, 644.6 km to date"
+  distance="27.3 km, 392 m, 664.7 km to date"
+/>
+
+<p>The ride back up from the city to the Via Verde was almost as bad as I had imagined. My route was different, which conveniently avoided what had been a steep uphill push into the city; I started climbing straight away, steeply, up narrow city streets. Then, above the city, upward on gravel to a pergola overlooking Teruel. I lay in the shade for a while while joggers panted past.</p>
+
+<p>Then more of the same, interspersed with reasonably easy grades and even some downhill, before  final gravel and concrete up to the Via Verde.</p>
+
+<div class="w-80">
+  <Img
+    src="/images/2025/06/2025-06-08-125721.jpg"
+    caption="Steep gravel, steeper concrete, up to the Via Verde."
+  />
+</div>
+
+<p>It was steady haul upwards for the next twenty kilometres before it levelled off and then provided some downhill coasting into La Puebla del Valverde. A short day, in terms of distance, but it felt like a decent workout. Very pleasant countryside to compensate!</p>
+
+<Img
+  src="/images/2025/06/2025-06-08-131619.jpg"
+/>
+
+<p>The trail didn't seem to be so well-maintained here, with many of the railings in need of some attention. Not to complain, though; the whole Via Verde Santander to Mediterr&aacute;neo had been a great way to cross the country. And not a cheap undertaking.</p>
+
+<Img
+  src="/images/2025/06/2025-06-08-141724.jpg"
+/>
+
+<p>Signs indicated that I was on a camino, the Camino de Sigunt. (Sigunt is on the Mediterranean coast, to the north of Valencia, where this Via Verde terminates.)</p>
+<Img
+  src="/images/2025/06/2025-06-08-150156.jpg"
+/>
+<Img
+  src="/images/2025/06/2025-06-08-150337.jpg"
+/>
+<Img
+  src="/images/2025/06/2025-06-08-162753.jpg"
+  caption="I had a free loader for a while, catching a ride."
+/>
+<Img
+  src="/images/2025/06/2025-06-08-174710.jpg"
+/>
+
+<p>I checked in to the very nice hotel just outside La Puebla del Valverde, where I had a room under the sloping roof in the attic. I only banged my head twice on the beams. I watched Spain lose to Portugal on penalty kicks for the final of the Nation's League while I had dinner. Although I had to watch the extra time and penalty shootout in my room so the staff could close up the restaurant. </p>
+
+<p>I had a rest day here. A lazy day, catching up on some blogging. I did notice a couple of bikes outside the restaurant at lunch time: fully panniered bikes with Rohloff gears and battery power. I talked to the riders, an elderly Dutch couple. She was about to turn 81, he was still 80. They were riding north and complained bitterly about the section immediately south. Some sections were blocked off, sign posting was poor, large gravel. And the lady had taken a fall (not serious, as far as I could see). They strongly suggested that I take the road. Mmm, maybe. But the road will have it's own problems - more uphill and downhill than I have grown to like on the rail trails. I'll decide later...</p>
+
+</section>
+
+<section class="card">
+
+<DayCardHGroup
+  where="La Puebla de Valverde &ndash; Jerica" 
+  when="2025-06-08"
+  distance="68.5 km, 276 m, 733.2 km to date"
+/>
+
+<p>(I rode a little further than indicated above. I changed routes on my GPS and mistakenly ended my ride. Without noticing for a kilometre or two.) </p>
+
+<p>Accepting that everyone's version of a bad trail is different, I decided to stick with the Via Verde rather than the road alternative suggested by the two Dutch cyclists. I hadn't gone too far before I was diverted down off the rail trail, onto dirt farm roads.</p>
+
+<Img
+  src="/images/2025/06/2025-06-10-105157.jpg"
+  caption="Below the rail trail, the new rail line and the highway"
+/>
+<Img
+  src="/images/2025/06/2025-06-10-114931.jpg"
+/>
+
+<p>I paused for breath and a photo when I heard voices. I had decided to push for a while and it was too late to jump back on the bike and pretend I was riding! A foursome of fiftyish-year-old men passed me as I pushed. One was pushing also and they were hardly loaded so I didn't feel too bad. I asked where they were going today and heard "Valencia." I looked suitably impressed. (Of course, I may have lost something in translation; maybe Valencia wasn't today.) And at the top of the steep slope, he got back on his bike and pedalled on. </p>
+<Img
+  src="/images/2025/06/2025-06-10-125118.jpg"
+/>
+<Img
+  src="/images/2025/06/2025-06-10-125540.jpg"
+/>
+
+<p>As is usually the case, the trail passed close to towns rather than through them. This had the disadvantage that there was no easy or obvious access to village stores for cold drinks or nourishment. As a result, I often had long days with nothing much more to sustain me than a light Spanish breakfast. </p>
+<Img
+  src="/images/2025/06/2025-06-10-125607.jpg"
+/>
+
+<p>I skirted a number of towns, each with a prominent church tower, on my way.</p>
+<Img
+  src="/images/2025/06/2025-06-10-131257.jpg"
+/>
+
+<p>Three light tourers (one pannier each!) passed me on ebikes, complaining about the detours. I stopped for a chat when they paused under the shade of a tree; they were from the Netherlands. And had come from Turuel today (that had been a separate day for me!). But they (about my age, I suspect) were on ebikes so the uphill from Turuel probably hadn't been as taxing. </p>
+
+<p>Tunnels offered refreshingly cool air, even if they often involved riding blind, trusting that there was no obstacle lurking between lit up sections of the tunnel.</p>
+<Img
+  src="/images/2025/06/2025-06-10-131434.jpg"
+/>
+<Img
+  src="/images/2025/06/2025-06-10-131750.jpg"
+/>
+
+<p>Numerous bridges had been built for the abandoned railway line. Again, I marvelled at the expense. The new rail line had similar bridges. The expense was hard to imagine.</p>
+<Img
+  src="/images/2025/06/2025-06-10-134903.jpg"
+/>
+<Img
+  src="/images/2025/06/2025-06-10-135111.jpg"
+/>
+<Img
+  src="/images/2025/06/2025-06-10-143114.jpg"
+/>
+
+<p>I came to the end of the autonomous community of Arag&oacute;n and was now in the community of Valencia. I was nearing the end of the first part of my ride.</p>
+
+<Img
+  src="/images/2025/06/2025-06-10-153112.jpg"
+/>
+<Img
+  src="/images/2025/06/2025-06-10-162036.jpg"
+/>
+<Img
+  src="/images/2025/06/2025-06-10-170652.jpg"
+/>
+
+<div class="w-70">
+  <Img
+    src="/images/2025/06/2025-06-10-171027.jpg"
+  />
+</div>
+<Img
+  src="/images/2025/06/2025-06-10-173918.jpg"
 />
 
 </section>
