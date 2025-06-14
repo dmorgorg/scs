@@ -232,7 +232,7 @@ description: ''
   src="/images/2025/06/2025-06-10-114931.jpg"
 />
 
-<p>I paused for breath and a photo when I heard voices. I had decided to push for a while and it was too late to jump back on the bike and pretend I was riding! A foursome of fiftyish-year-old men passed me as I pushed. One was pushing also and they were hardly loaded so I didn't feel too bad. I asked where they were going today and heard "Valencia." I looked suitably impressed. (Of course, I may have lost something in translation; maybe Valencia wasn't today.) And at the top of the steep slope, he got back on his bike and pedalled on. </p>
+<p>I had paused for breath and a photo when I heard voices. I had already decided to push for a while up a steep section and it was too late to jump back on the bike and pretend I was riding! A foursome of fiftyish-year-old men passed me as I pushed. One was pushing also and they were hardly loaded so I didn't feel too bad. I asked where they were going today and heard "Valencia." I looked suitably impressed. (Of course, I may have lost something in translation; maybe Valencia wasn't today.) And at the top of the steep slope, he got back on his bike and pedalled on. </p>
 <Img
   src="/images/2025/06/2025-06-10-125118.jpg"
 />
@@ -250,7 +250,7 @@ description: ''
   src="/images/2025/06/2025-06-10-131257.jpg"
 />
 
-<p>Three light tourers (one pannier each!) passed me on ebikes, complaining about the detours. I stopped for a chat when they paused under the shade of a tree; they were from the Netherlands. And had come from Turuel today (that had been a separate day for me!). But they (about my age, I suspect) were on ebikes so the uphill from Turuel probably hadn't been as taxing. </p>
+<p>While on the second detour, three light tourers (one pannier each!) passed me on ebikes, complaining about the detours. I stopped for a chat when they rested under the shade of a tree; they were from the Netherlands. And had come from Turuel today (that had been a separate day for me!). But they (about my age, I suspect) were on ebikes so the uphill from Turuel probably hadn't been as taxing. </p>
 
 <p>Tunnels offered refreshingly cool air, even if they often involved riding blind, trusting that there was no obstacle lurking between lit up sections of the tunnel.</p>
 <Img
@@ -279,6 +279,8 @@ description: ''
 <Img
   src="/images/2025/06/2025-06-10-162036.jpg"
 />
+
+<p>Hills ahead, with a line of wind turbines, explained that the headwind I was experiencing was not a rare occurrence!</p>
 <Img
   src="/images/2025/06/2025-06-10-170652.jpg"
 />
@@ -288,8 +290,27 @@ description: ''
     src="/images/2025/06/2025-06-10-171027.jpg"
   />
 </div>
+
 <Img
   src="/images/2025/06/2025-06-10-173918.jpg"
 />
+
+<p>And, then, a traffic jam. There was a flock of sheep crossing the trail ahead of me. I stopped, far enough back, not to spook them but the shepherd beckoned me on. He separated them sufficiently for me to get through but said something when I went to continue. He pointed at a sign, indicating that the trail was 'cut' ahead and there was work being done. Of course, the shepherd spoke no English (why should he?) but with a little help from Google Translate, I turned right. </p>
+
+<div class="w-70">
+  <Img
+    src="/images/2025/06/sheep.jpg"
+  />
+</div>
+
+<p>Right where the majority of his flock were crowded. He got to work again, beating a path for me through the tightly packed sheep. He had a dog, on a tight leash, possibly in training. Then I was through, and on my way.</p>
+
+<div class="w-80">
+  <Img
+    src="/images/2025/06/shepherd.jpg"
+  />
+</div>
+
+<p>I ended up on a gravel road, then a paved one, for the rest of the ride. A town I went through had an open store so I had a couple of coolish cans of juice. Late in the day, I arrived in Jerica. At the hotel, there were the four bikers who had, or had not, hoped to be in Valencia tonight!</p>
 
 </section>
