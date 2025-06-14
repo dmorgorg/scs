@@ -8,6 +8,7 @@ categories:
   - 'Cycle Touring'
   - 'Santander, ESP'
   - 'Spain'
+  - 'Via Verde'
 
 published: true
 coverImage: /images/2025/05/2025-05-13-160231.jpg

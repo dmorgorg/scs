@@ -8,6 +8,7 @@ categories:
   - 'Broken Road'
   - 'Cycle Touring'
   - 'Spain'
+  - 'Via Verde'
 
 published: true
 coverImage: /images/2025/06/2025-06-03-165203.jpg
