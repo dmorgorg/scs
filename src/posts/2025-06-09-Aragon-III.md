@@ -165,7 +165,7 @@ description: ''
 <DayCardHGroup
   where="Teruel &ndash; La Puebla de Valverde" 
   when="2025-06-08"
-  distance="27.3 km, 392 m, 664.7 km to date"
+  distance="27.3 km, 392 m, 664.6 km to date"
 />
 
 <p>The ride back up from the city to the Via Verde was almost as bad as I had imagined. My route was different, which conveniently avoided what had been a steep uphill push into the city; I started climbing straight away, steeply, up narrow city streets. Then, above the city, upward on gravel to a pergola overlooking Teruel. I lay in the shade for a while while joggers panted past.</p>
@@ -217,7 +217,7 @@ description: ''
 <DayCardHGroup
   where="La Puebla de Valverde &ndash; Jerica" 
   when="2025-06-08"
-  distance="68.5 km, 276 m, 733.2 km to date"
+  distance="68.5 km, 276 m, 733.1 km to date"
 />
 
 <p>(I rode a little further than indicated above. I changed routes on my GPS and mistakenly ended my ride. Without noticing for a kilometre or two.) </p>
@@ -311,6 +311,6 @@ description: ''
   />
 </div>
 
-<p>I ended up on a gravel road, then a paved one, for the rest of the ride. A town I went through had an open store so I had a couple of coolish cans of juice. Late in the day, I arrived in Jerica. At the hotel, there were the four bikers who had, or had not, hoped to be in Valencia tonight!</p>
+<p>I ended up on a gravel road, then a paved one, for the rest of the ride. A town I went through had an open store so I had a couple of coolish cans of juice. Late in the day, I arrived in Jerica. At the hotel, there were the four bikers who had, or maybe had not, expected to be in Valencia tonight!</p>
 
 </section>
