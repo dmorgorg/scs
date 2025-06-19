@@ -11,7 +11,7 @@ categories:
   - 'Via Verde'
 
 published: true
-coverImage: /images/2025/06/2025-06-03-165203.jpg
+coverImage: /images/2025/06/2025-06-10-131434.jpg
 description: ''
 ---
 
