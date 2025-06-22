@@ -11,7 +11,7 @@ categories:
   - 'Spain'
 
 published: true
-coverImage: /images/2025/06/2025-06-14-153504.jpg
+coverImage: /images/2025/06/2025-06-22-144035.jpg
 description: ''
 ---
 
