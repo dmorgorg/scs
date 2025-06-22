@@ -1,7 +1,7 @@
 ---
-title: 'Camino Levante I'
+title: 'Camino Levante &ndash; Valenciana'
 headTitle: 'Camino I'
-date: '2025-06-16'
+date: '2025-06-20'
 categories:
   - '2025'
   - 'Broken Road'
@@ -9,7 +9,6 @@ categories:
   - 'Cycle Touring'
   - 'Spain'
   - 'Valenciana, ESP'
-  - 'Via Verde'
 
 published: true
 coverImage: /images/2025/06/2025-06-14-153504.jpg
@@ -200,6 +199,8 @@ description: ''
 />
 
 <p>I did eventually reach Almasen where a nice man, Paco, welcomed me into his hostal. Three nights, with two days for some recovery I hope. The next day of riding is as challenging as the one I'd just done.</p>
+
+<p>Somewhere before Almansa I had passed from the autonomous community of Valenciana into the autonomous community of Castilla-La Mancha. It wasn't signposted on the road or track I was on. Sometime in the middle of the day when I had other things on my mind.</p>
 
 <Img
   src="/images/2025/06/2025-06-18-172621.jpg"
