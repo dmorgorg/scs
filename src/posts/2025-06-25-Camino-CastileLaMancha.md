@@ -144,9 +144,125 @@ description: ''
 
 <p>My camera came out frequently today!</p>
 
+<p>I wasn't very impressed with the route that cycle.travel came up with; it seemed to take three sides of a rectangle. So I decided to go with the pilgrims' Camino. More gravel surface so more effort &ndash; I hoped the reduced distance would compensate. </p>
+
+<p>Being on the Camino proper for the day, I would be seeing more of the typical Camino markers. Maybe a photo project for this post?</p>
+
+<div class="w-60">
+  <Img
+    src="/images/2025/06/2025-06-23-100830.jpg"
+    alt="camino stage 7"
+    caption="Go right, Pilgrim!"
+  />
+</div>
+
+<p>The shell marker, somewhat counter-intuitively, is pointing to the right. All the 'rays' represent Caminos, all converging upon Santiago de Compostela.</p>
 <Img
-  src="/images/2025/06/2025-06-22-144142.jpg"
-  alt="camino stage 6"
+  src="/images/2025/06/2025-06-23-102357.jpg"
+  alt="camino stage 7"
+/>
+
+<p>The terrain was fairly flat, and well cultivated considering the heat. Up to 35&deg;C today.</p>
+<Img
+  src="/images/2025/06/2025-06-23-104707.jpg"
+  alt="camino stage 7"
+  caption="Do you see the marker?"
+/>
+<div class="w-70">
+  <Img
+    src="/images/2025/06/2025-06-23-104733.jpg"
+    alt="camino stage 7"
+    caption="Now can you see it?"
+  />
+</div>
+
+<p>Easy enough riding on rough gravel. Flat, and not enough shade! </p>
+<Img
+  src="/images/2025/06/2025-06-23-105622.jpg"
+  alt="camino stage 7"
+/>
+
+<p>A cross, marking the distance to Santiago de Compostela. 1000 km. I won't be making it that far, I figure. Not without focusing on the destination rather than the journey, and I don't want to do that. Maybe I should just aim for Zamora, where the Camino Levante joins the Via Ruta de la Plata?</p>
+
+<blockquote>This thought didn't age well! As you will see.</blockquote>
+<Img
+  src="/images/2025/06/2025-06-23-111258.jpg"
+  alt="camino stage 7"
+/>
+<div class="w-60">
+  <Img
+    src="/images/2025/06/2025-06-23-111309.jpg"
+    alt="camino stage 7"
+  />
+</div>
+
+<p>I am fairly sure I wouldn't want to be walking through here. Little shade and draining enough on the bike. I riding slowly but still about three times the speed of a walker. Of course, I rest a lot, milking what little shade I can find, and hiding out for a while at lunchtime. On foot, you wouldn't have the luxury, the time, to do that.</p>
+<Img
+  src="/images/2025/06/2025-06-23-112046.jpg"
+  alt="camino stage 7"
+/>
+<Img
+  src="/images/2025/06/2025-06-23-112350.jpg"
+  alt="camino stage 7"
+/>
+<Img
+  src="/images/2025/06/2025-06-23-112821.jpg"
+  alt="camino stage 7"
+/>
+<p>An old shelter at the side of the trail: shade for shepherds? A cultural notice called it a 'Cuco del Camino de la Pilica.' Incorrectly, I assume, translated by Google to the Cuckoo Path.</p>
+<Img
+  src="/images/2025/06/2025-06-23-112841.jpg"
+  alt="camino stage 7"
+/>
+
+<Img
+  src="/images/2025/06/2025-06-23-113705.jpg"
+  alt="camino stage 7"
+/>
+<Img
+  src="/images/2025/06/2025-06-23-114944.jpg"
+  alt="camino stage 7"
+/>
+
+<p>I disturbed lots of crickets as I rode along the double track path. Did you know that they have a mild sting? When you ride into them at speed. </p>
+<div class="w-70">
+  <Img
+    src="/images/2025/06/2025-06-23-120105.jpg"
+    alt="camino stage 7"
+    caption="A free-loader for a few hundred metres..."
+  />
+</div>
+<Img
+  src="/images/2025/06/2025-06-23-121940.jpg"
+  alt="camino stage 7"
+/>
+
+<p>Then a steep climb up into the old town of Chinchilla, the end of the seventh stage of the Camino. Only seven since Valencia? It seemed much more. Everything start to blur together after a while; a benefit to me of this blog is that I have a reminder of what has gone before but expunged from my brain by the sun. Or is it by old age?</p>
+
+<Img
+  src="/images/2025/06/2025-06-23-124228.jpg"
+  alt="camino stage 7"
+/>
+
+<p>I had lunch in Chinchilla. I don't recall what I started with but I then had some shrimp in garlic. In so much garlic.</p>
+
+<p>The next stage was a short one, only 16 km to the reasonably sized town of Albacete. I continued after lunch, when the day was at its hottest. </p>
+<Img
+  src="/images/2025/06/2025-06-23-144235.jpg"
+  alt="camino stage 8"
+/>
+<Img
+  src="/images/2025/06/2025-06-23-152214.jpg"
+  alt="camino stage 8"
+/>
+
+<p>Only 16 km but it took a couple of hours. Featureless landscape brought me into the town, over the railway line that had never been that far away all day, and to a hotel and air-conditioning. </p>
+
+<p>Caracoles for dinner. Snails, that is. I had wanted to try them last year but hadn't. Tonight I did. So I won't have to again. Little green heads poking out of shells, to be grabbed by the teeth and pulled into my mouth. I persevered. Gazpacho to follow cleaned my mouth out nicely.</p>
+
+<Img
+  src="/images/2025/06/caracoles.jpg"
+  alt="caracoles"
 />
 
 </section>
