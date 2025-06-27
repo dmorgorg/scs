@@ -266,3 +266,21 @@ description: ''
 />
 
 </section>
+
+<section class="card">
+
+<p>A buffet breakfast with something I could stomach: granola. A rare treat to set off with something in me that hadn't needed forcing down. Spanish toast is more difficult this year, presumably because of the Ozempic I'm on.</p>
+
+<p>I made my way to the cathedral to pick up this day's Camino stage. From my vantage point, the cathedral wasn't spectacular so I followed the route out of the city through parks and cycle lanes, initially, to more industrial outsskirts of the town. Then over the railway lines, again but at a different point, and into the countryside.</p>
+
+<p>Open and very dry, threadbare grains struggling in the parched earth. No country for old men. What was I doing here? There was one set of cycle tracks in the dust but how old? I had no idea. A fellow long distance cyclist or someone out for some daily masochism?</p>
+
+<p>Finally, there was a tree with shade. I was there for some time, maybe half an hour, Whatsapping with my brother. Drinking water. Enjoying the breeze which was quite cooling, evaporating the sweat from my shirt. The day was forecast to have strongish winds (30 kph). But a tailwind, for once! The wind was slow to pick up. I didn't notice it unless I was stopped, under a tree, so it was probably travelling at about my pace. Around 12 kph.</p>
+
+<p>So it continued until I passed into a town and found a bar. I wasn't hungry but had a half litre of gassy water (gaseosa) and a flavoured drink with mineral salts in it. Then I repeated it. So, one and two-thirds of a litre of liquid and no sweat to show for it. Nor the need to pee. In this heat, after a morning pee, I didn't generally go again until in the hotel at the end of the day. No doubt I am quite dehydrated much of the time.</p>
+
+<p>In the afternoon, the wind picked up. And it was either a sidewind or, more often, a tailwind. Perfect. Pedalling was much easier, almost fun. I still felt dessicated but at least I was making good progress.</p>
+
+<p>I settled into a pleasant and quite inexpensive hotel in La Roda. For two nights. The wind forecast, which had been accurate today, promised headwinds tomorrow. A good excuse for a rest day; today would have been grim with the wind in my face.</p>
+
+</section>
