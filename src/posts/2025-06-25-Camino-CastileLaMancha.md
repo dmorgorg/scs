@@ -1,7 +1,7 @@
 ---
 title: 'Camino Levante &ndash; Castile La Mancha'
 headTitle: 'Camino - Castile La Mancha'
-date: '2025-06-28'
+date: '2025-06-25'
 categories:
   - '2025'
   - 'Broken Road'
@@ -127,6 +127,23 @@ description: ''
   src="/images/2025/06/2025-06-22-144035.jpg"
   alt="camino stage 6"
 />
+<Img
+  src="/images/2025/06/2025-06-22-144142.jpg"
+  alt="camino stage 6"
+/>
+
+</section>
+
+<section class="card">
+
+<DayCardHGroup
+  where="Higueruela &ndash; Albacete"
+  when="2025-06-23"
+  distance="46.6 km, 263 m, 1042.0 km to date"
+/>
+
+<p>My camera came out frequently today!</p>
+
 <Img
   src="/images/2025/06/2025-06-22-144142.jpg"
   alt="camino stage 6"
