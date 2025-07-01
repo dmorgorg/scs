@@ -99,7 +99,7 @@ description: ''
   alt="camino stage 6"
 />
 
-<p>I rolled into Higueruela and stopped at the first bar, La Garnacha, for a large Heineken. Zero alcohol content! Then pushed my load the remaining 300 m to the hotel. Made it! I'm here for two nights.</p>
+<p>I rolled into Higueruela and stopped at the first bar, La Garnacha, for a large Heineken. Zero alcohol content! Then pushed my load the remaining 300 m to the hotel. Made it! I'm here for two nights.</p><br/>
 
 <DayCardHGroup
   where="Higueruerla"
@@ -260,26 +260,100 @@ description: ''
 
 <p>Caracoles for dinner. Snails, that is. I had wanted to try them last year but hadn't. Tonight I did. So I won't have to again. Little green heads poking out of shells, to be grabbed by the teeth and pulled into my mouth. I persevered. Gazpacho to follow cleaned my mouth out nicely.</p>
 
-<Img
-  src="/images/2025/06/caracoles.jpg"
-  alt="caracoles"
-/>
+<div class="w-70">
+  <Img
+    src="/images/2025/06/caracoles.jpg"
+    alt="caracoles"
+  />
+</div>
 
 </section>
 
 <section class="card">
 
-<p>A buffet breakfast with something I could stomach: granola. A rare treat to set off with something in me that hadn't needed forcing down. Spanish toast is more difficult this year, presumably because of the Ozempic I'm on.</p>
+<DayCardHGroup
+  where="Albacete &ndash; La Roda"
+  when="2025-06-24"
+  distance="43.2 km, 194 m, 1085.3 km to date"
+/>
 
-<p>I made my way to the cathedral to pick up this day's Camino stage. From my vantage point, the cathedral wasn't spectacular so I followed the route out of the city through parks and cycle lanes, initially, to more industrial outsskirts of the town. Then over the railway lines, again but at a different point, and into the countryside.</p>
+<p>A buffet breakfast with something I could stomach: granola. A rare treat to set off with something in me that hadn't needed forcing down. Spanish toast is more difficult this year, presumably because of the Ozempic I'm taking.</p>
 
-<p>Open and very dry, threadbare grains struggling in the parched earth. No country for old men. What was I doing here? There was one set of cycle tracks in the dust but how old? I had no idea. A fellow long distance cyclist or someone out for some daily masochism?</p>
+<p>I made my way to the cathedral to pick up the start of this day's Camino stage. From my vantage point, the cathedral wasn't spectacular so, with no further ado, I followed the route out of the city. Through parks and cycle lanes, initially, to more industrial outskirts of the town. Then over the railway lines, again but at a different point, and into the countryside.</p>
 
-<p>Finally, there was a tree with shade. I was there for some time, maybe half an hour, Whatsapping with my brother. Drinking water. Enjoying the breeze which was quite cooling, evaporating the sweat from my shirt. The day was forecast to have strongish winds (30 kph). But a tailwind, for once! The wind was slow to pick up. I didn't notice it unless I was stopped, under a tree, so it was probably travelling at about my pace. Around 12 kph.</p>
+<Img
+  src="/images/2025/06/2025-06-24-104635.jpg"
+  alt="stage 9"
+/>
+
+<Img
+  src="/images/2025/06/2025-06-24-105635.jpg"
+  alt="stage 9"
+/>
+
+<p>Open and very dry, threadbare grains struggling in the parched earth. Or no crops at all. No country for old men. (Then what was I doing here?) </p>
+<Img
+  src="/images/2025/06/2025-06-24-110550.jpg"
+  alt="stage 9"
+/>
+<Img
+  src="/images/2025/06/2025-06-24-111215.jpg"
+  alt="stage 9"
+/>
+
+<p>I paused in the shade of this tree long enough for three high speed trains to pass on the line about half a kilometre to my left. And to exchange half-a-dozen WhatsApp messages with my brother in London. And to have several drinks of tepid water. Enjoying the breeze which was quite cooling, evaporating the sweat from my shirt. The day was forecast to have strongish winds (30 kph). But a tailwind, for once! The wind was slow to pick up. I didn't notice it unless I was stopped, so it was probably travelling at about my pace. Around 12 kph. Repeated procrastination was in evidence before heading back out into the shadeless terrain.</p>
+<Img
+  src="/images/2025/06/2025-06-24-112939.jpg"
+  alt="stage 9"
+/>
+
+<Img
+  src="/images/2025/06/2025-06-24-115735.jpg"
+  alt="stage 9"
+/>
 
 <p>So it continued until I passed into a town and found a bar. I wasn't hungry but had a half litre of gassy water (gaseosa) and a flavoured drink with mineral salts in it. Then I repeated it. So, one and two-thirds of a litre of liquid and no sweat to show for it. Nor the need to pee. In this heat, after a morning pee, I didn't generally go again until in the hotel at the end of the day. No doubt I am quite dehydrated much of the time.</p>
 
+<Img
+  src="/images/2025/06/2025-06-24-131230.jpg"
+  alt="stage 9"
+/>
+<Img
+  src="/images/2025/06/2025-06-24-131245.jpg"
+  alt="stage 9"
+/>
+
+<p>There was one set of cycle tracks in the dust but how old? I had no idea. A fellow long distance cyclist or someone out for some daily masochism?</p>
+
+<div class="w-80">
+  <Img
+    src="/images/2025/06/2025-06-24-143225.jpg"
+    alt="stage 9"
+  />
+</div>
+
 <p>In the afternoon, the wind picked up. And it was either a sidewind or, more often, a tailwind. Perfect. Pedalling was much easier, almost fun. I still felt dessicated but at least I was making good progress.</p>
+
+<Img
+  src="/images/2025/06/2025-06-24-145603.jpg"
+  alt="stage 9"
+/>
+<Img
+  src="/images/2025/06/2025-06-24-154333.jpg"
+  alt="stage 9"  
+  caption="Almond trees"
+/>
+<Img
+  src="/images/2025/06/2025-06-24-154344.jpg"
+  alt="stage 9"
+/>
+
+<p class="center">The only water I've seen in a while!</p>
+
+<Img
+  src="/images/2025/06/2025-06-24-160107.jpg"
+  alt="stage 9"
+/>
 
 <p>I settled into a pleasant and quite inexpensive hotel in La Roda. For two nights. The wind forecast, which had been accurate today, promised headwinds tomorrow. A good excuse for a rest day; today would have been grim with the wind in my face.</p>
 
