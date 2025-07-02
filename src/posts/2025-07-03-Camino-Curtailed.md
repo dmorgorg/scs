@@ -94,4 +94,19 @@ description: ''
 
 <p>It still felt oppressively hot when the train arrived in Madrid. I loaded the short route to my hotel and set off as it began to darken. </p>
 
+<div class="w-70">
+  <Img
+    src="/images/2025/06/madridStation.jpg"
+    alt=" train temp"
+    caption="Madrid Principe Pio"
+  />
+</div>
+
+<p>The ride next day to Madrid Principe Pio station was longer, about eight kilometres, was mainly downhill. I didn't leave the hotel until the crack of noon &ndash; checkout time &ndash; but I still had hours to wait at the station for the train's departure. A hot long wait. But then an easy ride from Le&oacute;n station to the Hostal Boccalino.</p><br/>
+
+<DayCardHGroup
+  where="Le&oacute;n"
+  when="2025-06-29"
+/>
+
 </section>
