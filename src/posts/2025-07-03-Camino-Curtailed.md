@@ -77,6 +77,11 @@ description: ''
 
 <p>But some of the trains were full. It looked like my best bet was to arrive in Madrid on Saturday evening and proceed to Le&oacute;n on Sunday.</p>
 
+<Img
+    src="/images/2025/06/laRodaPlatform.jpg"
+    alt=" train temp"
+  />
+
 <p class="center">And all went according to plan!</p>
 
 <p>I had read, or thought that I had read, that the bikes traveled at the front of the train. Nope, I was directed back to another carriage, the carriage marked on my ticket. Rather than suspend my bike from a hook on the side of the carriage, I strapped it to a handrail. There was still room for people to get by and no-one seemed concerned. </p>
@@ -109,4 +114,5 @@ description: ''
   when="2025-06-29"
 />
 
+<p>A few days in Le&oacute;n, waiting for my Pola de Lena rental. Back on familiar ground, in the Hostal Restaurante Boccalino. Great location and reasonable price (45&euro;, when not through booking.com).</p>
 </section>

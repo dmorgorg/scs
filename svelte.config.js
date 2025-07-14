@@ -13,7 +13,8 @@ const config = {
 	preprocess: [sveltePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
 		adapter: adapter()
-	}
+	},
+	alias: { $src: 'src', $components: 'src/lib/components' }
 };
 
 export default config;
