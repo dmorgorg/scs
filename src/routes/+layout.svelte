@@ -8,6 +8,11 @@
 	import Header from '$lib/components/Header.svelte';
 	import '$lib/css/styles.scss';
 	import '$lib/css/fonts.css';
+
+	// import { dev } from '$app/environment';
+	// import { injectAnalytics } from '@vercel/analytics/sveltekit';
+
+	// injectAnalytics({ mode: dev ? 'development' : 'production' });
 	// import FadeStrip from '$lib/components/FadeStrip.svelte';
 
 	// const scrollToTop = () => {
