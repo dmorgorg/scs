@@ -21,7 +21,7 @@
 </button>
 
 {#if isCarouselOpen}
-	<Embla {src} bind:isCarouselOpen />->
+	<Embla {src} bind:isCarouselOpen />
 {/if}
 
 <style lang="scss">
