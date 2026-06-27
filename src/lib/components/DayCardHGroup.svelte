@@ -85,12 +85,9 @@
 		margin-block-start: var(--size-1);
 	}
 	.distance {
-		/* color: var(--header-text-light); */
 		font-family: 'italicText', serif;
 		font-size: var(--font-size-2);
-		/* font-style: italic; */
 		margin-block: 0;
 		padding-block: 0;
-		/* font-weight: bold; */
 	}
 </style>
