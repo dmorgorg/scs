@@ -26,6 +26,7 @@
 <style lang="scss">
 	.card {
 		background-color: var(--bg-card);
+		border: 1px solid black;
 		box-shadow: var(--box-shadow);
 		display: flex;
 		flex-direction: column;
@@ -45,6 +46,7 @@
 		line-height: normal;
 		padding-block-end: 0.75rem;
 		padding-inline: 1rem;
+		// border: 3px solid black;
 	}
 	.title {
 		color: var(--header-text);
@@ -55,8 +57,9 @@
 		font-weight: bold;
 		letter-spacing: 0.125rem;
 		line-height: 1;
-		margin-block-start: 0.5rem;
-		margin-block-end: 0.5rem;
+		// margin-block-start: 0.5rem;
+		// margin-block-end: 0.5rem;
+		padding-block: 0.5rem;
 		text-decoration: none;
 	}
 	.date {

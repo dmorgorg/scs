@@ -12,7 +12,7 @@
 	<meta data-key="description" name="description" content={config.siteDescription} />
 </svelte:head>
 
-<main>
+<main class="latest">
 	<Banner />
 	<h3>Latest Posts:</h3>
 	<PostsList {data} limit="6" />

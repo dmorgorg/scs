@@ -24,34 +24,50 @@
 <style lang="scss">
 	header {
 		align-items: center;
-		background-color: var(--bg);
-		//
-		color: var(--text);
+		background-color: var(--brand-2);
+		border-bottom: 1rem solid var(--bg);
+		color: black;
 		display: flex;
 		flex-wrap: wrap;
-		height: 2.435rem;
+		font-size: var(--font-size-fluid-2);
+		// height: 2.435rem;
+		// height: 3.75rem;
 		justify-content: space-between;
-		padding: 0 0.5em;
-		padding-block-end: 1rem;
-		margin-bottom: 0;
+		padding-block: 0;
+
+		// padding-block-end: 1rem;
+		// margin-bottom: 0;
 		z-index: 100;
 
 		.title a.site-title {
 			color: inherit;
-			font-size: var(--font-size-fluid-2);
+			// font-size: var(--font-size-fluid-1);
 			font-family: 'SCSHeaders', sans-serif;
 			font-style: italic;
+			margin-block: 0;
 			// padding-block-end: 1.5em;
 			text-decoration: none;
-			vertical-align: top;
+			// vertical-align: top;
 			// border: 1px solid black;
 		}
 
 		.title {
-			margin-block-start: -0.875rem;
+			margin-block: -0.5rem;
+			margin-inline-start: 0.5rem;
 		}
 		.nav {
-			margin-block-start: -0.5rem;
+			margin-block: -0.5rem;
+			font-size: 100%;
+		}
+	}
+
+	@media (max-width: 768px) {
+		header {
+			// background-color: var(--bg);
+			// border-bottom: 0.5rem solid var(--bg);
+			// height: 2.75rem;
+			// padding: 0 0.5em;
+			margin-bottom: 0;
 		}
 	}
 </style>

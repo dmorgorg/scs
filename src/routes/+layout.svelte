@@ -8,7 +8,7 @@
 	import Header from '$lib/components/Header.svelte';
 	import '$lib/css/styles.scss';
 	import '$lib/css/fonts.css';
-	import FadeStrip from '$lib/components/FadeStrip.svelte';
+	// import FadeStrip from '$lib/components/FadeStrip.svelte';
 
 	// const scrollToTop = () => {
 	// 	console.log('scrollToTop');
@@ -23,7 +23,7 @@
 
 <div class="wrapper">
 	<div class="header"><Header /></div>
-	<FadeStrip />
+	<!-- <FadeStrip /> -->
 	<div class="container" id="top">
 		<section class="inset">
 			<main class="content"><slot /></main>
@@ -34,7 +34,7 @@
 
 <style lang="scss">
 	.wrapper {
-		background: var(--bg);
+		background-color: var(--bg);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;

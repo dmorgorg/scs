@@ -22,7 +22,7 @@ description: 'Onto the more travelled Porto to Santiago section of the Camino'
   
   <DayCardHGroup
     where="Porto &ndash; Vilarinho"
-    when="6/27/2024"
+    when="2024-06-27"
     distance="28.5 km, 320 m, 4132.2 km to date" 
   />
 

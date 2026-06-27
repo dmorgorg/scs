@@ -1,6 +1,6 @@
 <script>
-	import { navItems } from '$lib/config'
-	import NavListItem from './NavListItem.svelte'
+	import { navItems } from '$lib/config';
+	import NavListItem from './NavListItem.svelte';
 	// import HamburgerMenuButton from '$lib/components/HamburgerMenuButton.svelte';
 </script>
 
@@ -19,7 +19,7 @@
 	ul {
 		display: flex;
 		flex-wrap: wrap;
-		font-size: var(--font-size-fluid-0);
+		// font-size: var(--font-size-fluid-1);
 		list-style-type: none;
 		margin: 0;
 		padding: 0;

@@ -5,9 +5,9 @@ date: '2024-06-03'
 categories:
   - '2024'
   - 'Broken Road'
-  - 'Extremadura, ESP'
   - 'Cycle Touring'
-  - 'M&eacute;rida'
+  - 'Extremadura, ESP'
+  - 'M&eacute;rida, ESP'
   - 'Spain'
 published: true
 
@@ -32,7 +32,7 @@ description: 'Towards Sevilla, and the end (start?) of the Via Ruta de la Plata.
 
 <DayCardHGroup
     where="M&eacute;rida - Zafra"
-    when="5/30/2024"
+    when="2024-05-30"
     distance="66.6 km, 568 m, 2904.3 km to date" 
   />
 
@@ -72,7 +72,7 @@ description: 'Towards Sevilla, and the end (start?) of the Via Ruta de la Plata.
 
 <DayCardHGroup
     where="Zafra"
-    when="5/31/2024"
+    when="2024-05-31"
   />
 
 <Img
@@ -153,7 +153,7 @@ description: 'Towards Sevilla, and the end (start?) of the Via Ruta de la Plata.
 
 <DayCardHGroup
     where="Zafra - Monesterio"
-    when="6/2/2024"
+    when="2024-06-02"
     distance="47.3 km, 538 m, 2951.6 km to date" 
 />
 
@@ -222,7 +222,7 @@ description: 'Towards Sevilla, and the end (start?) of the Via Ruta de la Plata.
 
 <DayCardHGroup
     where="Monesterio, Extremadura - Almad&eacute;n de la Plata, Andalucia"
-    when="6/3/2024"
+    when="2024-06-03"
     distance="36.7 km, 369 m, 2988.3 km to date" 
 />
 

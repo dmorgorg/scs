@@ -13,7 +13,7 @@
 		background-color: var(--bg-card);
 		border: 1px solid var(--border-light);
 		border-radius: var(--border-radius);
-		box-shadow: var(--box-shadow-hover);
+		box-shadow: var(--box-shadow);
 		display: flex;
 		flex-direction: column;
 		font-family: 'Alkes', serif;
@@ -37,11 +37,11 @@
 			font-family: 'italicText', serif;
 			font-size: 1.125rem;
 		}
-
-		// @media (max-width: 480px) {
-		// 	section {
-		// 		width: 90%;
-		// 	}
-		// }
+	}
+	@media (max-width: 675px) {
+		h3 {
+			font-size: 10vw !important	;
+			// background: yellow;
+		}
 	}
 </style>

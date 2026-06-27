@@ -23,7 +23,7 @@ description: 'The end of the Villa Ruta de la Plata.'
 
 <DayCardHGroup
     where="Almad&eacute;n de la Plata - Sevilla"
-    when="6/4/2024"
+    when="2024/06/04"
     distance="68.9 km, 464 m, 3057.2 km to date" 
   />
 
@@ -61,7 +61,7 @@ description: 'The end of the Villa Ruta de la Plata.'
 
 <DayCardHGroup
     where="Sevilla"
-    when="6/5/2024"
+    when="2024-06-05"
   />
 
 <p>A day spent wandering around, investigating some of the many sights.</p>
