@@ -67,7 +67,7 @@ description: 'Partway back...'
 
 <p>Towards the end of the day, I braked for another cold water stop. And my rear brake complained mightily; something was wrong. I inhaled a litre of pleasantly cool water and set to work. I couldn't see much &ndash; my all-purpose prescription sunglasses are not particularly good for close up even when they are clean, and they were nothing like clean &ndash; but the rear wheel would not spin. I just backed off the brake pads until the wheel spun (almost) freely. There was precious little downhill to worry about and a good front brake should suffice.</p>
 
-<p>My hotel was mildly disappointing, considering its (relatively) upmarket price. But I did get dinner, and an opportunity to replace my rear brake pads. They were worn and the spring that separated them had failed.
+<p>My hotel was mildly disappointing, considering its (relatively) upmarket price. But I did get dinner, and an opportunity to replace my rear brake pads. They were worn and the spring that separated them had failed.</p>
 
 </section>
 
@@ -105,7 +105,8 @@ description: 'Partway back...'
   alt="automotive store"
 />
 
-<p>The day seemed long. And harder than it should have? I made it to the tongue-twisting town of Mahiyanganaya and settled in to the pleasant New Rest Hotel. They fed me. And I slept well.
+<p>The day seemed long. And harder than it should have? I made it to the tongue-twisting town of Mahiyanganaya and settled in to the pleasant New Rest Hotel. They fed me. And I slept well.</p>
+
 </section>
 
 <section class="card">

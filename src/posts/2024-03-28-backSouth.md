@@ -73,7 +73,7 @@ description: '&mldr; in search of a beach.'
   src="/images/2024/03/2024-03-23-143202.jpg"
   alt="elephant pass"
 />
-<p>Somehow I managed to miss the site of the terrorist bulldozer and the memorial monument showing four hands holding up the island of Sri Lanka. I must have been riding with my head down. Maybe it was the section where I was counting down from one thousand in decrements of seven.
+<p>Somehow I managed to miss the site of the terrorist bulldozer and the memorial monument showing four hands holding up the island of Sri Lanka. I must have been riding with my head down. Maybe it was the section where I was counting down from one thousand in decrements of seven.</p>
 
 <p>(This exercise is reputedly a test for dementia although I suspect it is only for the first few numbers, not all the way down. And, I suspect, it is something of a challenge for many a person. And I'm an overweight seventy-something mad dog Englishman, riding my bicycle in the midday sun: is that not a sufficient indication of dementia?)</p>
 <Img
@@ -154,7 +154,7 @@ description: '&mldr; in search of a beach.'
 
 <p>I have noticed that some town signs have exaggerated elevations. By as much a 200 m. My phone GPS and my cycle computer correlate reasonably well (generally within two or three metres) but 'official' road signs can differ from my on-board technology by an improbable amount.</p>
 
-<p>A recovery day in Vavuniya. Shave and a hair cut. And a short wander about.
+<p>A recovery day in Vavuniya. Shave and a hair cut. And a short wander about.</p>
 
 <Img
   src="/images/2024/03/2024-03-26-162328.jpg"
@@ -217,6 +217,7 @@ description: '&mldr; in search of a beach.'
 />
 
 <p>Horowpothana seemed a lively enough small town built up around a road junction. Not a surfeit of accommodation options, though. Fortunately, one of the two places that I had found on the map previously did exist and had rooms (maybe the other one existed too, but I couldn't find it).</p>
+
 <p>The Diyakata Pehana Resort was another example of a former grandiose establishment fallen upon hard times. The entrance hall, designed for magnificently opulent wedding receptions, was cavernous and empty. There was only an older lady in attendance, who wanted to keep my passport overnight, and who seemed quite proud to be 70. A dark, gloomy room with dark blue walls and few working light bulbs. Clean enough. A walk into town for a minimal dinner. Paratha and a small bowl of chicken curry. A turn about town: clothing shops displaying mens' shirts and ladies' dresses. A couple of bakeries. Quite vibrant in the early evening.</p>
 
 </section>

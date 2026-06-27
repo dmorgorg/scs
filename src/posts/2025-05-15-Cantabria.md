@@ -88,7 +88,7 @@ Climbing walls! Easy to access and free. What a lovely idea! There was a boulder
 
 <p>The path is a Via Verde (or Greenway), generally a reclaimed rail track. This particular one that I'm riding is the Via Verde del Pas, 35.5 km in length.</p>
 
-<blockquote>In Spain, there are more than 3,500 kilometers of old lines of disused railroad that have been recovered as itineraries cyclists and hikers within the framework of the Greenways Program that since 1993 has energized and promoted the Foundation of the Spanish Railways F.S.P. <a href="https://viasverdes.com/" alt="via verdes line">(viaverdes.com)</blockquote>
+<blockquote>In Spain, there are more than 3,500 kilometers of old lines of disused railroad that have been recovered as itineraries cyclists and hikers within the framework of the Greenways Program that since 1993 has energized and promoted the Foundation of the Spanish Railways F.S.P. <a href="https://viasverdes.com/" alt="via verdes line">(viaverdes.com)</a></blockquote>
 
 <p>There is a discontinuous Via Verde from Santander to Valencia (Via Verdes FC. Santander - Mediterr&aacute;neo), which I hope to use as much as possible, linking the various sections with navigation help from <a href="https://www.cycle.travel">cycle.travel</a></p>
 
