@@ -33,7 +33,7 @@ description: 'Back on the bikes...'
 <DayCardHGroup
     where = "Hendaye to San Sebastian"
     when = "7/08/2015"
-    distance = "" 
+    distance = "24 km" 
 />
 
 <p>Our first ‘day’ of riding. And by far the worst yet. Due totally to bad planning (or total absence thereof) on my part…</p>
@@ -155,13 +155,18 @@ The yellow arrow on the wall, which we’d missed at first, was an indication of
 Lots of churches, crowded beaches, Spanish holidaymakers. Chattering people hanging out in squares. General feeling of bonhomie.
 </p>
 
-<Img
-  src="/images/2015/07/2015-07-09-232617.jpg"
-  alt="San Sebastian"
-/>
-<Img
-  src="/images/2015/07/2015-07-09-232853.jpg"
-  alt="San Sebastian"
-/>
+<div class='w-70'>
+  <Img
+    src="/images/2015/07/2015-07-09-232617.jpg"
+    alt="San Sebastian"
+  />
+</div>
+
+<div class='w-70'>
+  <Img
+    src="/images/2015/07/2015-07-09-232853.jpg"
+    alt="San Sebastian"
+  />
+</div>
 
 </section>
