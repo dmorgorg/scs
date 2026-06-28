@@ -4,7 +4,7 @@ date: '2015-07-09'
 # updated: '2023-12-12'
 categories:
   - '2015'
-  - 'Basque, ESP'
+  - 'Basque Country, ESP'
   - 'Camino del Norte'
   - 'Cycle Touring'
   - 'Spain'

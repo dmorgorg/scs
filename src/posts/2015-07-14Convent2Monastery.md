@@ -4,15 +4,15 @@ date: '2015-07-14'
 # updated: '2023-12-12'
 categories:
   - '2015'
-  - 'Basque, ESP'
+  - 'Basque Country, ESP'
   - 'Camino del Norte'
   - 'Cycle Touring'
   - 'Spain'
   - 'Trohloff'
 
 published: true
-coverImage: /images/2015/07/2015-07-11-162235.jpg
-description: '...'
+coverImage: /images/2015/07/2015-07-14-183440.jpg
+description: '...and a tent in between.'
 ---
 
 <script>
@@ -33,7 +33,7 @@ description: '...'
 <DayCardHGroup
     where = "Zumaya - Ondarroa"
     when = "7/10/2015"
-    distance = "19 km (42 km so far)" 
+    distance = "19 km, 42 km so far" 
 />
 
 <p>
@@ -96,9 +96,18 @@ description: '...'
   src="/images/2015/07/2015-07-14-224642.jpg"
   alt="convent at Zenaruzza"
 />
+
+<p>
+  A fitting destination from my mum’s 83rd birthday: a beautiful monastery and I even attended a Catholic service (I’m not sure if it qualified as mass but it’s about 45 years since I last went to mass so I don’t really remember that much, although it had been a big part of my life up until that point).
+</p>
+
 <Img
   src="/images/2015/07/2015-07-14-231931.jpg"
   alt="convent at Zenaruzza"
 />
+
+<p>
+  Happy Birthday, Mum!
+</p>
 
 </section>

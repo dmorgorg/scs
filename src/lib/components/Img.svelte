@@ -48,13 +48,13 @@
 
 			img {
 				// box-shadow: var(--box-shadow);
-				border: 2px solid var(--bg);
+				border: 2px solid black;
 				padding: 0;
 				margin: 0;
 				&:hover {
 					// border: 2px solid black;
-					border: 2px solid black;
-					box-shadow: var(--box-shadow-hover);
+					// border: 2px solid black;
+					box-shadow: 1px 1px 8px 3px #aaa;
 				}
 				transition: border 0.5s;
 			}
