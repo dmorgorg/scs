@@ -48,7 +48,7 @@
 
 			img {
 				// box-shadow: var(--box-shadow);
-				border: 2px solid black;
+				border: 2px solid #aaa;
 				padding: 0;
 				margin: 0;
 				&:hover {
