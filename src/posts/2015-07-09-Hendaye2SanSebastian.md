@@ -141,28 +141,27 @@ The yellow arrow on the wall, which we’d missed at first, was an indication of
   As luck would have it, our AirBnB (fully-booked for the next night) was only a few steps from an albergue (an inexpensive dormitory-style accommodation for ‘qualified’ camino pilgrims – those having a credential passport stamped for progress along the way) so we decided on a recovery day (I suspect there will be many of these until we get our legs), sleeping away the morning and wandering around San Sebastian in the late afternoon after securing a place in the albergue.
 </p>
 
+<Img
+  src="/images/2015/07/2015-07-09-212437.jpg"
+  alt="San Sebastian"
+/>
+
+<Img
+  src="/images/2015/07/2015-07-09-212759.jpg"
+  alt="San Sebastian"
+/>
+
 <p>
 Lots of churches, crowded beaches, Spanish holidaymakers. Chattering people hanging out in squares. General feeling of bonhomie.
 </p>
 
 <Img
-  src="/images/2015/07/2015-07-11-162235.jpg"
-  alt="Spot the yellow arrow"
+  src="/images/2015/07/2015-07-09-232617.jpg"
+  alt="San Sebastian"
 />
-
 <Img
-  src="/images/2015/07/2015-07-11-162913.jpg"
-  alt="Pelota court."
-/>
-
-<Img
-  src="/images/2015/07/2015-07-11-170003.jpg"
-  alt="Trail by eucalyptus."
-/>
-
-<Img
-  src="/images/2015/07/2015-07-11-210231.jpg"
-  alt="In the old convent"
+  src="/images/2015/07/2015-07-09-232853.jpg"
+  alt="San Sebastian"
 />
 
 </section>
