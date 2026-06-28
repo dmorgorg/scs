@@ -1,10 +1,10 @@
 ---
-title: 'Back to Bilbao'
-date: '2015-07-16'
+title: 'Through Probeño to Castro Urdiales'
+date: '2015-07-20'
 # updated: '2023-12-12'
 categories:
   - '2015'
-  - 'Basque Country, ESP'
+  - 'Cantabria, ESP'
   - 'Camino del Norte'
   - 'Cycle Touring'
   - 'Spain'
@@ -31,66 +31,70 @@ description: ''
 <section class="card">
 
 <DayCardHGroup
-    where = "Zenaruzza - Meakaur"
-    when = "7/15/2015"
-    distance = "28.7 km, 70.7 km to date" 
+    where = "Bilbao - Probeño"
+    when = "7/18/2015"
+    distance = "31.2 km, 129.8 km to date" 
 />
 
 <p>
-  Earlyish start from the monastery after a minimal breakfast. Nice trail to start (shared with the hikers’ route) through trees, a bit muddy in places and steep (heart-pounding pushing) in others. After an hour or so, we stopped in a bar in a little village for a piece of ‘tortilla’ (stuffed omelette) and I had a coffee to start the door proper. The Spanish coffee with milk (café con leche – I have learned this much of the language) is generally very good, much better than Starbucks offerings at home in Canada.
+ Repacked and on our way by the crack of noon. Left via the tourist office but they had no info about accommodation later along the camino; their information was for the Basque region which we are just leaving for Cantabria. We followed the right bank (on the right of the river going downstream, of course), across from the Guggenheim, through industrial and ship loading and unloading areas.
 </p>
+
+<Img
+  src="/images/2015/07/2015-07-19-053215.jpg"
+  alt="Guggenheim"
+/>
 
 <p>
   We passed through Guernica in the early afternoon. It has a very important place in Spanish history and I remember reading about it in the past although those details escape me now. Maybe in Ernest Hemingway novels? Always resistant to Franco, it was heavily bombed by the Germans in the Second World War.
 </p>
 
-<Img
-  src="/images/2015/07/2015-07-15-154911.jpg"
-  alt="Guernica"
-/>
-
-<div class='w-70'>
-  <Img
-    src="/images/2015/07/2015-07-15-155111.jpg"
-    alt="Guernica"
-  />
-</div>
-<div class='w-70'>
-  <Img
-    src="/images/2015/07/2015-07-15-155258.jpg"
-    alt="Guernica"
-  />
-</div>
-
 <p>
-  A 400m climb over Morga Pass turned out to be overstated (for the cyclists’ route, at any rate) but we didn’t mind settling for half that. In the village of Meakur, we found a hostel. At first, they claimed to be full because they have a group of young teenagers booked in and they were worried that the noise would be a problem for us. Even sharing a room with unruly teens doesn’t seem such an issue now so we said that would be no problem for us. Then we were shown to our own room under the rafters. (Not only our own room but this place has an elevator, hard to believe!). 
+  Quite pleasant. Then we saw the transporter bridge to get across to the left bank. An interesting piece of engineering: a suspension bridge of sorts, with a ‘car’ suspended from cables. This car moves across the river, carrying vehicles, pedestrians and, of course, cycles.
 </p>
 
 <Img
-  src="/images/2015/07/2015-07-15-211138.jpg"
-  alt="Guernica"
+  src="/images/2015/07/2015-07-19-070649.jpg"
+  alt="transporter"
+/>
+<Img
+  src="/images/2015/07/2015-07-19-070817.jpg"
+  alt="transporter"
+/>
+<Img
+  src="/images/2015/07/2015-07-19-073507.jpg"
+  alt="transporter"
 />
 
 <p>
-  We were next to the village church, which reminded us of its presence every half hour. The bells didn’t interfere with sleep.
+  After crossing the river, we sheltered for a while from a heavy rainstorm (the first wet we’ve had) and then climbed easily through the town of Portugalete. Easily because of the moving walkways, like the ones that speed up progress in airports, going uphill. Good thing, too, since it is pretty steep. After the requisite number of wrong turns we found a cycle path that runs all the way to Probeño. Even so, I managed to miss a turn and we went off route and had to retrace our way for a couple of kilometres. 
 </p>
+
+<p>
+  At the beach of La Arenas, the route followed boardwalks across the beach to footbridge to Probeño, where we found the albergue full. The lady there took us across the square to apartamentos above a classy bar/restaurant where there was a suite for 60€; more than we wanted to spend but a bed is a bed.
+</p>
+
+<Img
+  src="/images/2015/07/2015-07-19-105108.jpg"
+  alt="La Arenas"
+/>
 
 </section>
 
 <section class="card">
 
 <DayCardHGroup
-    where="Meakaur - Bilbao"
-    when="7/16/2015"
-    distance="27.9 km, 98.6 km to date" 
+    where="July, Probeño – Castro Urdiales"
+    when="7/20/2015"
+    distance="17.7 km, 147.5 km to date" 
 />
 
 <p>
-  In the morning we met some of the not-so-rowdy teens. I was asked my age. They were surprised; they thought I was much older. Their leaders had told them there was an 80 years old man sleeping in the building and that they should be quiet!
+  There was wifi so I tried to do some blog work but it was incredibly slow, making me nostalgic for the days of dial-up. It was 2:00 am before I fell asleep. Bev was moving around  7:30 (when I should have been surfacing) but it took me much longer to get vertical. Breakfasted in the bar downstairs on three pinchos and a coffee; hardly the breakfast of champions but it does seem difficult to get a satisfying breakfast in Spain.
 </p>
 
 <p>
- After a sweet sticky breakfast of pastries, we rode down the hill behind the church, hoping to find a flatter route through Goikoletxea and Larrabetza.
+ The route to a very nice coastal path started cruelly: 119 steps. This required two trips, the first with our bags and the second with our bikes. But the concrete path, although crowded with holidaymakers, had great views. We were passed by a couple of lightly-loaded mountain-bikers who asked Bev to take a picture of them.
 </p>
 
 <Img
