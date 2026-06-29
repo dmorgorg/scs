@@ -4,15 +4,15 @@ date: '2015-07-20'
 # updated: '2023-12-12'
 categories:
   - '2015'
-  - 'Cantabria, ESP'
   - 'Camino del Norte'
+  - 'Cantabria, ESP'
   - 'Cycle Touring'
   - 'Spain'
   - 'Trohloff'
 
 published: true
-coverImage: /images/2015/07/2015-07-16-155934.jpg
-description: ''
+coverImage: /images/2015/07/2015-07-20-044132.jpg
+description: 'Into Cantabria'
 ---
 
 <script>
