@@ -15,7 +15,7 @@
 	><figure>
 		<img {src} {alt} />
 		{#if caption}
-			<figcaption class="caption">{caption}</figcaption>
+			<figcaption class="caption">{@html caption}</figcaption>
 		{/if}
 	</figure>
 </button>
@@ -26,10 +26,15 @@
 
 <style lang="scss">
 	.caption {
-		max-inline-size: 100%;
+		// max-inline-size: 100%;
+		// inline-size: 100%;
 		line-height: 1.25;
 		margin-block-start: -0.25em;
 		margin-block-end: 0;
+		max-width: 100%;
+		// text-align: center;
+		// width: 100%;
+		// border: 1px solid green;
 	}
 	button {
 		// style=" padding: 0; "
@@ -44,7 +49,7 @@
 
 		figure {
 			margin: 0;
-			margin-block: var(--size-fluid-0);
+			// margin-block: var(--size-fluid-0);
 
 			img {
 				// box-shadow: var(--box-shadow);
@@ -53,7 +58,7 @@
 				margin: 0;
 				&:hover {
 					// border: 2px solid black;
-					// border: 2px solid black;
+					border: 2px solid black;
 					box-shadow: 1px 1px 8px 3px #aaa;
 				}
 				transition: border 0.5s;

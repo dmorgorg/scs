@@ -208,12 +208,16 @@ li {
 	padding: 0;
 }
 
+.text-centre,
+.text-center {
+	text-align: center;
+}
+
 /* for cards in a post, a card usually for each day */
 // has to be global because pages dynamically loaded without visible tags?
 section.card {
 	background-color: var(--bg-card);
 	box-shadow: var(--box-shadow-hover);
-	// margin-block: var(--size-fluid-2);
 	padding: var(--size-fluid-3);
 	padding-block-start: var(--size-fluid-1);
 

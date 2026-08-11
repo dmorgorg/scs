@@ -85,7 +85,7 @@ description: 'Into Cantabria'
 
 <DayCardHGroup
     where="July, Probeño – Castro Urdiales"
-    when="7/20/2015"
+    when="7/19/2015"
     distance="17.7 km, 147.5 km to date" 
 />
 
